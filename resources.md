@@ -63,6 +63,7 @@ nav_order: 15
 - [Guías](https://www.collect.earth/ceo-guides/)
 - [Manual de Creación de Institución y Proyectos](https://www.collect.earth/wp-content/uploads/2022/11/CEO_Manual_DataCollector_SP_20210720.pdf)
 - [Manual de Reccolección de Datos](https://www.collect.earth/wp-content/uploads/2022/11/CEO_Manual_InstitutionProject_SP_20210720.pdf)
+- [Ejemplo Clave Interpretación](https://docs.google.com/document/d/1-e07xtSU-hOo0PRQ0zoTdCfKav0jZjQJ/edit)
 - [OpenMRV - Response Design in Collect Earth Online](https://openmrv.org/web/guest/w/modules/mrv/modules_3/response-design-in-collect-earth-online)
 - [AREA2](https://area2.readthedocs.io/en/latest/)
 - [Olofsson et al., 2014](https://www.sciencedirect.com/science/article/abs/pii/S0034425714000704)
