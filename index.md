@@ -54,3 +54,7 @@ Si tiene algún comentario sobre cualquier taller, complete el siguiente formula
 Se puede acceder a las grabaciones de cada sesión del taller haciendo clic en el botón a continuación. No elimine ningún archivo de la carpeta.
 
 [Grabaciones](https://drive.google.com/drive/folders/1sSd6GgYfNR6MsEUn_fRDgyjtOQ_pJ3EO){: .btn .btn-purple }
+
+## MEL
+
+[Diapositivas](https://docs.google.com/presentation/d/1LGYV0Ffc4Ax5fO-fAYtLuDhVmrpq38OT/edit?usp=sharing&ouid=117588040825190888554&rtpof=true&sd=true) presentadas durante la Reunión en línea de 4 de maio (abierta para edición).
