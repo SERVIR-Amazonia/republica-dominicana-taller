@@ -307,3 +307,8 @@ Export.image.toAsset({
   maxPixels: 1e13
 });
 ```
+
+### Código completo
+
+Script "`6 Colección de Imágenes`" del repositorio y la carpeta `T2` o link directo:
+[https://code.earthengine.google.com/5043477b5be2bee8cc047d1d5559c66d](https://code.earthengine.google.com/5043477b5be2bee8cc047d1d5559c66d).
