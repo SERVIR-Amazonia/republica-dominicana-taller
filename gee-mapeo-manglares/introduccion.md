@@ -108,7 +108,7 @@ En este caso, la precisión del usuario para la clase forestal es del 94,5%, cal
 
 La figura abajo ayuda a visualizar las filas y columnas utilizadas para calcular cada precisión.
 
-<img align="center" src="../images/mapeo-manglares/23.png" vspace="10" width="400">
+<img align="center" src="../images/mapeo-manglares/23.png" vspace="10" width="700">
 
 Es muy común hablar de dos tipos de error cuando se aborda la precisión de la clasificación por teledetección: errores de omisión y errores de comisión. Los errores de omisión se refieren a los píxeles de referencia que quedaron fuera (omitidos) de la clase correcta en el mapa clasificado. En un sistema de dos clases, un error de omisión en una clase se contará como un error de comisión en otra clase. Los errores de omisión son complementarios a la precisión del productor.
 

@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Paso-a-paso parte 1
+title: Paso-a-paso
 parent: Intermedio Google Earth Engine - Mapeo de Manglares
 nav_order: 2
 ---
@@ -238,6 +238,8 @@ Repita el mismo proceso para la clase `noManglar`.
 <img align="center" src="../images/mapeo-manglares/17.png" vspace="10" width="200">
 
 No olvide importar utilizando la opción `FeatureCollection` como se mencionó anteriormente. Recuerde establecer la propiedad "clase" para esa clase como 2. Es importante recoger polígonos en zonas urbanas, cuerpos de agua, zonas boscosas que no son manglares, y otros tipos de coberturas terrestres. Puedes utilizar el código hexadecimal #ff2c01 para la clase `noManglar` si quieres.
+
+<img align="center" src="../images/mapeo-manglares/29.png" vspace="10" width="700">
 
 El siguiente paso es combinar todas las `FeatureCollections` en una sola. Aquí, usamos la función `merge()` para combinar todas las `Features` (polígonos) de cada colección en una única `FeatureCollection`. En la `FeatureCollection` combinada, cada `Feature` debe tener una propiedad llamada "clase". Los valores de clase son 1 o 2 (puede comprobar que esto es cierto chequeando las propiedades de `poligonosRecopilados` en el `Console`).
 
