@@ -204,10 +204,13 @@ Observe que el valor impreso es del tipo `Computed Object`. Eso significa que no
 
 ### Desafío 4
 
-Obtener el segundo valor de la lista abajo y guardarlo en una variable.
-Dividir ese número por 2. Imprimir el resultado en el `Console`.
+Obtener el segundo valor de la lista abajo y guardarlo en una variable (ejemplo: `segundoValor`).
+Dividir ese número por 2 y guardarlo en una variable (ejemplo: `resultado1`). Imprimir ese resultado en el `Console`.
 
 *Sugerencia*: busque informaciones para la función `get()` de `ee.List`. Tenga en cuenta que la indexación comienza en 0.
+
+*Sugerencia*: buscar por la función `divide()` de `ee.Number`. Es necesario convertir (cast) el segundo valor de `miLista` a un `ee.Number` primero, antes de que se puedan usar las funciones numéricas. Tenga en cuenta que no es necesário convertir (cast) el número 2 adentro de `divide` - Earth Engine ya converte ese número para `ee.Number` una vez que estamos utilizando la función del API.
+
 
 ```javascript
 var miLista = ee.List([1, 2, 5, 4]);
@@ -215,9 +218,9 @@ var miLista = ee.List([1, 2, 5, 4]);
 
 ### Desafío 5
 
-Multiplicar el segundo valor de `miLista` por 5 y guardarlo en una variable (ejemplo: `resultado`). Imprímelo en el `Console`.
+Multiplicar el primero valor de `miLista` por 5 y guardarlo en una variable (ejemplo: `resultado2`). Imprímelo en el `Console`.
 
-*Sugerencia*: buscar por la función `multiply()` de `ee.Number`. Es necesario convertir (cast) el segundo valor de `miLista` a un `ee.Number` primero, antes de que se puedan usar las funciones numéricas. Tenga en cuenta que nos es necesário convertir (cast) el número 5 adentro de `multiply` - Earth Engine ya converte ese número para `ee.Number` una vez que estamos utilizando la función del API.
+*Sugerencia*: buscar por la función `multiply()` de `ee.Number`. Es necesario convertir (cast) el primero valor de `miLista` a un `ee.Number` primero, antes de que se puedan usar las funciones numéricas. Tenga en cuenta que no es necesário convertir (cast) el número 5 adentro de `multiply` - Earth Engine ya converte ese número para `ee.Number` una vez que estamos utilizando la función del API.
 
 ### Desafío 6
 
@@ -238,4 +241,4 @@ Calcula la suma de todos los Números en `nuevaLista`. Guardar y imprimir ese va
 ### Código completo
 
 Script "`3 API Earth Engine`" del repositorio y la carpeta `T2` o link directo:
-[https://code.earthengine.google.com/f68358987ee1233c62f459e6ca9d0244](https://code.earthengine.google.com/f68358987ee1233c62f459e6ca9d0244).
+[https://code.earthengine.google.com/5263377df77158c0122b42cc358afd2a](https://code.earthengine.google.com/5263377df77158c0122b42cc358afd2a).
