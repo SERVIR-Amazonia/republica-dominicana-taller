@@ -38,7 +38,7 @@ Si tiene alguna duda sobre el material, envíe una pregunta a continuación. Est
 | 8 - 9                  | ArcGIS Pro - Análisis espacial relacionado con los manglares o hidrológico (por ejemplo, clasificación de imágenes)                                                                                                                    | Agosto 8   | Presencial            |
 | 10                     | ArcGIS Pro - Construcción de Modelo                                                                                                                                                                                                    | Agosto 9   | Presencial            |
 | 11                     | ArcGIS Pro - Introducción a Python y ArcPy                                                                                                                                                                                             | Agosto 10  | Presencial            |
-| 12                     | Sesión de Capstone / MEL                                                                                                                                                                                                               | Agosto 11  | Impartido a distancia |
+| 12                     | Sesión de Capstone / MEL                                                                                                                                                                                                               | Agosto 11  | Presencial |
 
 
 ## Retroalimentación / Feedback
