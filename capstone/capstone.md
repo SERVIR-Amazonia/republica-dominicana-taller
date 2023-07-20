@@ -1,12 +1,12 @@
 ---
 layout: page
-title: "Capstone y Ceremonia de Clausura"
+title: "Capstone y Ceremonia de Cierre"
 permalink: /capstone
 has_children: True
 nav_order: 14
 ---
 
-# Capstone y Ceremonia de Clausura
+# Capstone y Ceremonia de Cierre
 
 [Diapositivas](https://docs.google.com/presentation/d/1LGYV0Ffc4Ax5fO-fAYtLuDhVmrpq38OT/edit?usp=sharing&ouid=117588040825190888554&rtpof=true&sd=true) presentadas durante la Reunión en línea de 4 de maio (abierta para edición).
 
@@ -14,7 +14,7 @@ nav_order: 14
 
 ## Agenda de la lección
 
-**Fecha**: Agosto 11, 2023
+**Fecha**: 22 de Septiembre, 2023
 
 **Instructora:** Andréa Puzzi Nicolau ([apnicolau@sig-gis.com](apnicolau@sig-gis.com))
 
