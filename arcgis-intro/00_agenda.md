@@ -1,4 +1,4 @@
-0_agenda---
+---
 layout: page
 title: "ArcGIS Pro Introducción"
 permalink: /arcgis-intro
