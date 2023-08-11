@@ -20,7 +20,9 @@ La primera vez que use ArcGIS Pro, se requerirá ingresar con su credencial de A
 <img src="../images/intro-arcgis/01_fig1.png" vspace="10" width="600">
 </p>
 
-## Pestaña Home
+## Página de inicio
+
+### Pestaña Home
 
 Por defecto, ArcGIS Pro abre en la página de inicio. La página de inicio tiene una pestaña de "**Home**", una pestaña de "**Learning Resources**", y una pestaña de "**Settings**". En la pestaña **Home** se pueden encontrar las siguientes opciones para empezar un nuevo proyecto:
 
@@ -36,7 +38,7 @@ Por defecto, ArcGIS Pro abre en la página de inicio. La página de inicio tiene
 | 4             | Haga click para cargar una plantilla reciente y empezar un nuevo proyecto desde esa plantilla predeterminada. Para empezar un proyecto desde una plantilla que no este en la lista, haga click en **Start with another template** |
 
 
-## Recursos de aprendizaje
+### Recursos de aprendizaje
 
 En la pestaña de **Learning Resources** puede encontrar recursos que le ayudaran a desarrollar habilidades, resolver problemas, y responder preguntas. Los recursos de aprendizaje también se pueden acceder desde una pestaña lateral en la página de **Settings** o desde el botón **Learning Resources** en la pestaña de **Help** en la barra de herramientas.
 
@@ -52,4 +54,40 @@ En la pestaña de **Learning Resources** puede encontrar recursos que le ayudara
 | 4             | Recursos disponibles para ayudar los usuarios de ArcMap a aprender ArcGIS Pro |
 
 
-## Configuraciones
+### Configuraciones
+
+En la pestaña **Settings** se puede configurar y manejar la aplicación. En un proyecto abierto, las configuraciones son accesibles desde la pestaña **Project** en la barra de herramientas.
+
+<p align="center">
+<img src="../images/intro-arcgis/01_fig4.png" vspace="10" width="800">
+</p>
+
+|    Pestaña        |                       Descripción                                                                  |
+|:-----------------:|:--------------------------------------------------------------------------------------------------:|
+| New               | Crea un proyecto                    |
+| Open              | Abre un proyecto existente |
+| Info              | Ver información del proyecto actual  |
+| Save Project      | Guardar proyecto actual |
+| Save Project As   | Guardar una copia del archivo de proyecto actual (.aprx) |
+| Portals           | Manejar la conexión a un portal y activar portal |
+| Licensing         | Ver información de licencia, autorizar a ArcGIS Pro trabajar offline, y cambiar tipo de licencia |
+| Options           | Acceder a un proyecto y opciones para configurar ArcGIS Pro |
+| Package Manager   | Manejar paquetes y ambientes de Python, R, y librerías del sistema |
+| Add-In Manager    | Instalar "add-ins" o complementos para personalizar la aplicación |
+| Help              | Abrir la ayuda online u offline del sistema |
+| About             | Ver información sobre su versión de ArcGIS Pro y actualizar a la última versión |
+| Learning Resources| Acceder a los tutoriales rápidos, series de tutoriales, y otros recursos de aprendizaje |
+| Exit              | Cerrar la aplicación |
+
+
+## Proyectos
+
+## Interfaz de Usuario
+
+### Barra de Herramientas (*Ribbon*)
+
+### Vistas
+
+### Paneles
+
+## Organización de la Interfaz de Usuario
