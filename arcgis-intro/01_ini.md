@@ -38,4 +38,18 @@ Por defecto, ArcGIS Pro abre en la página de inicio. La página de inicio tiene
 
 ## Recursos de aprendizaje
 
+En la pestaña de **Learning Resources** puede encontrar recursos que le ayudaran a desarrollar habilidades, resolver problemas, y responder preguntas. Los recursos de aprendizaje también se pueden acceder desde una pestaña lateral en la página de **Settings** o desde el botón **Learning Resources** en la pestaña de **Help** en la barra de herramientas.
+
+<p align="center">
+<img src="../images/intro-arcgis/01_fig3.png" vspace="10" width="1000">
+</p>
+
+|    Elemento   |                       Descripción                                                                  |
+|:-------------:|:--------------------------------------------------------------------------------------------------:|
+| 1             | Tutoriales rápidos para aprender las funciones y procesos básicos de ArcGIS Pro                    |
+| 2             | Acceder a la documentación del producto, materiales de aprendizaje, entrenamientos, noticias, y el sitio de la *Comunidad Esri* |
+| 3             | Serie de tutoriales que presentan materiales de aprendizaje relacionados con un área de práctica  |
+| 4             | Recursos disponibles para ayudar los usuarios de ArcMap a aprender ArcGIS Pro |
+
+
 ## Configuraciones
