@@ -20,7 +20,7 @@ La primera vez que use ArcGIS Pro, se requerirá ingresar con su credencial de A
 <img src="../images/intro-arcgis/01_fig1.png" vspace="10" width="600">
 </p>
 
-Si usted tiene una licencia de de otros productos de ArcGIS Desktop, por ejemplo AcMap, entonces tendrá automáticamente accesos a una licencia de ArcGIS Pro.
+Si usted tiene una licencia de de otros productos de ArcGIS Desktop, por ejemplo AcMap, entonces tendrá automáticamente accesos a una licencia de ArcGIS Pro. Sin embargo, no es necesario tener instaladas las versiones Desktop y Pro, ya que la versión Pro tiene igual o más funciones versátiles que la versión Desktop.
 
 ## Página de inicio
 
