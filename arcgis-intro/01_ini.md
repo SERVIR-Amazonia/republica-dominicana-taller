@@ -149,7 +149,7 @@ Se puede cerrar los paneles o dejarlos abiertos. Si un panel queda abierto cuand
 
 ## Organización de la Interfaz de Usuario
 
-Los elementos de la interfaz de usuario ueden organizarse de varias formas:
+Los elementos de la interfaz de usuario pueden organizarse de varias formas:
 
 * Arrastrar paneles y vistas a sitios de anclaje.
 * Agrupar paneles y vistas uno encima de otro.
