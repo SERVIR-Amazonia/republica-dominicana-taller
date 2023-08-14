@@ -157,7 +157,7 @@ Los elementos de la interfaz de usuario ueden organizarse de varias formas:
 * Dividir la vista en grupos de pestañas horizontales o verticales para mostrar mas vistas.
 
 <p align="center">
-<img src="../images/intro-arcgis/01_fig10.png" vspace="10" width="500">
+<img src="../images/intro-arcgis/01_fig10.png" vspace="10" width="1000">
 </p>
 
 |    Elemento       |   Acción                   |   Descripción                                                                  |
