@@ -170,3 +170,17 @@ Los elementos de la interfaz de usuario pueden organizarse de varias formas:
 | 4                 | Separar o soltar vista     | Arrastre una vista por su pestaña y sueltela lejos de los sitios de anclaje. Alternativamente, haga click derecho en la pestaña de vista o presione Alt+Guión para opciones.
 | 5                 | Anclar una vista           | Arrastre una vista por su pestaña y sueltela en uno de los sitios de anclaje que aparecen. Alternativamente, haga click derecho en la pestaña de vista o presione Alt+Guión para opciones.
 
+
+# Enlaces de Interés
+
+* Curso Esri de entrenamiento online y gratuito (Inglés): [My Esri 101](https://www.esri.com/training/catalog/638f76212fb248260a9db403/my-esri-101/#)
+* [Catálogo de cursos](https://www.esri.com/training/catalog/search/) de entrenamiento de Esri.
+* Descargar e instalar [ArcGIS Pro](https://pro.arcgis.com/en/pro-app/latest/get-started/install-and-sign-in-to-arcgis-pro.htm).
+* Configurar una [cuenta organizacional de ArcGIS Online](https://pro.arcgis.com/en/pro-app/latest/get-started/set-up-an-arcgis-online-organization.htm).
+* Preguntas frecuentes [FAQs](https://pro.arcgis.com/en/pro-app/latest/get-started/faq.htm).
+* Sobre las [licencias de ArcGIS Pro](https://pro.arcgis.com/en/pro-app/latest/get-started/about-licensing.htm).
+* Sobre los [tipos de licencias](https://pro.arcgis.com/en/pro-app/latest/get-started/licensing-arcgis-pro.htm).
+* [Tutoriales rápidos](https://pro.arcgis.com/en/pro-app/latest/get-started/pro-quickstart-tutorials.htm) de ArcGIS Pro.
+* [Documentación de ayuda](https://pro.arcgis.com/en/pro-app/latest/help/main/welcome-to-the-arcgis-pro-app-help.htm) de ArcGIS Pro.
+* Guía para [migrar de ArcMap a ArcGIS Pro](https://www.esri.com/content/dam/esrisites/en-us/media/pdf/implementation-guides/arcgis-pro-migration-guide.pdf).
+* Tutoriales y lecciones del libro *GIS and Public Domain Data*: [Parte 1](https://learn.arcgis.com/en/paths/the-gis-guide-to-public-domain-data-learn-path/) | [Parte 2](https://learn.arcgis.com/en/paths/the-gis-guide-to-public-domain-data-learn-path-2/) | [Parte 3](https://learn.arcgis.com/en/paths/the-gis-guide-to-public-domain-data-learn-path-3/)
