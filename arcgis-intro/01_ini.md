@@ -164,7 +164,7 @@ Los elementos de la interfaz de usuario ueden organizarse de varias formas:
 |:-----------------:|:--------------------------:|:------------------------------------------------------------------------------:|
 | 1                 | Minimizar la barra         | Presionar Ctrl+F1         |
 | 2                 | Automáticamente esconder un panel cuando no esté en uso | Click **Auto-Hide** in barra de titulo del panel. Alternativamente, presione Alt+Signo Menos para opciones.       |
-| 3                 | Crear un nuevo grupo de pestañas para divir espacio  | Presionar click derecho en una pestaña o Alt+Guión para opciones.  |
+| 3                 | Crear un nuevo grupo de pestañas para dividir espacio  | Presionar click derecho en una pestaña o Alt+Guión para opciones.  |
 | 4                 | Separar o soltar vista     | Arrastre una vista por su pestaña y sueltela lejos de los sitios de anclaje. Alternativamente, haga click derecho en la pestaña de vista o presione Alt+Guión para opciones.
 | 5                 | Anclar una vista           | Arrastre una vista por su pestaña y sueltela en uno de los sitios de anclaje que aparecen. Alternativamente, haga click derecho en la pestaña de vista o presione Alt+Guión para opciones.
 
