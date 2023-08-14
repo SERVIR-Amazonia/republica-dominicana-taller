@@ -128,19 +128,43 @@ Un panel (o *Pane*) es una ventana que muestra los contenidos de una vista (Pane
 <img src="../images/intro-arcgis/01_fig8.png" vspace="10" width="800">
 </p>
 
-El panel provee cierta funcionalidad que puede no estar disponible en la barra de herramientas. Los paneles tiene filas de pestañas de texto y pestañas gráficas para organizar la funcionalidad. Algunos paneles tiene multiples páginas.
+El panel provee cierta funcionalidad que puede no estar disponible en la barra de herramientas. Los paneles tiene filas de pestañas de texto y pestañas gráficas (o *íconos*) que organiza la funcionalidad. Algunos paneles tiene multiples páginas.
 
 <p align="center">
-<img src="../images/intro-arcgis/01_fig9.png" vspace="10" width="800">
+<img src="../images/intro-arcgis/01_fig9.png" vspace="10" width="500">
 </p>
 
 |    Elemento       |                       Descripción                                                                  |
 |:-----------------:|:--------------------------------------------------------------------------------------------------:|
 | 1                 | Algunos paneles tienen multiples páginas de funcionalidad         |
 | 2                 | Pestañas de texto primarias, como **Gallery** y **Properties**, con funcionalidad separada       |
-| 3                 | Pestañas gráficas secundarias que tienen funcionalidad separada de una pestaña primaria  |
+| 3                 | Pestañas gráficas secundarias (*íconos*) que tienen funcionalidad separada de una pestaña primaria  |
 | 4                 | Los expansores son pequeñas flechas que al dar click muestran o esconden opciones |
 | 5                 | El botón **Menu** posee comandos adicionales |
 | 6                 | "Manija" o barra deslizable que permite cambiar el tamaño de las áreas de un panel  |
 
+Los paneles de *Contenido* y *Catálago* estan usualmente abiertos en un proyecto. Otros paneles se hacen visibles en respuesta a comandos o acciones. Por ejemplo, cuando se da click en **Locate** en la pestaña **Map**, el panel **Locate** aparecerá.
+
+Se puede cerrar los paneles o dejarlos abiertos. Si un panel queda abierto cuando se cierra ArcGIS Pro, éste se abrirá cuando reinicie la aplicación. Se puede manjar algunos paneles en la pestaña **View** de la barra de herramientas. Por ejemplo, se puede dar click en **Reset Panes** para escoger una configuración específica de paneles.
+
 ## Organización de la Interfaz de Usuario
+
+Los elementos de la interfaz de usuario ueden organizarse de varias formas:
+
+* Arrastrar paneles y vistas a sitios de anclaje.
+* Agrupar paneles y vistas uno encima de otro.
+* Soltar paneles y vistas sobre o lejos de la ventana de la aplicación.
+* Dividir la vista en grupos de pestañas horizontales o verticales para mostrar mas vistas.
+
+<p align="center">
+<img src="../images/intro-arcgis/01_fig10.png" vspace="10" width="500">
+</p>
+
+|    Elemento       |   Acción                   |   Descripción                                                                  |
+|:-----------------:|:--------------------------:|:------------------------------------------------------------------------------:|
+| 1                 | Minimizar la barra         | Presionar Ctrl+F1         |
+| 2                 | Automáticamente esconder un panel cuando no esté en uso | Click **Auto-Hide** in barra de titulo del panel. Alternativamente, presione Alt+Signo Menos para opciones.       |
+| 3                 | Crear un nuevo grupo de pestañas para divir espacio  | Presionar click derecho en una pestaña o Alt+Guión para opciones.  |
+| 4                 | Separar o soltar vista     | Arrastre una vista por su pestaña y sueltela lejos de los sitios de anclaje. Alternativamente, haga click derecho en la pestaña de vista o presione Alt+Guión para opciones.
+| 5                 | Anclar una vista           | Arrastre una vista por su pestaña y sueltela en uno de los sitios de anclaje que aparecen. Alternativamente, haga click derecho en la pestaña de vista o presione Alt+Guión para opciones.
+
