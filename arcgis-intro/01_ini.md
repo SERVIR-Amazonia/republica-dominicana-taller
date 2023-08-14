@@ -114,6 +114,33 @@ Esta es una cinta horizontal en la parte superior de la ventana de trabajo dentr
 
 ### Vistas
 
+Vistas (o *Views*) son ventanas para trabajar con mapas, escenas, capas, tablas, gráficos, el catálogo, y otras representaciones de sus datos. Varias vistas pueden ser abiertas al mismo tiempo. Al hacer click en alguna de las pestañas disponibles en vistas se puede activar, arrastrar a otra posición, o cerrar.
+
+<p align="center">
+<img src="../images/intro-arcgis/01_fig7.png" vspace="10" width="800">
+</p>
+
 ### Paneles
+
+Un panel (o *Pane*) es una ventana que muestra los contenidos de una vista (Panel de Contenidos - *Contents*), los elementos de un proyecto o portal activo (Panel de Catálogo - *Catalog*), o comandos y configuraciones para ciertas funciones (panel de **Symbology**, panel de **Geoprocessing**, etc.).
+
+<p align="center">
+<img src="../images/intro-arcgis/01_fig8.png" vspace="10" width="800">
+</p>
+
+El panel provee cierta funcionalidad que puede no estar disponible en la barra de herramientas. Los paneles tiene filas de pestañas de texto y pestañas gráficas para organizar la funcionalidad. Algunos paneles tiene multiples páginas.
+
+<p align="center">
+<img src="../images/intro-arcgis/01_fig9.png" vspace="10" width="800">
+</p>
+
+|    Elemento       |                       Descripción                                                                  |
+|:-----------------:|:--------------------------------------------------------------------------------------------------:|
+| 1                 | Algunos paneles tienen multiples páginas de funcionalidad         |
+| 2                 | Pestañas de texto primarias, como **Gallery** y **Properties**, con funcionalidad separada       |
+| 3                 | Pestañas gráficas secundarias que tienen funcionalidad separada de una pestaña primaria  |
+| 4                 | Los expansores son pequeñas flechas que al dar click muestran o esconden opciones |
+| 5                 | El botón **Menu** posee comandos adicionales |
+| 6                 | "Manija" o barra deslizable que permite cambiar el tamaño de las áreas de un panel  |
 
 ## Organización de la Interfaz de Usuario
