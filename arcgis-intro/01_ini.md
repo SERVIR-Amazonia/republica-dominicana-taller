@@ -82,9 +82,35 @@ En la pestaña **Settings** se puede configurar y manejar la aplicación. En un 
 
 ## Proyectos
 
+En ArcGIS Pro , un proyecto es una estructura de trabajo relacionada con mapas, escenas, capas, y otros recursos conectados como bases de datos y carpetas de sistema. Los archivos de proyecto tiene la extension **.aprx**. Por defecto, un proyecto es almacenado en su propia carpeta junto con archivos de geodatabase asociados y barras de herramientas. 
+
+<p align="center">
+<img src="../images/intro-arcgis/01_fig5.png" vspace="10" width="800">
+</p>
+
 ## Interfaz de Usuario
 
+Las partes principales de la interfaz de ArcGIS Pro son la barra de herramientas (o Ribbon), vistas, y paneles. A continuación veremos una descripción de cada una de estas partes.
+
 ### Barra de Herramientas (*Ribbon*)
+
+Esta es una cinta horizontal en la parte superior de la ventana de trabajo dentro de la aplicación, la cual presenta una serie de pestañas con diferentes opciones y funciones. Algunas pestañas (pestañas base) estan siempre presentes. Otras (pestañas contextuales) aparecen cuando la aplicación esta en un estado particular. Por ejemplo, la pestaña contextual **Feature Layer** aparece cuando una capa es seleccionada en los contenidos del panel de un mapa. 
+
+<p align="center">
+<img src="../images/intro-arcgis/01_fig6.png" vspace="10" width="800">
+</p>
+
+|    Elemento       |                       Descripción                                                                  |
+|:-----------------:|:--------------------------------------------------------------------------------------------------:|
+| 1                 | La *barra de acceso rápido* tiene comandos que se usan a menudo.         |
+| 2                 | Nombre de proyecto en la parte superior de la aplicación       |
+| 3                 | El comando de búsqueda *Search* ayuda a encontrar y correr comandos  |
+| 4                 | Pestañas base, tales como la pestaña **Map**. Cuando es seleccionada muestra sus botones y funciones asociados |
+| 5                 | Pestañas contextuales, como la pestaña **Tile Layer**, las cuales aparecen en momentos apropiados para su uso |
+| 6                 | Botones y herramientas para correr comandos. Por ejemplo, la herramienta **Explore** sirve para navegar en mapas e identificar objetos en mapas.  |
+| 7                 | Caja de diálogo que abre paneles o cajas de diálogos con más funciones |
+| 8                 | Agrupación de comandos relacionados y organizados en la barra  |
+
 
 ### Vistas
 
