@@ -85,7 +85,7 @@ En la pestaña **Settings** se puede configurar y manejar la aplicación. En un 
 En ArcGIS Pro , un proyecto es una estructura de trabajo relacionada con mapas, escenas, capas, y otros recursos conectados como bases de datos y carpetas de sistema. Los archivos de proyecto tiene la extension **.aprx**. Por defecto, un proyecto es almacenado en su propia carpeta junto con archivos de geodatabase asociados y barras de herramientas. 
 
 <p align="center">
-<img src="../images/intro-arcgis/01_fig5.png" vspace="10" width="800">
+<img src="../images/intro-arcgis/01_fig5.png" vspace="10" width="1000">
 </p>
 
 ## Interfaz de Usuario
