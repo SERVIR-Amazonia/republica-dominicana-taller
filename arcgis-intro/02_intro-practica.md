@@ -20,16 +20,32 @@ Tiempo estimado: 30 min.
 ## Abrir Proyecto
 
 1. Inicie ArcGIS Pro. Si es necesario, haga click en **Sign in** en la esquina superior derecha, escriba su usuario y contraseña, y click en Sign in.
-2. En la página de inicio, junto a la lista de proyectos recientes, haga click en **Open another project**. Si yatiene un proyecto abierto, haga click en la pestaña **Project** de la barra de herramientas, haga click en **Open**, y posteriormente en **Open another project**.
+2. En la página de inicio, junto a la lista de proyectos recientes, haga click en **Open another project**. Si ya tiene un proyecto abierto, haga click en la pestaña **Project** de la barra de herramientas, haga click en **Open**, y posteriormente en **Open another project**.
 
 <p align="center">
-<img src="../images/intro-arcgis/02_fig1.jpg" vspace="10" width="600">
+<img src="../images/intro-arcgis/02_fig1.jpg" vspace="10" width="800">
 </p>
 
-3. Aquí usted puede escoger si desea cargar un archivo o proyecto desde un portal o desde su computador local. En este caso vamos a cargar el proyecto previamente descargado en nuestro computador, buscamos la ubicación del archivo y lo cargamos. Alternativamente, si usa la opción portal, deberá conectar su cuenta con ArcGIS Online y activar este portal para tener acceso a los archivos tutoriales de Esri. Luego deberá usar la barra de búsqueda, buscar y cargar el proyecto *Introducing ArcGIS Pro**.
+3. Aquí usted puede escoger si desea cargar un archivo o proyecto desde un portal o desde su computador local. En este caso vamos a cargar el proyecto previamente descargado en nuestro computador, buscamos la ubicación del archivo y lo cargamos. Alternativamente, si usa la opción portal, deberá conectar su cuenta con ArcGIS Online y activar este portal para tener acceso a los archivos tutoriales de Esri. Luego deberá usar la barra de búsqueda, buscar y cargar el proyecto *Introducing ArcGIS Pro*.
 
 <p align="center">
 <img src="../images/intro-arcgis/02_fig2.jpg" vspace="10" width="600">
 </p>
 
-4. 
+4. Cuando el proyecto esté abierto, usted verá un mapa de Wellington, Nueva Zelanda. La ventana que contiene el mapa es la *vista de mapa*. La pestaña coloreada en la vista de mapa indica que esa pestaña está activa. El nombre de la vista es *Wellington City*.
+
+Hay otras vistas abiertas en el proyecto: el mapa de *Central Wellington*, la escena de *Central Wellington_3D*, y la capa *Central Wellington Layout*.
+
+<p align="center">
+<img src="../images/intro-arcgis/02_fig3.jpg" vspace="10" width="1000">
+</p>
+
+## Barra de herramientas
+
+Arriba de la vista de mapa se encuentra la barra o cinta de herramientas (o *Ribbon*). Esta barra tiene un conjunto de pestañas base: **Maps**, **Insert**, **View**, **Edit**, **Imagery**, **Share**, y **Help**, las cuales están siempre presentes cuando una vista de mapa esta activa. Cada pestaña tien su propio conjunto de herramientas, organizadas en grupos. La pestaña **Map** tiene herramientas para interactuar con el mapa. En la pestaña **Map**, la herrmienta **Explore** esta seleccionada dentro del grupo **Navigate**. 
+
+En esta sección se usarán herramientas del grupo **Navigate**. La herramienta **Explore** permite mover y desplazarnos por el mapa, y leer información sobre los objectos de interés en el mapa.
+
+<p align="center">
+<img src="../images/intro-arcgis/02_fig4.png" vspace="10" width="700">
+</p>
