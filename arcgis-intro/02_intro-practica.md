@@ -42,10 +42,26 @@ Hay otras vistas abiertas en el proyecto: el mapa de *Central Wellington*, la es
 
 ## Barra de herramientas
 
-Arriba de la vista de mapa se encuentra la barra o cinta de herramientas (o *Ribbon*). Esta barra tiene un conjunto de pestañas base: **Maps**, **Insert**, **View**, **Edit**, **Imagery**, **Share**, y **Help**, las cuales están siempre presentes cuando una vista de mapa esta activa. Cada pestaña tien su propio conjunto de herramientas, organizadas en grupos. La pestaña **Map** tiene herramientas para interactuar con el mapa. En la pestaña **Map**, la herrmienta **Explore** esta seleccionada dentro del grupo **Navigate**. 
+Arriba de la vista de mapa se encuentra la barra o cinta de herramientas (o *Ribbon*). Esta barra tiene un conjunto de pestañas base: **Maps**, **Insert**, **Analysis**, **View**, **Edit**, **Imagery**, **Share**, y **Help**, las cuales están siempre presentes cuando una vista de mapa esta activa. Cada pestaña tien su propio conjunto de herramientas, organizadas en grupos. La pestaña **Map** tiene herramientas para interactuar con el mapa. En la pestaña **Map**, la herrmienta **Explore** esta seleccionada dentro del grupo **Navigate**. 
 
 En esta sección se usarán herramientas del grupo **Navigate**. La herramienta **Explore** permite mover y desplazarnos por el mapa, y leer información sobre los objectos de interés en el mapa.
 
 <p align="center">
 <img src="../images/intro-arcgis/02_fig4.png" vspace="10" width="700">
+</p>
+
+1. Seleccione la herramienta **Explore** y arrastre el mapa a un sitio diferente.
+
+Si arrastra el mapa muy rápido puede perder el sitio de partida. 
+
+2. En la barra de herramientas, en la pestaña **Map**, haga click en **Bookmarks**. En la parte de **Wellington City Bookmarks** haga click en *Wellington*. Este le ayudará a volver a la vista de mapa inicial.
+
+<p align="center">
+<img src="../images/intro-arcgis/02_fig5.jpg" vspace="10" width="700">
+</p>
+
+3. En el mapa, haga click dentro del área (*City Boundary*) de *Wellington* para obtener mas información acerca de este objeto.
+
+<p align="center">
+<img src="../images/intro-arcgis/02_fig6.png" vspace="10" width="700">
 </p>
