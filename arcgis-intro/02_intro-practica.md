@@ -54,14 +54,54 @@ En esta sección se usarán herramientas del grupo **Navigate**. La herramienta 
 
     Si arrastra el mapa muy rápido puede perder el sitio de partida. 
 
-2. En la barra de herramientas, en la pestaña **Map**, haga click en **Bookmarks**. En la parte de **Wellington City Bookmarks** haga click en *Wellington*. Este le ayudará a volver a la vista de mapa inicial.
+2. En la barra de herramientas, en la pestaña **Map**, haga click en **Bookmarks**. En la parte de **Wellington City Bookmarks** haga click en *Wellington*. Este le ayudará a volver a la vista de mapa inicial. Adicionalmente, puede crear un nuevo *bookmark* en otra posición del mapa si lo desea.
 
 <p align="center">
 <img src="../images/intro-arcgis/02_fig5.jpg" vspace="10" width="1000">
 </p>
 
-3. En el mapa, haga click dentro del área (*City Boundary*) de *Wellington* para obtener mas información acerca de este objeto.
+3. En el mapa, haga click dentro del área (*City Boundary*) de *Wellington* para obtener mas información acerca de este objeto. El área de la ciudad parpadeará y aparacerá una ventana con la información sobre la población de la ciudad.
 
 <p align="center">
 <img src="../images/intro-arcgis/02_fig6.png" vspace="10" width="700">
 </p>
+
+## Abrir y anclar paneles
+
+A medida que se vaya trabajando en un proyecto veremos que a menudo se abriran y cerraran paneles que se necesitan para tareas específicas. Los paneles también se pueden minimizar con tal de dejar espacio disponible para trabajar con los mapas y otras vistas.
+
+1. En la barra de herramientas, haga click en la pestaña **View**. En el grupo **Windows** haga click en **Reset Panes** y luego en **Reset Panes for Mapping (Default)**.
+
+   Los paneles **Contents** y **Catalog** se abrirán (en caso de que hayan sido cerrados antes). Cualquier otro tipo de panel abierto será cerrado. Estos dos paneles pueden estar anclados en sitios opuestos de la ventana de la aplicación, lo cual es el diseño predeterminado.
+
+<p align="center">
+<img src="../images/intro-arcgis/02_fig7.jpg" vspace="10" width="1000">
+</p>
+
+Estos paneles pueden incluso ser colocados uno encima del otro, cada uno con una pestaña respectiva.
+    
+<p align="center">
+<img src="../images/intro-arcgis/02_fig8.png" vspace="10" width="400">
+</p>
+
+2. Arrastre el panel **Catalog** de su barra sobre la vista de mapa. A medida que arrastre el panel (representado por una sombra azul), sitios de anclaje apareceran en el centro de la vista de mapa y en las orillas de la ventana de la aplicación. Cada sitio representa un area donde el panel puede ser posicionado.
+
+<p align="center">
+<img src="../images/intro-arcgis/02_fig9.png" vspace="10" width="400">
+</p>
+
+3. Posicione el panel en un sitio de anclaje sin soltar el click. Podrá observar como quedaría el panel posicionado, ya sea de manera horizontal o vertical, lo cual es representado con una sombra azul.
+
+<p align="center">
+<img src="../images/intro-arcgis/02_fig10.png" vspace="10" width="1000">
+</p>
+
+4. Suelte el panel en el sitio de anclaje. El panel mostrará su nueva posición. Si los paneles **Catalog** y **Contents** estaban agrupados antes, se mantendrán agrupados al intentar organizar o mover el panel a otro sitio.
+
+<p align="center">
+<img src="../images/intro-arcgis/02_fig10.png" vspace="11" width="1000">
+</p>
+
+5. Arrastre el panel **Catalog** a una nueva posición y sueltelo en cualquier otra parte de su pantalla que no sea una sitio de anclaje. Esto hará que el panel quede flotando. Puede re-ajustar su tamaño estirando una esquina o un lado del panel.
+
+6. 
