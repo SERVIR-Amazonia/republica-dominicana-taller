@@ -93,15 +93,31 @@ Estos paneles pueden incluso ser colocados uno encima del otro, cada uno con una
 3. Posicione el panel en un sitio de anclaje sin soltar el click. Podrá observar como quedaría el panel posicionado, ya sea de manera horizontal o vertical, lo cual es representado con una sombra azul.
 
 <p align="center">
-<img src="../images/intro-arcgis/02_fig10.png" vspace="10" width="1000">
+<img src="../images/intro-arcgis/02_fig10.jpg" vspace="10" width="1000">
 </p>
 
 4. Suelte el panel en el sitio de anclaje. El panel mostrará su nueva posición. Si los paneles **Catalog** y **Contents** estaban agrupados antes, se mantendrán agrupados al intentar organizar o mover el panel a otro sitio.
 
 <p align="center">
-<img src="../images/intro-arcgis/02_fig10.png" vspace="11" width="1000">
+<img src="../images/intro-arcgis/02_fig11.jpg" vspace="11" width="1000">
 </p>
 
 5. Arrastre el panel **Catalog** a una nueva posición y sueltelo en cualquier otra parte de su pantalla que no sea una sitio de anclaje. Esto hará que el panel quede flotando. Puede re-ajustar su tamaño estirando una esquina o un lado del panel.
 
-6. 
+6. Si los paneles **Catalog** y **Contents** estan agrupados, haga click en la pestaña **Catalog** en la parte inferior del panel y arrastre el panel por su pestaña hacía una nueva posición. Ahora los paneles quedaran separados.
+
+7. Suelte el panel **Contents** sobre el sitio de anclaje izquierdo. Suelte el panel **Catalog** sobre el sitio de anclaje derecho. Con esto los paneles estarán en posiciones opuestas. De manera predeterminada los paneles permanecerán abiertos mientras trabaja. Pero, se puede auto-esconder un panel para que no ocupe espacio en el area de trabajo que se este usando.
+
+<p align="center">
+<img src="../images/intro-arcgis/02_fig12.png" vspace="10" width="400">
+</p>
+
+8. Haga click en el panel **Contents** para tenerlo activo. Ahora, en la esquina superior derecha del panel, haga click en **Auto-Hide**. El panel se esconderá en el borde de la ventana de ArcGIS Pro donde el panel esta anclado.
+
+<p align="center">
+<img src="../images/intro-arcgis/02_fig13.png" vspace="10" width="400">
+</p>
+
+9. Haga click en el panel **Contents** que se encuentra escondido para restaurarlo. El panel se quedará abierto meintras usted est interactuando con él. Cuando seleccione otro panel, otra vista, o haga una acción diferente hará que el panel **Contents** se esconda nuevamente.
+
+10. Haga click en **Auto-Hide** nuevamente para que el panel permanezca abierto.
