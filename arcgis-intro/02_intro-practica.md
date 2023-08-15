@@ -34,7 +34,7 @@ Tiempo estimado: 30 min.
 
 4. Cuando el proyecto esté abierto, usted verá un mapa de Wellington, Nueva Zelanda. La ventana que contiene el mapa es la *vista de mapa*. La pestaña coloreada en la vista de mapa indica que esa pestaña está activa. El nombre de la vista es *Wellington City*.
 
-Hay otras vistas abiertas en el proyecto: el mapa de *Central Wellington*, la escena de *Central Wellington_3D*, y la capa *Central Wellington Layout*.
+    Hay otras vistas abiertas en el proyecto: el mapa de *Central Wellington*, la escena de *Central Wellington_3D*, y la capa *Central Wellington Layout*.
 
 <p align="center">
 <img src="../images/intro-arcgis/02_fig3.jpg" vspace="10" width="1000">
@@ -52,12 +52,12 @@ En esta sección se usarán herramientas del grupo **Navigate**. La herramienta 
 
 1. Seleccione la herramienta **Explore** y arrastre el mapa a un sitio diferente.
 
-Si arrastra el mapa muy rápido puede perder el sitio de partida. 
+    Si arrastra el mapa muy rápido puede perder el sitio de partida. 
 
 2. En la barra de herramientas, en la pestaña **Map**, haga click en **Bookmarks**. En la parte de **Wellington City Bookmarks** haga click en *Wellington*. Este le ayudará a volver a la vista de mapa inicial.
 
 <p align="center">
-<img src="../images/intro-arcgis/02_fig5.jpg" vspace="10" width="700">
+<img src="../images/intro-arcgis/02_fig5.jpg" vspace="10" width="1000">
 </p>
 
 3. En el mapa, haga click dentro del área (*City Boundary*) de *Wellington* para obtener mas información acerca de este objeto.
