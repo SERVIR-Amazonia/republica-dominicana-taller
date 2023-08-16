@@ -115,9 +115,87 @@ Estos paneles pueden incluso ser colocados uno encima del otro, cada uno con una
 8. Haga click en el panel **Contents** para tenerlo activo. Ahora, en la esquina superior derecha del panel, haga click en **Auto-Hide**. El panel se esconderá en el borde de la ventana de ArcGIS Pro donde el panel esta anclado.
 
 <p align="center">
-<img src="../images/intro-arcgis/02_fig13.png" vspace="10" width="400">
+<img src="../images/intro-arcgis/02_fig13.png" vspace="10" width="50">
 </p>
 
 9. Haga click en el panel **Contents** que se encuentra escondido para restaurarlo. El panel se quedará abierto meintras usted est interactuando con él. Cuando seleccione otro panel, otra vista, o haga una acción diferente hará que el panel **Contents** se esconda nuevamente.
 
 10. Haga click en **Auto-Hide** nuevamente para que el panel permanezca abierto.
+
+
+## Explorar vistas
+
+El mapa de la ciudad de Wellington es una de las cuatro vistas disponibles en el proyecto. Un proyecto puede contener multiples mapas, escenas, diseños, u otras vistas como tablas y gráficos.
+
+1. Haga click en la pestaña del mapa **Central Wellington** para activar esta vista. En el mapa se puede observar los edificios del distrito central de negocios alrededor de Lambton Harbour.
+
+<p align="center">
+<img src="../images/intro-arcgis/02_fig14.png" vspace="10" width="800">
+</p>
+
+2. En el panel de **Contents**, haga click en la flecha al lado de la capa **Buildings** para expandir la capa. Los colores amarillo y naranja indican la cantidad de radiación solar recibida por los edificios.
+
+<p align="center">
+<img src="../images/intro-arcgis/02_fig15.jpg" vspace="10" width="300">
+</p>
+
+3. Active la escena **Central Wellington_3D**. Los mismos edificios se podrán observar ahora en un modelo 3D.
+
+<p align="center">
+<img src="../images/intro-arcgis/02_fig16.png" vspace="10" width="600">
+</p>
+
+4. Haga click en la pestaña **Map** de la barra de herramientas.
+
+5. En el grupo **Navigate**, haga click en **Bookmarks**. En **Central Wellington_3D Bookmarks** haga click en **Jervois Quay**. Ahora podrá ver los edificios desde otra perspectiva.
+
+<p align="center">
+<img src="../images/intro-arcgis/02_fig17.jpg" vspace="10" width="600">
+</p>
+
+6. Haga click en el *bookmark* **View from Lambton Harbour** para ver la escena desde otra perspectiva.
+
+<p align="center">
+<img src="../images/intro-arcgis/02_fig18.jpg" vspace="10" width="600">
+</p>
+
+7.  Active la vista **Central Wellington Layout**. La barra de herramientas cambiará para mostrar pestañas y herramientas asociadas al diseño de mapas. La pestaña **Map** también ha sido reemplazada por la pestaña **Layout**. La pestaña **Edit** desaparece.
+
+<p align="center">
+<img src="../images/intro-arcgis/02_fig19.png" vspace="10" width="500">
+</p>
+
+El panel **Contents** mostrará todos los elementos usados en este diseño de mapa: leyenda, marcos, texto, etc. Los elementos se mostrarán en el orden en que fueron creados, pero se pueden usar las pestañas (iconos) en la parte superior del panel para cambiar este orden.
+
+<p align="center">
+<img src="../images/intro-arcgis/02_fig20.png" vspace="10" width="400">
+</p>
+
+8. En el panel **Contents**, haga click en la pestaña (icono) **List By Element Type**. Los elementos ahora son agrupados por tipo, en vez de orden de creación.
+
+<p align="center">
+<img src="../images/intro-arcgis/02_fig21.png" vspace="10" width="200">
+</p>
+
+9. Cierre la vista de **Central Wellington Layout** haciendo click en el botón de cerrar de la respectiva pestaña. Aunque la vista se ha cerrado, el diseño de mapa aún existe en el proyecto.
+
+<p align="center">
+<img src="../images/intro-arcgis/02_fig22.jpg" vspace="10" width="250">
+</p>
+
+10. En el panel **Catalog**, seleccione la pestaña **Project** y expanda **Layouts**.
+
+<p align="center">
+<img src="../images/intro-arcgis/02_fig23.png" vspace="10" width="500">
+</p>
+
+11. Haga click derecho en **Central Wellington Layout** y haga click en **Open**. El diseño de mapa se abrirá.
+
+12. En el panel **Catalog**, expanda **Maps**. Los mapas y escenas del proyecto se observaran en una lista. (Para remover un diseño permanentemente de un proyecto haga click derecho en el objecto y haga click en **Delete**).
+
+<p align="center">
+<img src="../images/intro-arcgis/02_fig24.jpg" vspace="10" width="300">
+</p>
+
+
+## Trabajando con pestañas contextuales
