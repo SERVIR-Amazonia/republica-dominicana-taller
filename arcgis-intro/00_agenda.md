@@ -18,9 +18,9 @@ Navegue a través de las diferentes secciones de la lección utilizando el menú
 
 |    Horario    |                                                                                       Temáticas                                                                                      |
 |:-------------:|:------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------:|
-| 09:00 – 09:30 |                                            Bienvenida y pruebas  la configuración<br>Resumen de la sesión anterior, preguntas y respuestas                                           |
-| 09:30 – 11:00 |                                                                                                                                              |
+| 09:00 – 09:30 |                                            Bienvenida y pruebas  la configuración, <br>Resumen de la sesión anterior, preguntas y respuestas                                         |
+| 09:30 – 11:00 |                                 Introducción, Interfaz ArcGIS Pro y Práctica                                                                                                         |
 | 11:00 – 11:15 |                                                                                        Receso                                                                                        |
-| 11:15 – 12:00 |                                                                                                                                   |
+| 11:15 – 12:00 |                                                        Crear mapa                                                                                                                    |
 | 12:00 – 13:00 |                                                                                       Almuerzo                                                                                       |
 | 13:00 – 15:00 |                                                                                                                                    |
