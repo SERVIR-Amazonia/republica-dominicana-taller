@@ -199,3 +199,69 @@ El panel **Contents** mostrará todos los elementos usados en este diseño de ma
 
 
 ## Trabajando con pestañas contextuales
+
+Las pestañas en la barra de herramientas varían de acuerdo al tipo de vista que esté activa. Dentro de una vista, las pestañas se habilitan dependiendo del tipo de datos o capas con los que se esta trabajando.
+
+1. Active la vista del mapa **Central Wellington**.
+
+2. En el panel **Contents**, seleccione la capa **Buildings**. Una vez es seleccionado, se habilitarán tres pestañas en la barra de herramientas: **Feature Layer**, **Labeling**, and **Data**.
+
+<p align="center">
+<img src="../images/intro-arcgis/02_fig25.png" vspace="10" width="400">
+</p>
+
+3. En el panel **Contents**, haga click en **Central Wellington**, el nombre del mapa. Verá que las pestañas contextuales como **Feature Layer** desaparecen debido a que ningún objecto de la capa es seleccionado.
+
+4. En el panel **Contents**, haga click en la capa **Parks** para seleccionarla.
+
+5. En la barra de herramientas, haga click en la pestaña **Data**. Esta pestaña tiene herramientas para trabajar con los atributos del objecto seleccionado.
+
+6. En la pestaña **Data**, dentro del grupo **Table**, haga click en **Attribute Table**. Una vista o ventana de tabla se abrirá mostrando los atributos de la capa **Parks**. Cada parque tiene nombre y dirección. En la barra de herramientas, la pestaña contextual **Feature Layer** seguirá presente. En adición, la pestaña **Table** aparecerá. La pestaña tiene herramientas para añadir o borrar campos, cambiar las propiedades de los campos, calcular valores de tabla, y más. Sin embargo, no hay necesidad de hacer cambios a la tabla de **Parks**.
+
+<p align="center">
+<img src="../images/intro-arcgis/02_fig26.png" vspace="10" width="700">
+</p>
+
+7. Cierre la tabla de **Parks**. La pestaña contextual **Table** se quitará de la barra de herramientas.
+
+8. En la barra de herramientas, haga click en la pestaña **Feature Layer**.Establezca un rango de visibilidad para una capa, ajuste su transparencia,y cambie la simbología. Cuando escoja un metodo de simbología, se abrirá un nuevo panel.
+
+9. En la pestaña **Feature Layer**, dentro del grupo **Drawing**, haga click en en el botón **Simbology** (NO en la flecha desplegable). El panel **Simbology** aparecerá.
+
+<p align="center">
+<img src="../images/intro-arcgis/02_fig27.png" vspace="10" width="400">
+</p>
+
+10. En el panel **Simbology**, junto a **Symbol**, haga click en el simbolo verde. El panel presentará opciones para dar formato a simbolos poligonales. En la parte superior del panel se encuentran las pestañas **Gallery** y **Properties**. En la pestaña **Gallery**, se puede escoger un simbolo prederteminado. E nla pestaña **Properties** puede modificar las propiedades del simbolo, tales como el color y ancho de línea.
+
+<p align="center">
+<img src="../images/intro-arcgis/02_fig28.jpg" vspace="10" width="300">
+</p>
+
+11. Haga click en la pestaña **Gallery**.
+
+12. Junto a la caja de búsqueda, haga click en la flecha desplegable del botón **All styles** y haga click en **Project styles**. La configuración **Project styles** se incluyen todos los estilos predeterminados del proyecto y los estilos añadidos por usted. La opción **All styles** incluye todos los estilos instalados con ArcGIS PRo. Al escoger **Project styles** se reduce la cantidad de estilos a buscar/usar.
+
+13. En la caja de búsqueda escriba **park** y presione *Enter*. Podrá observar los simbolos y estilos realacionados con parques y cementerios. Se puede posicionar el puntero del mouse sobre cada uno para obtener más información.
+
+<p align="center">
+<img src="../images/intro-arcgis/02_fig29.jpg" vspace="10" width="300">
+</p>
+
+14. Selecione uno de los simbolos **Park**. Inmediatamente verá que los parques del mapa son dibujados con el nuevo simbolo. 
+
+<p align="center">
+<img src="../images/intro-arcgis/02_fig30.jpg" vspace="10" width="800">
+</p>
+
+15. Si desea deshacer este cambio, lo puede hacer con los botones disponibles en **Quick Access Toolbar** en la esquina superior izquierda de la aplicación y haga click en **Undo** (o Ctrl+Z).
+
+<p align="center">
+<img src="../images/intro-arcgis/02_fig31.png" vspace="10" width="200">
+</p>
+
+16. Cierre el panel **Simbology**
+
+17. En la barra **Quick Access Toolbar** haga click en **Save** para guardar el proyecto y continuar trabajando.
+
+
