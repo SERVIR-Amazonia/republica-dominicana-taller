@@ -7,15 +7,11 @@ nav_order: 3
 
 # Crear Mapa
 
-Este material de enseñanza está basado en ArcGIS Pro 3.1, y usa algunos recursos de la [guía rápida](https://pro.arcgis.com/en/pro-app/latest/get-started/introducing-arcgis-pro.htm) a ArcGIS Pro de ESRI<sup>TM</sup>.
+Para compartir algún proyecto ya sea mapa, poster, o archivo PDF, se requiere saber crear un diseño. El diseño es una composición de uno o más mapas, junto con los elementos que lo componen como título, leyenda, y texto. Algunos diseños pueden incluir más de un mapa. Para esta sección se creará un nuevo proyecto, se descargarán y utilizaran algunos datos vectoriales, se creará un mapa, y se exportará.
 
-En esta práctica se explorarán los componentes principales de la interfaz de ArcGIS Pro: la barra de herramientas, vistas, y paneles.
+Este material de enseñanza está basado en ArcGIS Pro 3.1, y usa algunos recursos de la [guía rápida](https://pro.arcgis.com/en/pro-app/latest/get-started/add-maps-to-a-layout.htm) a ArcGIS Pro de ESRI<sup>TM</sup>.
 
-Se requiere descargar el proyecto **Introducing_ArcGIS_Pro.ppkx** disponible en este [enlace](https://www.arcgis.com/home/item.html?id=c25cf7226e3a48d48f0de9ac5a5a9122) (pestaña *Download*), y guardarlo en una carpeta específica de trabajo en su computador personal. Este proyecto contiene mapas 2D y 3D de Wellington, Nueva Zelanda.
-
-Previamente, verifique que tiene ArcGIS Pro debidamente licenciado y listo para trabajar.
-
-Tiempo estimado: 30 min.
+Tiempo estimado: 60 min.
 
 ## Nuevo Proyecto
 
