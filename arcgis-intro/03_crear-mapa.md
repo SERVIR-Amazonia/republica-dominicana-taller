@@ -28,13 +28,13 @@ Se usará material descargado del portal [Diva-GIS](http://www.diva-gis.org/gdat
 1.1. Abra ArcGIS Pro y cree un nuevo proyecto. Si ha estado trabajando en otro proyecto puede ir a la pestaña **Project**, seleccionar **New**, y dar click en **Map**. Para esta práctica es recomendable que el proyecto se guarde en su computador local. Posteriormente aparecerá una ventana donde puede ingresar un nombre a su proyecto y decidir en donde lo va guardar.
 
 <p align="center">
-<img src="../images/intro-arcgis/03_fig1.jpg" vspace="10" width="800">
+<img src="../images/intro-arcgis/03_fig1.jpg" vspace="10" width="1000">
 </p>
 
 1.2. A continuación usted verá que crea un proyecto y se observara una vista de mapa. En el panel **Contents** se mostrarán dos capas predeterminadas que muestran el mapa mundial con detalles topográficos y administrativos. Estás capas nos ayudan a orientarnos espacialmente. Si usted no las desea utilizar en su proyecto las puede deseleccionar o remover.
 
 <p align="center">
-<img src="../images/intro-arcgis/03_fig2.jpg" vspace="10" width="800">
+<img src="../images/intro-arcgis/03_fig2.jpg" vspace="10" width="1000">
 </p>
 
 ## 2. Importar datos vectoriales
@@ -54,7 +54,7 @@ Se usará material descargado del portal [Diva-GIS](http://www.diva-gis.org/gdat
 2.3. Los archivos que importemos los veremos en el panel **Contents**. El nivel administrativo 0 es unicamente un polígono del área nacional, el nivel administrativo 1 son varios polígonos de las áreas provinciales, y el nivel administrativo 2 son más polígonos de las áreas municipales. Cada capa es cargada con un color de manera predeterminada, pero puede ser editada expandiendo las capas y dando click en el recuadro coloreado. Esto abrirá el panel **Simbology** donde se puede editar el color de relleno, color de línea, y ancho de línea desde la pestaña **Properties**. Recuerde que para ver las otras capas en la vista de mapa debe deseleccionar otras que se encuentran por encima de la que desea visualizar.
 
 <p align="center">
-<img src="../images/intro-arcgis/03_fig5.jpg" vspace="10" width="800">
+<img src="../images/intro-arcgis/03_fig5.jpg" vspace="10" width="1000">
 </p>
 
 2.4. Es importante verificar la información asociada a nuestros datos, especialmente el sistema de coordenadas que maneja. Si damos click derecho sobre una de las capas y damos clcik en **Properties** se abrirá la ventana de propiedades. En la pestaña **Source** podremos observar información sobre qué tipo de datos son, en este caso es uns hapefile que contiene geometrías de tipo polígono en la pestaña **Data Source**. La pestaña **Spatial Reference** nos da la información detallada sobre el tipo de coordenadas, en este caso es WGS84 EPSG:4326, la cual esta en un sistema ampliamente usado y deseado. Si usamos datos con otro tipo de coordenas tendriamos que hacer una conversión para trabajar todos los datos en un solo sistema. La pestaña **Extent** nos muestra los limites geográficos de nuestros datos y **Domain, Resolution, and Tolerance** nos brinda información sobre las extensiones máximas y mínimas que puede tener, junto con las resoluciones.
@@ -68,7 +68,7 @@ Se usará material descargado del portal [Diva-GIS](http://www.diva-gis.org/gdat
 3.1. Vamos a la barra de herramientas, en la pestaña **Insert**, dentro del grupo **Project**, damos click en **New Layout**. Se desplegará una lista de formatos de hoja y orientaciones. Usaremos el tamaño carta estandar en sentido horizontal, para ello seleccionamos el formato **Letter** dentro del grupo **ANSI - Landscape**.
 
 <p align="center">
-<img src="../images/intro-arcgis/03_fig7.jpg" vspace="10" width="800">
+<img src="../images/intro-arcgis/03_fig7.jpg" vspace="10" width="900">
 </p>
 
 3.2. Ahora tendremos otra vista o pestaña disponible llamada *Layout*. Si no tenemos disponibles la regla y las guías, podemos activarlas dando click derecho en *Layout* dentro del panel **Contents**, y activamos las opciones **Guides** y **Rulers**. Estas serán de ayuda para ubicar correctamente los objetos y mapas en nuestro diseño.
@@ -94,13 +94,13 @@ Se usará material descargado del portal [Diva-GIS](http://www.diva-gis.org/gdat
 4.2. Ahora podremos crear un recuadro hacinedo click sobre la plantilla y arrastrandolo hasta el tamaño que deseamos tener. Este marco se puede cambiar de tamaño posteriormente.
 
 <p align="center">
-<img src="../images/intro-arcgis/03_fig11.jpg" vspace="10" width="800">
+<img src="../images/intro-arcgis/03_fig11.jpg" vspace="10" width="1000">
 </p>
 
 4.3. Sin embargo puede notar que la extensión del mapa puede no mostrarse como se desea, e incluso no se muestra la capa que deseamos. Primero nos aseguramos de seleccionar unicamente la capa que nos interesa mostrar en este marco, la cual será la capa *DOM_adm0*. Ahora, para cambiar la escala o extension del mapa dentro del marco, debemos seleccionar el marco haciendo click dentro de él. Nos dirigimos a la pestaña **Layout** de la barra de herramientas, y dentro del grupo **Map** damos click en **Activate**. Podremos observar que el marco se seleccionará y podremos cambiar la escala del mapa dentro del marco. Para cerrar la activación, nos dirigimos a la pestaña **Layout** de la barra de herramientas, y damos click en **Close Activation**.
 
 <p align="center">
-<img src="../images/intro-arcgis/03_fig12.jpg" vspace="10" width="800">
+<img src="../images/intro-arcgis/03_fig12.jpg" vspace="10" width="1000">
 </p>
 
 
