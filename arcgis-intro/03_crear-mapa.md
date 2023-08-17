@@ -57,6 +57,32 @@ Se usará material descargado del portal [Diva-GIS](http://www.diva-gis.org/gdat
 <img src="../images/intro-arcgis/03_fig5.jpg" vspace="10" width="800">
 </p>
 
+2.4. Es importante verificar la información asociada a nuestros datos, especialmente el sistema de coordenadas que maneja. Si damos click derecho sobre una de las capas y damos clcik en **Properties** se abrirá la ventana de propiedades. En la pestaña **Source** podremos observar información sobre qué tipo de datos son, en este caso es uns hapefile que contiene geometrías de tipo polígono en la pestaña **Data Source**. La pestaña **Spatial Reference** nos da la información detallada sobre el tipo de coordenadas, en este caso es WGS84 EPSG:4326, la cual esta en un sistema ampliamente usado y deseado. Si usamos datos con otro tipo de coordenas tendriamos que hacer una conversión para trabajar todos los datos en un solo sistema. La pestaña **Extent** nos muestra los limites geográficos de nuestros datos y **Domain, Resolution, and Tolerance** nos brinda información sobre las extensiones máximas y mínimas que puede tener, junto con las resoluciones.
+
+<p align="center">
+<img src="../images/intro-arcgis/03_fig6.jpg" vspace="10" width="600">
+</p>
+
+## 3. Insertar diseño de mapa (*Layout*)
+
+3.1. Vamos a la barra de herramientas, en la pestaña **Insert**, dentro del grupo **Project**, damos click en **New Layout**. Se desplegará una lista de formatos de hoja y orientaciones. Usaremos el tamaño carta estandar en sentido horizontal, para ello seleccionamos el formato **Letter** dentro del grupo **ANSI - Landscape**.
+
+<p align="center">
+<img src="../images/intro-arcgis/03_fig7.jpg" vspace="10" width="800">
+</p>
+
+3.2. Ahora tendremos otra vista o pestaña disponible llamada *Layout*. Si no tenemos disponibles la regla y las guías, podemos activarlas dando click derecho en *Layout* dentro del panel **Contents**, y activamos las opciones **Guides** y **Rulers**. Estas serán de ayuda para ubicar correctamente los objetos y mapas en nuestro diseño.
+
+<p align="center">
+<img src="../images/intro-arcgis/03_fig8.jpg" vspace="10" width="600">
+</p>
+
+3.3. Podremos agregar las guías dando click derecho sobre la regla que está visible dentro de la vista *Layout*. La opción **Add Guide** colocará una guía sobre la posición que hicimos click. Sin embargo, vamos poner diversas guías horizontales y verticales espaciadas equitativamente. Damos click en **Add Guides...**. En el panel que se abrirá seleccionamos la orientación **Both**, la colocación será **Evenly spaced**, y el intervalo de separación será **1 in**. Hacemos click en OK y veremos que ahora tenemos una grilla en nuestra plantilla de diseño que nos ayudará a posicionar los objetos. Si se desea emover las guías, damos click derecho sobre la regla 
+
+<p align="center">
+<img src="../images/intro-arcgis/03_fig9.jpg" vspace="10" width="600">
+</p>
+
 
 ## Descargar datos geoespaciales
 
