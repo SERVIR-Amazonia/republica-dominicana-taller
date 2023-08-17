@@ -63,7 +63,7 @@ Se usará material descargado del portal [Diva-GIS](http://www.diva-gis.org/gdat
 <img src="../images/intro-arcgis/03_fig6.jpg" vspace="10" width="600">
 </p>
 
-## 3. Insertar diseño de mapa (*Layout*)
+## 3. Insertar plantilla de diseño (*Layout*)
 
 3.1. Vamos a la barra de herramientas, en la pestaña **Insert**, dentro del grupo **Project**, damos click en **New Layout**. Se desplegará una lista de formatos de hoja y orientaciones. Usaremos el tamaño carta estandar en sentido horizontal, para ello seleccionamos el formato **Letter** dentro del grupo **ANSI - Landscape**.
 
@@ -74,13 +74,33 @@ Se usará material descargado del portal [Diva-GIS](http://www.diva-gis.org/gdat
 3.2. Ahora tendremos otra vista o pestaña disponible llamada *Layout*. Si no tenemos disponibles la regla y las guías, podemos activarlas dando click derecho en *Layout* dentro del panel **Contents**, y activamos las opciones **Guides** y **Rulers**. Estas serán de ayuda para ubicar correctamente los objetos y mapas en nuestro diseño.
 
 <p align="center">
-<img src="../images/intro-arcgis/03_fig8.jpg" vspace="10" width="600">
+<img src="../images/intro-arcgis/03_fig8.jpg" vspace="10" width="500">
 </p>
 
-3.3. Podremos agregar las guías dando click derecho sobre la regla que está visible dentro de la vista *Layout*. La opción **Add Guide** colocará una guía sobre la posición que hicimos click. Sin embargo, vamos poner diversas guías horizontales y verticales espaciadas equitativamente. Damos click en **Add Guides...**. En el panel que se abrirá seleccionamos la orientación **Both**, la colocación será **Evenly spaced**, y el intervalo de separación será **1 in**. Hacemos click en OK y veremos que ahora tenemos una grilla en nuestra plantilla de diseño que nos ayudará a posicionar los objetos. Si se desea emover las guías, damos click derecho sobre la regla 
+3.3. Podremos agregar las guías dando click derecho sobre la regla que está visible dentro de la vista *Layout*. La opción **Add Guide** colocará una guía sobre la posición que hicimos click. Sin embargo, vamos poner diversas guías horizontales y verticales espaciadas equitativamente. Damos click en **Add Guides...**. En el panel que se abrirá seleccionamos la orientación **Both**, la colocación será **Evenly spaced**, y el intervalo de separación será **1 in**. Hacemos click en OK y veremos que ahora tenemos una grilla en nuestra plantilla de diseño que nos ayudará a posicionar los objetos. Si se desea remover las guías, damos click derecho sobre la regla 
 
 <p align="center">
 <img src="../images/intro-arcgis/03_fig9.jpg" vspace="10" width="600">
+</p>
+
+## 4. Insertar mapa
+
+4.1. En la pestaña **Insert** de la barra de herramientas, damos click en **Map Frame**, ubicado dentro del grupo **Map Frames**. Se abrirá un vista desplegable, y seleccionamos el mapa que tiene nuestars capas visibles.
+
+<p align="center">
+<img src="../images/intro-arcgis/03_fig10.jpg" vspace="10" width="400">
+</p>
+
+4.2. Ahora podremos crear un recuadro hacinedo click sobre la plantilla y arrastrandolo hasta el tamaño que deseamos tener. Este marco se puede cambiar de tamaño posteriormente.
+
+<p align="center">
+<img src="../images/intro-arcgis/03_fig11.jpg" vspace="10" width="800">
+</p>
+
+4.3. Sin embargo puede notar que la extensión del mapa puede no mostrarse como se desea, e incluso no se muestra la capa que deseamos. Primero nos aseguramos de seleccionar unicamente la capa que nos interesa mostrar en este marco, la cual será la capa *DOM_adm0*. Ahora, para cambiar la escala o extension del mapa dentro del marco, debemos seleccionar el marco haciendo click dentro de él. Nos dirigimos a la pestaña **Layout** de la barra de herramientas, y dentro del grupo **Map** damos click en **Activate**. Podremos observar que el marco se seleccionará y podremos cambiar la escala del mapa dentro del marco. Para cerrar la activación, nos dirigimos a la pestaña **Layout** de la barra de herramientas, y damos click en **Close Activation**.
+
+<p align="center">
+<img src="../images/intro-arcgis/03_fig12.jpg" vspace="10" width="800">
 </p>
 
 
