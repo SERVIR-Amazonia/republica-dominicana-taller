@@ -13,6 +13,16 @@ Este material de enseñanza está basado en ArcGIS Pro 3.1, y usa algunos recurs
 
 Tiempo estimado: 60 min.
 
+## Material
+
+Se usará material descargado del portal [Diva-GIS](http://www.diva-gis.org/gdata), correspondiente a República Dominicana, tanto en formatos vectorial como ráster:
+* Administrative areas
+* Inland water
+* Roads
+* Elevation
+* Land cover
+* Population
+
 ## Nuevo Proyecto
 
 <p align="center">
