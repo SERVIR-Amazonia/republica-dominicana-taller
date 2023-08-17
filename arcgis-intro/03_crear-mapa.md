@@ -25,9 +25,22 @@ Se usará material descargado del portal [Diva-GIS](http://www.diva-gis.org/gdat
 
 ## Nuevo Proyecto
 
+1. Abra ArcGIS Pro y cree un nuevo proyecto. Si ha estado trabajando en otro poryecto puede ir a la pestaña **Project**, seleccionar **New**, y dar click en **Map**. Para esta práctica es recomendable que el proyecto se guarde en su computador local. Posteriormente aparecerá una ventana donde puede ingresar un nombre a su proyecto y decidir en donde lo va guardar.
+
 <p align="center">
-<img src="../images/intro-arcgis/02_fig1.jpg" vspace="10" width="800">
+<img src="../images/intro-arcgis/03_fig1.jpg" vspace="10" width="800">
 </p>
+
+2. A continuación usted verá que crea un proyecto y se observara una vista de mapa. En el panel **Contents** se mostrarán dos capas predeterminadas que muestran el mapa mundial con detalles topográficos y administrativos. Estás capas nos ayudan a orientarnos espacialmente. Si usted no las desea ustilar en su proyecto las puede deseleccionar o remover.
+
+<p align="center">
+<img src="../images/intro-arcgis/03_fig2.jpg" vspace="10" width="800">
+</p>
+
+## Importar datos vectoriales
+
+
+
 
 ## Descargar datos geoespaciales
 
