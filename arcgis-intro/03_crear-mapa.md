@@ -39,8 +39,19 @@ Se usará material descargado del portal [Diva-GIS](http://www.diva-gis.org/gdat
 
 ## 2. Importar datos vectoriales
 
+1. Podemos importar o añadir datos al proyecto de dos formas: podemos arrastrar el archivo y soltarlo en el panel **Contents** o podemos ir a la pestaña **Map**, dentro del grupo **Layer**, dar click en **Add Data**. Se va a desplegar una lista con diversas acciones, vamos a dar click en **Data**.
 
+<p align="center">
+<img src="../images/intro-arcgis/03_fig3.jpg" vspace="10" width="800">
+</p>
 
+2. En la ventana que aparece vamos a buscar el directorio donde hemos guardado nuestros archivos. Vamos a cargar las capas administrativas de República Dominicana en el archivo llamado *DOM_adm*. Dentro de esta carpeta veremos archivos en formato *.shp* y *.csv*, ambos formatos se pueden importar, pero en este caso vamos a trabajar con archivos .shp. Seleccionamos los tres archivos .shp disponibles, los cuales indican el nivel administrativo.
+
+<p align="center">
+<img src="../images/intro-arcgis/03_fig4.jpg" vspace="10" width="400">
+</p>
+
+3. 
 
 ## Descargar datos geoespaciales
 
