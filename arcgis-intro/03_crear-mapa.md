@@ -25,7 +25,7 @@ Se usará material descargado del portal [Diva-GIS](http://www.diva-gis.org/gdat
 
 ## Nuevo Proyecto
 
-1. Abra ArcGIS Pro y cree un nuevo proyecto. Si ha estado trabajando en otro poryecto puede ir a la pestaña **Project**, seleccionar **New**, y dar click en **Map**. Para esta práctica es recomendable que el proyecto se guarde en su computador local. Posteriormente aparecerá una ventana donde puede ingresar un nombre a su proyecto y decidir en donde lo va guardar.
+1. Abra ArcGIS Pro y cree un nuevo proyecto. Si ha estado trabajando en otro proyecto puede ir a la pestaña **Project**, seleccionar **New**, y dar click en **Map**. Para esta práctica es recomendable que el proyecto se guarde en su computador local. Posteriormente aparecerá una ventana donde puede ingresar un nombre a su proyecto y decidir en donde lo va guardar.
 
 <p align="center">
 <img src="../images/intro-arcgis/03_fig1.jpg" vspace="10" width="800">
