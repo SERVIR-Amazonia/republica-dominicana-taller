@@ -103,6 +103,13 @@ Se usará material descargado del portal [Diva-GIS](http://www.diva-gis.org/gdat
 <img src="../images/intro-arcgis/03_fig12.jpg" vspace="10" width="1000">
 </p>
 
+4.4. En este primer marco vamos a seleccionar también la capa *DOM_adm1* que muestra las provincias de República Dominicana. Nos enfocaremos en la provincia de Santo Domingo y Distrito Nacional. Vamos a filtrarla para dejar que estas sean las unicas visibles y se superpongan a la capa *DOM_adm0*.
+
+<p align="center">
+<img src="../images/intro-arcgis/03_fig13.jpg" vspace="10" width="800">
+</p>
+
+4.5. Al explorar la tabla de atributos de la capa *DOM_adm1*, veremos que los nombres de las provincias están dentro del atributo o columna llamada *NAME_1*. Este atributo será el que usaremos para filtrar las provincias de interés. Con la capa *DOM_adm1* seleccionada, damos click en la pestaña **Feature Layer** de la barra de herramientas, desplegamos la flecha de **Simbology**, y escogemos la opción **Unique Values**.
 
 ## Descargar datos geoespaciales
 
