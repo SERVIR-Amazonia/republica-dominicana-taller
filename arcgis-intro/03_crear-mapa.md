@@ -115,7 +115,17 @@ Se usará material descargado del portal [Diva-GIS](http://www.diva-gis.org/gdat
 <img src="../images/intro-arcgis/03_fig14.jpg" vspace="10" width="1000">
 </p>
 
+4.6. Para añadir un segundo marco con capas independientes del primer marco es necesario añadir un nuevo mapa. Vamos a la pestaña **Insert**, damos click en **New Map**, y agregamos en este mapa los datos que vamos a usar para el segundo marco. Por ahora vamos a añadir solo la capa *DOM_adm2* que contiene los municipios. Si agregamos un segundo marco usando la misma vista de mapa, estos no van a ser independientes y los cambios que hagamos en las capas se verán reflejados en los otros marcos.
 
+4.7. Ahora agregamos un nuevo marco en la vista **Layout** o plantilla donde estamos creando el mapa. Nos aseguramos de seleccionar la vista del mapa correspondiente. Seleccionamos la capa *DOM_adm2* que contiene municipios y hacemos un procedimiento similar al del paso 4.5. Vamos a dejar únicamente visibles los municipios que estén en las provincias de Santo Domingo y Distrito Nacional. Es necesario usar dos campos para filtrar los municipios en el panel **Symbology**. En **Field 1** usamos el campo *NAME_1*, luego damos click en **Add field** para añadir nuevo campo, y en **Field 2** seleccionamos el campo *NAME_2*. Veremos que ahora las clases se verán agrupadas por municipio y provincia (apróximadamente 159 clases), debemos únicamente remover las clases de los municipios que no pertenecen a Santo Domingo y Distrito Nacional. Este segundo marco será nuesto mapa principal.
+
+<p align="center">
+<img src="../images/intro-arcgis/03_fig15.jpg" vspace="10" width="800">
+</p>
+
+## 5. Complementar datos del mapa
+
+5.1. Vamos a añadir 
 
 ## Descargar datos geoespaciales
 
