@@ -117,15 +117,28 @@ Se usará material descargado del portal [Diva-GIS](http://www.diva-gis.org/gdat
 
 4.6. Para añadir un segundo marco con capas independientes del primer marco es necesario añadir un nuevo mapa. Vamos a la pestaña **Insert**, damos click en **New Map**, y agregamos en este mapa los datos que vamos a usar para el segundo marco. Por ahora vamos a añadir solo la capa *DOM_adm2* que contiene los municipios. Si agregamos un segundo marco usando la misma vista de mapa, estos no van a ser independientes y los cambios que hagamos en las capas se verán reflejados en los otros marcos.
 
-4.7. Ahora agregamos un nuevo marco en la vista **Layout** o plantilla donde estamos creando el mapa. Nos aseguramos de seleccionar la vista del mapa correspondiente. Seleccionamos la capa *DOM_adm2* que contiene municipios y hacemos un procedimiento similar al del paso 4.5. Vamos a dejar únicamente visibles los municipios que estén en las provincias de Santo Domingo y Distrito Nacional. Es necesario usar dos campos para filtrar los municipios en el panel **Symbology**. En **Field 1** usamos el campo *NAME_1*, luego damos click en **Add field** para añadir nuevo campo, y en **Field 2** seleccionamos el campo *NAME_2*. Veremos que ahora las clases se verán agrupadas por municipio y provincia (apróximadamente 159 clases), debemos únicamente remover las clases de los municipios que no pertenecen a Santo Domingo y Distrito Nacional. Este segundo marco será nuesto mapa principal.
+4.7. Ahora agregamos un nuevo marco en la vista **Layout** o plantilla donde estamos creando el mapa. Nos aseguramos de seleccionar la vista del mapa correspondiente. Seleccionamos la capa *DOM_adm2* que contiene municipios y hacemos un procedimiento similar al del paso 4.5. Vamos a dejar únicamente visibles los municipios que estén en las provincias de Santo Domingo y Distrito Nacional. Es necesario usar dos campos para filtrar los municipios en el panel **Symbology**. En **Field 1** usamos el campo *NAME_1*, luego damos click en **Add field** para añadir nuevo campo, y en **Field 2** seleccionamos el campo *NAME_2*. Veremos que ahora las clases serán independientes por municipio y provincia (apróximadamente 159 clases), debemos únicamente remover las clases de los municipios que no pertenecen a Santo Domingo y Distrito Nacional. Otra forma de filtrar es hacerlo únicamente por el campo *NAME_1*, y obtendremos todos los municipios agrupados por provincia. Este segundo marco será nuesto mapa principal.
 
 <p align="center">
 <img src="../images/intro-arcgis/03_fig15.jpg" vspace="10" width="800">
 </p>
 
-## 5. Complementar datos del mapa
+## 5. Complementar y personalizar datos del mapa
 
-5.1. Vamos a añadir 
+5.1. Vamos a añadir datos de carreteras (*DOM_rds*), ríos (*DOM_water_lines_dcw*), aeropuertos (*ne_10m_airports*), y puertos (*ne_10m_ports*), a la más reciente vista de mapa creada. Activamos también la capa *DOM_adm0* en el segundo marco de mapa. En este momento tenemos datos vectoriales de todo tipo: polígonos, líneas, y puntos.
+
+<p align="center">
+<img src="../images/intro-arcgis/03_fig16.jpg" vspace="10" width="800">
+</p>
+
+5.2. En este paso vamos a cambiar los colores de cada una de las capas y objetos del mapa, cambiar grosor y tipos de lineas, y asignaremos símbolos a los aeropuertos y puertos. Todo esto lo haremos desde el panel **Symbology**. En el marco 1, pondremos los colores que nos parezcan para distinguir las provincias de interés e identificar su ubicación dentro de República Dominicana. El grosor de líneas puede ser de *1 pt*. En el marco 2, damos énfasis a los municipios de las provincias de interés asignando un color más oscuro y aumentando el grosor de líneas a *2 pt*. Las carreteras y ríos se han cambiado a líneas rayadas, de color rojo y azul respectivamente, y grosor de línea de *1.5 pt*. A los símbolos para aeropuertos y puertos se les aumento el símbolo a *20 pt* y el área circular a *22 pt*, y se les cambio el solo al símbolo.
+
+<p align="center">
+<img src="../images/intro-arcgis/03_fig17.jpg" vspace="10" width="800">
+</p>
+
+5.3. Adicionalmente, añadiremos un nuevo mapa y añadiremos un tercer marco que indicará la posición regional de República Dominicana, usando las capas predeterminadas 
+
 
 ## Descargar datos geoespaciales
 
