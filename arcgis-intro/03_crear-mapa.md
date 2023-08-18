@@ -51,7 +51,7 @@ Se usará material descargado del portal [Diva-GIS](http://www.diva-gis.org/gdat
 <img src="../images/intro-arcgis/03_fig4.jpg" vspace="10" width="500">
 </p>
 
-2.3. Los archivos que importemos los veremos en el panel **Contents**. El nivel administrativo 0 es unicamente un polígono del área nacional, el nivel administrativo 1 son varios polígonos de las áreas provinciales, y el nivel administrativo 2 son más polígonos de las áreas municipales. Cada capa es cargada con un color de manera predeterminada, pero puede ser editada expandiendo las capas y dando click en el recuadro coloreado. Esto abrirá el panel **Simbology** donde se puede editar el color de relleno, color de línea, y ancho de línea desde la pestaña **Properties**. Recuerde que para ver las otras capas en la vista de mapa debe deseleccionar otras que se encuentran por encima de la que desea visualizar.
+2.3. Los archivos que importemos los veremos en el panel **Contents**. El nivel administrativo 0 es unicamente un polígono del área nacional, el nivel administrativo 1 son varios polígonos de las áreas provinciales, y el nivel administrativo 2 son más polígonos de las áreas municipales. Cada capa es cargada con un color de manera predeterminada, pero puede ser editada expandiendo las capas y dando click en el recuadro coloreado. Esto abrirá el panel **Symbology** donde se puede editar el color de relleno, color de línea, y ancho de línea desde la pestaña **Properties**. Recuerde que para ver las otras capas en la vista de mapa debe deseleccionar otras que se encuentran por encima de la que desea visualizar.
 
 <p align="center">
 <img src="../images/intro-arcgis/03_fig5.jpg" vspace="10" width="1000">
@@ -109,7 +109,13 @@ Se usará material descargado del portal [Diva-GIS](http://www.diva-gis.org/gdat
 <img src="../images/intro-arcgis/03_fig13.jpg" vspace="10" width="800">
 </p>
 
-4.5. Al explorar la tabla de atributos de la capa *DOM_adm1*, veremos que los nombres de las provincias están dentro del atributo o columna llamada *NAME_1*. Este atributo será el que usaremos para filtrar las provincias de interés. Con la capa *DOM_adm1* seleccionada, damos click en la pestaña **Feature Layer** de la barra de herramientas, desplegamos la flecha de **Simbology**, y escogemos la opción **Unique Values**.
+4.5. Al explorar la tabla de atributos de la capa *DOM_adm1*, veremos que los nombres de las provincias están dentro del atributo o columna llamada *NAME_1*. Este atributo será el que usaremos para filtrar las provincias de interés. Con la capa *DOM_adm1* seleccionada, damos click en la pestaña **Feature Layer** de la barra de herramientas, desplegamos la flecha de **Symbology**, y escogemos la opción **Unique Values**. En el panel **Symbology**, seleccionas el campo *NAME_1* en la opción **Field 1**. Veremos una clasificación de colores automática para cada Provincia. Dentro del subpanel **Classes** veremos la lista de provincias, seleccionamos todas las que no nos interesan y presionamos la tecla *Supr* para eliminarlos de esta clasificación. Al final la lista deberá mostrar solo tres clases: Distrito Nacional, Santo Domingo, y otro clases que incluye todos los demas valores o provincias en **all other values**. Por ahora, vamos a editar la clase *all other values* dejandola invisible. Para ello damos click en el recuadro de color correspondiente, se abrirá otro panel de **Symbology**, en la pestaña **Properties**, damos click en el botón **Layers**. Deseleccionamos las opciones de **Solid stroke** y **Solid fill** para ocultar estos objetos, y damos click en **Apply**.
+
+<p align="center">
+<img src="../images/intro-arcgis/03_fig14.jpg" vspace="10" width="1000">
+</p>
+
+
 
 ## Descargar datos geoespaciales
 
