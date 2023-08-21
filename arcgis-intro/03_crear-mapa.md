@@ -164,7 +164,7 @@ Para editar el intervalo de la grilla nos dirijimos al botón **Options** del pa
 6.3. El siguiente paso es agregar un leyenda al mapa. Vamos a seleccionar el marco *Map Frame 1* que contiene los municipios, carreteras y ríos, luego en la pestaña **Insert** en la barra de herramientas, dentro del grupo **Map Surrounds**, seleccionamos la flecha de **Legend** y escogemos la opción **Legend 4**. Luego dibujamos un recuadro dentro del marco de mapa. Esto agregará una leyenda con todos los elementos o capas usadas en este marco respectivo, y un elemento de leyenda se agregará en el panel **Contents**.
 
 <p align="center">
-<img src="../images/intro-arcgis/03_fig21.jpg" vspace="10" width="500">
+<img src="../images/intro-arcgis/03_fig21.jpg" vspace="10" width="300">
 </p>
 
 Sin embargo, esta leyenda es todavia muy precaria, y muestra más elementos de los que debería. Así que vamos a ir al panel **Contents** y a desplegar la lista de elementos dentro de **Legend**. Deseleccionamos *DOM_adm0*, *DOM_adm1*, y *DOM_adm2*. Aún falta cambiar el nombre de las capas correctamente, así que vamos al *Map Frame 1* y desplegamos los elementos en el panel **Contents**, seleccionamos cada capa individualmente y cambiamos su nombre, ya sea haciendo un segundo click sobre el nombre de la capa o yendo a **Properties** de la capa, y cambiar el nombre desde el campo *Name* en la pestaña **General**. Luego, podemos aumentar el tamaño de fuente de la leyenda haciendo click derecho sobre el elemento *Legend** en el panel **Contents**, se abrirá el panel **Element**, y nos dirigimos a la pestaña **Text Symbol** y cambiamos el tamaño en **Size**, en este caso usamos 14 pt. Activamos el título de la leyenda en la pestaña **Legend** del panel **Element*, luego en la pestaña **Legend** activar el recuadro **Show** en la opción *Title*. Podemos poner un título adecuado a nuestra leyenda. Adicionalmente, podemos agregar un borde al cuadro de leyenda desde el botón **Display** en el panel **Element**, en la pestaña **Border**, seleccionamos en la opción **Symbol** un color y grosor de línea.
@@ -172,6 +172,18 @@ Sin embargo, esta leyenda es todavia muy precaria, y muestra más elementos de l
 <p align="center">
 <img src="../images/intro-arcgis/03_fig22.jpg" vspace="10" width="1000">
 </p>
+
+6.4. Los detalles finales del mapa incluyen una roseta de los vientos, la escala del mapa, y cuadros de texto incluyendo alguna descripción o créditos. El cuadro de descripción podemos agregarlo desde la pestaña **Insert**, grupo **Graphics and Text**, botón **Dynamic Text**, y seleccionamos **Description**. Luego dibujamos el recuadro sobre la plantilla de mapa, lo seleccionamos, y en el panel **Element** escribiremos la descripción del mapa en el recuadro de la opción **Text** de la pestaña **Options**. El texto no se ajusta automáticamente al tamaño del recuadro, por lo tanto hay que escribir en líneas diferentes las porciones de texto.
+
+Para agregar la roseta o flecha de Norte, seleccionamos el marco *Map Frame 1*, y luego vamos a **Insert** de la barra de herramientas, en el grupo **Map Surrounds**, desplegamos la opción **North Arrow** y seleccionamos una figura adecuada. Normalmente se ubica en una de las esquinas superiores del mapa.
+
+Por último, la barra de escala se agrega desde el mismo grupo **Map Surrounds**, seleccionando un diseño de los disponibles en la opción **Scale Bar**, usando las unidades métricas. Dibujamos la escala en el mapa, luego lo editamos desde el panel **Element**. En la pestaña **Scale Bar** del panel **Element**, en la sección **Map Units**, seleccionamos las unidades *Kilometers*, y definimos la etiqueta de unidad como *Km* en el campo de **Label Text**. Ahora, hacemos click en el botón **Properties**, en la sección **Fitting Strategy** seleccionamos **Adjust number of divisions**. Luego en la sección **Divisions**, en el campo **Division Value** escribimos 20, y en la opción **Subdivisions** seleccionamos 4. Esto significa que la longitud máxima de la barra de escala va a tener máximo 20 km y va a tener 4 subdivisiones, una cada 5 km. En la pestaña **Text Symbol** del panel **Element** están las opciones para cambiar tamaño y tipo de fuente.
+
+<p align="center">
+<img src="../images/intro-arcgis/03_fig23.jpg" vspace="10" width="1000">
+</p>
+
+
 
 ## Descargar datos geoespaciales
 
