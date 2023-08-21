@@ -137,13 +137,13 @@ Se usará material descargado del portal [Diva-GIS](http://www.diva-gis.org/gdat
 <img src="../images/intro-arcgis/03_fig17.jpg" vspace="10" width="800">
 </p>
 
-5.3. Adicionalmente, añadiremos un nuevo mapa y añadiremos un tercer marco que indicará la posición regional de República Dominicana, usando las capas predeterminadas de *World Topographic Map* y *World Hillshade*. A;adimos un punto sobre el tercer marco indicando la posición de República Dominicana. Vamos a la pestaña **Insert**, en el grupo **Graphics and Text**, seleccionamos un punto y lo ponemos sobre el marco. Veremos que que se añade este punto como un nuevo elemento en el panel **Contents**. Si lo deseamos, podemos personalizar este punto. Seleccionamos la capa **Point**, luego vamos a la pestaña **Graphic** en la barra de herramientas, dentro del grupo **Symbol** encontramos las opciones para cambiar la forma, tamañoy color de este símbolo. En este ejemplo se ha usado una estrella roja de tamaño 20 pt.
+5.3. Adicionalmente, añadiremos un nuevo mapa y añadiremos un tercer marco que indicará la posición regional de República Dominicana, usando las capas predeterminadas de *World Topographic Map* y *World Hillshade*. Añadimos un punto sobre el tercer marco indicando la posición de República Dominicana. Vamos a la pestaña **Insert**, en el grupo **Graphics and Text**, seleccionamos un punto y lo ponemos sobre el marco. Veremos que que se añade este punto como un nuevo elemento en el panel **Contents**. Si lo deseamos, podemos personalizar este punto. Seleccionamos la capa **Point**, luego vamos a la pestaña **Graphic** en la barra de herramientas, dentro del grupo **Symbol** encontramos las opciones para cambiar la forma, tamañoy color de este símbolo. En este ejemplo se ha usado una estrella roja de tamaño 20 pt.
 
 <p align="center">
 <img src="../images/intro-arcgis/03_fig18.jpg" vspace="10" width="800">
 </p>
 
-5.4. Vamos a añadir etiquetas dentro de los marcos. Esto lo podemos hacer de dos formas: añadiendo elemntos de texto manualmente o añadiendo etiquetas predeterminadas usando los atributos de cada capa. Para las estiquetas de los municipios, seleccionamos la capa *DOM_adm2*, damos click en la pestaña **Labeling** en la barra de herramientas, dentro del grupo **Label Class**, en **Field** seleccionamos el atributo *NAME_2*, y damos click en el botón **Label** para activar las etiquetas.
+5.4. Vamos a añadir etiquetas dentro de los marcos. Esto lo podemos hacer de dos formas: añadiendo elementos de texto manualmente o añadiendo etiquetas predeterminadas usando los atributos de cada capa. Para las estiquetas de los municipios, seleccionamos la capa *DOM_adm2*, damos click en la pestaña **Labeling** en la barra de herramientas, dentro del grupo **Label Class**, en **Field** seleccionamos el atributo *NAME_2*, y damos click en el botón **Label** para activar las etiquetas.
 
 ## Descargar datos geoespaciales
 
