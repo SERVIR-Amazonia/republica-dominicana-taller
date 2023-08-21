@@ -161,6 +161,16 @@ Para editar el intervalo de la grilla nos dirijimos al botón **Options** del pa
 <img src="../images/intro-arcgis/03_fig20.jpg" vspace="10" width="800">
 </p>
 
+6.3. El siguiente paso es agregar un leyenda al mapa. Vamos a seleccionar el marco *Map Frame 1* que contiene los municipios, carreteras y ríos, luego en la pestaña **Insert** en la barra de herramientas, dentro del grupo **Map Surrounds**, seleccionamos la flecha de **Legend** y escogemos la opción **Legend 4**. Luego dibujamos un recuadro dentro del marco de mapa. Esto agregará una leyenda con todos los elementos o capas usadas en este marco respectivo, y un elemento de leyenda se agregará en el panel **Contents**.
+
+<p align="center">
+<img src="../images/intro-arcgis/03_fig21.jpg" vspace="10" width="500">
+</p>
+
+Sin embargo, esta leyenda es todavia muy precaria, y muestra más elementos de los que debería. Así que vamos a ir al panel **Contents** y a desplegar la lista de elementos dentro de **Legend**. Deseleccionamos *DOM_adm0*, *DOM_adm1*, y *DOM_adm2*.
+
+
+
 ## Descargar datos geoespaciales
 
 * [The open data portal based on ArcGIS Hub technology](https://hub.arcgis.com/search): Portal con datos compartidos por usuarios Esri.
