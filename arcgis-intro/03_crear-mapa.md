@@ -9,19 +9,22 @@ nav_order: 3
 
 Para compartir algún proyecto ya sea mapa, poster, o archivo PDF, se requiere saber crear un diseño. El diseño es una composición de uno o más mapas, junto con los elementos que lo componen como título, leyenda, y texto. Algunos diseños pueden incluir más de un mapa. Para esta sección se creará un nuevo proyecto, se descargarán y utilizaran algunos datos vectoriales, se creará un mapa, y se exportará.
 
+<p align="center">
+<img src="../images/intro-arcgis/03_mapa.jpg" vspace="10" width="300">
+</p>
+
 Este material de enseñanza está basado en ArcGIS Pro 3.1, y usa algunos recursos de la [guía rápida](https://pro.arcgis.com/en/pro-app/latest/get-started/add-maps-to-a-layout.htm) a ArcGIS Pro de ESRI<sup>TM</sup>.
 
-Tiempo estimado: 60 min.
+Tiempo estimado: 60-90 min.
 
 ## Material
 
-Se usará material descargado del portal [Diva-GIS](http://www.diva-gis.org/gdata), correspondiente a República Dominicana, tanto en formatos vectorial como ráster:
-* Administrative areas
-* Inland water
-* Roads
-* Elevation
-* Land cover
-* Population
+Se usará material descargado del portal [Diva-GIS](http://www.diva-gis.org/gdata) y [Natural Earth](https://www.naturalearthdata.com/), correspondiente a República Dominicana en formatos vectoriales:
+* Administrative areas (Diva GIS)
+* Inland water (Diva GIS)
+* Roads (Diva GIS)
+* Airports (Natural Earth)
+* Ports (Natural Earth)
 
 ## 1. Nuevo Proyecto
 
@@ -183,9 +186,21 @@ Por último, la barra de escala se agrega desde el mismo grupo **Map Surrounds**
 <img src="../images/intro-arcgis/03_fig23.jpg" vspace="10" width="1000">
 </p>
 
+## Exportar mapa
 
+Teniendo nuestro mapa finalizado podemos exportarlo desde la pestaña **Share**, grupo **Output**, opción **Export Layout**. Allí veremos multiples formatos, incluyendo GeoTIFF y Web JPEG. Al seleccionar el formato, se abrirá el panel **Export**. Si hemos selecccionado Web JPEG, observaremos que podemos escoger el formato de imagen disponible en **File Type**. Otras opciones están disponibles, como directorio donde se desea exportar, compresión, resolución, y color. Por ultimo, dar click en el botón **Export**.
 
-## Descargar datos geoespaciales
+<p align="center">
+<img src="../images/intro-arcgis/03_fig24.jpg" vspace="10" width="300">
+</p>
+
+El resultado será un mapa como este, con el cual finalizamos esta lección:
+
+<p align="center">
+<img src="../images/intro-arcgis/03_mapa.jpg" vspace="10" width="600">
+</p>
+
+# Recursos para descargar datos geoespaciales
 
 * [The open data portal based on ArcGIS Hub technology](https://hub.arcgis.com/search): Portal con datos compartidos por usuarios Esri.
 * [The Esri Living Atlas of the World](https://livingatlas.arcgis.com/en/home/): Portal con cientos de datos y mapas de diversos temas.
