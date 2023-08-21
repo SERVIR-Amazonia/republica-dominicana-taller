@@ -137,13 +137,22 @@ Se usará material descargado del portal [Diva-GIS](http://www.diva-gis.org/gdat
 <img src="../images/intro-arcgis/03_fig17.jpg" vspace="10" width="800">
 </p>
 
-5.3. Adicionalmente, añadiremos un nuevo mapa y añadiremos un tercer marco que indicará la posición regional de República Dominicana, usando las capas predeterminadas de *World Topographic Map* y *World Hillshade*. Añadimos un punto sobre el tercer marco indicando la posición de República Dominicana. Vamos a la pestaña **Insert**, en el grupo **Graphics and Text**, seleccionamos un punto y lo ponemos sobre el marco. Veremos que que se añade este punto como un nuevo elemento en el panel **Contents**. Si lo deseamos, podemos personalizar este punto. Seleccionamos la capa **Point**, luego vamos a la pestaña **Graphic** en la barra de herramientas, dentro del grupo **Symbol** encontramos las opciones para cambiar la forma, tamañoy color de este símbolo. En este ejemplo se ha usado una estrella roja de tamaño 20 pt.
+5.3. Adicionalmente, añadiremos un nuevo mapa y añadiremos un tercer marco que indicará la posición regional de República Dominicana, usando las capas predeterminadas de *World Topographic Map* y *World Hillshade*. Añadimos un punto sobre el tercer marco indicando la posición de República Dominicana. Vamos a la pestaña **Insert**, en el grupo **Graphics and Text**, seleccionamos un punto y lo ponemos sobre el marco. Veremos que que se añade este punto como un nuevo elemento en el panel **Contents**. Si lo deseamos, podemos personalizar este punto. Seleccionamos la capa **Point**, luego vamos a la pestaña **Graphic** en la barra de herramientas, dentro del grupo **Symbol** encontramos las opciones para cambiar la forma, tamañoy color de este símbolo. En este ejemplo se ha usado una estrella roja de tamaño 20 pt. En el primer marco (*Map Frame*) activamos la capa *World Topographic Map*.
 
 <p align="center">
 <img src="../images/intro-arcgis/03_fig18.jpg" vspace="10" width="800">
 </p>
 
-5.4. Vamos a añadir etiquetas dentro de los marcos. Esto lo podemos hacer de dos formas: añadiendo elementos de texto manualmente o añadiendo etiquetas predeterminadas usando los atributos de cada capa. Para las estiquetas de los municipios, seleccionamos la capa *DOM_adm2*, damos click en la pestaña **Labeling** en la barra de herramientas, dentro del grupo **Label Class**, en **Field** seleccionamos el atributo *NAME_2*, y damos click en el botón **Label** para activar las etiquetas.
+## 6. Agregar últimos detalles del mapa
+
+6.1. Vamos a añadir etiquetas dentro de los marcos. Esto lo podemos hacer de dos formas: añadiendo elementos de texto manualmente o añadiendo etiquetas predeterminadas usando los atributos de cada capa. Para las estiquetas de los municipios, seleccionamos la capa *DOM_adm2*, damos click en la pestaña **Labeling** en la barra de herramientas, dentro del grupo **Label Class**, en **Field** seleccionamos el atributo *NAME_2*, y damos click en el botón **Label** para activar las etiquetas. Para agregar cuadros de texto adicional, dar click en la pestaña **Insert** de la barra de herramientas, en el grupo **Graphics and Text**, dar click en el ícono **Straight text** para insertar texto, luego dar click dentro de algún marco para escribir texto. El texto se puede editar dando click en el cuadro de texto, luego ir a la pestaña **Text** en la barra de herramientas, dentro del grupo **Text Symbol** se encuentran las opciones para cambiar tipo y tamaño de fuente. Es importante que el texto sea legible y tenga tamaño adecuado.
+
+<p align="center">
+<img src="../images/intro-arcgis/03_fig19.jpg" vspace="10" width="800">
+</p>
+
+6.2. En el marco inicial que contiene la vista de República Dominicana (*Map Frame*), lo seleccionamos y damos click en **Insert**, dentro del grupo **Map Frames**, dar click en **Extent Indicator**, y seleccionamos el marco que tiene la vista detallada de municipios, río, y carreteras (*Map Frame 1*). Ahora podremos ver que se dibuja un rectangulo indicando la extensión de este mapa dentro del marco *Map Frame*. Ahora, procedemos a agregar una grilla al marco *Map Frame 1*, damos click en **Insert**, en el grupo **Map Frames** damos click en **Grid**. Se dibujará una grilla sobre el marco, y se añadirá un elemento nuevo dentro del grupo *Map Frame 1* en el panel **Contents**. Podemos editar la grilla haciendo click derecho en el elemento de grilla *Black Horizontal Label Graticule* en el panel **Contents**, hacemos click en **Properties**, y se abrirá el panel **Element**. Damos click en el botón **Components**, seleccionamos **Labels** de la lista, y en la pestaña **Visible** desmarcamos las casillas **North** y **East** para no hacerlas visibles.
+
 
 ## Descargar datos geoespaciales
 
