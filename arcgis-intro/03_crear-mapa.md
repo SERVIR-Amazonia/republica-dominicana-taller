@@ -167,9 +167,11 @@ Para editar el intervalo de la grilla nos dirijimos al botón **Options** del pa
 <img src="../images/intro-arcgis/03_fig21.jpg" vspace="10" width="500">
 </p>
 
-Sin embargo, esta leyenda es todavia muy precaria, y muestra más elementos de los que debería. Así que vamos a ir al panel **Contents** y a desplegar la lista de elementos dentro de **Legend**. Deseleccionamos *DOM_adm0*, *DOM_adm1*, y *DOM_adm2*.
+Sin embargo, esta leyenda es todavia muy precaria, y muestra más elementos de los que debería. Así que vamos a ir al panel **Contents** y a desplegar la lista de elementos dentro de **Legend**. Deseleccionamos *DOM_adm0*, *DOM_adm1*, y *DOM_adm2*. Aún falta cambiar el nombre de las capas correctamente, así que vamos al *Map Frame 1* y desplegamos los elementos en el panel **Contents**, seleccionamos cada capa individualmente y cambiamos su nombre, ya sea haciendo un segundo click sobre el nombre de la capa o yendo a **Properties** de la capa, y cambiar el nombre desde el campo *Name* en la pestaña **General**. Luego, podemos aumentar el tamaño de fuente de la leyenda haciendo click derecho sobre el elemento *Legend** en el panel **Contents**, se abrirá el panel **Element**, y nos dirigimos a la pestaña **Text Symbol** y cambiamos el tamaño en **Size**, en este caso usamos 14 pt. Activamos el título de la leyenda en la pestaña **Legend** del panel **Element*, luego en la pestaña **Legend** activar el recuadro **Show** en la opción *Title*. Podemos poner un título adecuado a nuestra leyenda. Adicionalmente, podemos agregar un borde al cuadro de leyenda desde el botón **Display** en el panel **Element**, en la pestaña **Border**, seleccionamos en la opción **Symbol** un color y grosor de línea.
 
-
+<p align="center">
+<img src="../images/intro-arcgis/03_fig22.jpg" vspace="10" width="1000">
+</p>
 
 ## Descargar datos geoespaciales
 
