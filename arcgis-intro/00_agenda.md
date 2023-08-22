@@ -23,4 +23,4 @@ Navegue a través de las diferentes secciones de la lección utilizando el menú
 | 11:00 – 11:15 |                                                                                        Receso                                                                                        |
 | 11:15 – 12:00 |                                                        Crear mapa                                                                                                                    |
 | 12:00 – 13:00 |                                                                                       Almuerzo                                                                                       |
-| 13:00 – 15:00 |                                                                              Editar mapa y objectos vectoriales??                                                                    |
+| 13:00 – 15:00 |                                                                              Continuación Crear Mapa                                                                                 |
