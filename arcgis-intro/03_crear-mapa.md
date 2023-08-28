@@ -88,7 +88,7 @@ Se usará material descargado del portal [Diva-GIS](http://www.diva-gis.org/gdat
 
 ## 4. Insertar mapa
 
-4.1. En la pestaña **Insert** de la barra de herramientas, damos click en **Map Frame**, ubicado dentro del grupo **Map Frames**. Se abrirá un vista desplegable, y seleccionamos el mapa que tiene nuestars capas visibles.
+4.1. En la pestaña **Insert** de la barra de herramientas, damos click en **Map Frame**, ubicado dentro del grupo **Map Frames**. Se abrirá un vista desplegable, y seleccionamos el mapa que tiene nuestras capas visibles.
 
 <p align="center">
 <img src="../images/intro-arcgis/03_fig10.jpg" vspace="10" width="400">
