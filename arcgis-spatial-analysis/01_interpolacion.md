@@ -124,6 +124,12 @@ La carpeta con los archivos requeridos para esta prácticas están disponibles a
 <img src="../images/arcgis-spatial/01_fig14.jpg" vspace="10" width="900">
 </p>
 
+3.8. **[Trend](https://pro.arcgis.com/en/pro-app/latest/tool-reference/spatial-analyst/trend.htm)**: Este método de interpolación es líneal y puede implementar funciones polinómicas de diferentes órdenes para producir interpolaciones. En este casos usamos un tipo de regresión **Lineal** y orden polinómico de **7**. Puede intentar diferentes órdenes polinómicos para ver las diferencias.
+
+<p align="center">
+<img src="../images/arcgis-spatial/01_fig15.jpg" vspace="10" width="900">
+</p>
+
 ## 4. Exportar ráster
 
 ## 5. Comparar con datos de referencia
