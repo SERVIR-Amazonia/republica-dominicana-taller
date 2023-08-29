@@ -78,7 +78,51 @@ La carpeta con los archivos requeridos para esta prácticas están disponibles a
 <img src="../images/arcgis-spatial/01_fig7.jpg" vspace="10" width="900">
 </p>
 
+2.3. Adicionalmente, podremos cambiar el tamaño de los puntos a 6 pts para mejorar su visualización en el mapa.
+
 ## 3. Interpolación
+
+3.1. Vamos a probar diferentes métodos de interpolación y compararemos los resultados. Las herramientas de interpolación están disponibles en dentro del paquete **Spatial Analyst Tools**. Para visualizar las diferentes herramientas seleccionamos la pestaña **Analysis** en la barra de herramientas, y seleccionamos el botón **Tools**. Se abrirá el panel **Geoprocessing**. En la pestaña **Toolboxes** de este panel, seleccionamos y desplegamos **Spatial Analyst Tools**, luego desplegamos la opción **Interpolation**. Allí se visualizará una lista de los diferentes tipos de interpolación disponibles en ArcGIS Pro.
+
+<p align="center">
+<img src="../images/arcgis-spatial/01_fig8.jpg" vspace="10" width="300">
+</p>
+
+3.2. **[IDW](https://pro.arcgis.com/en/pro-app/latest/tool-reference/spatial-analyst/idw.htm)**: seleccionamos la capa con los datos en **Input point features** y la columna de precipitación en **Z value field**. Los demas campos los dejaremos predeterminados. 
+
+<p align="center">
+<img src="../images/arcgis-spatial/01_fig9.jpg" vspace="10" width="900">
+</p>
+
+3.3. **[Kriging](https://pro.arcgis.com/en/pro-app/latest/tool-reference/spatial-analyst/kriging.htm)**: Los campos de selección son similares a los usados en el **IDW**. Las propiedades de semivariograma son variadas, pero en este caso usaremos el método **Ordinary** en **Kriging method**, y el modelo **Spherical** en **Semi-variogram model**. 
+
+<p align="center">
+<img src="../images/arcgis-spatial/01_fig10.jpg" vspace="10" width="900">
+</p>
+
+3.4. **[Natural Neighbor](https://pro.arcgis.com/en/pro-app/latest/tool-reference/spatial-analyst/natural-neighbor.htm)**: Este método no tiene variables adicionales para aplicar. Cargamos los datos con las opciones predeterminadas y ejecutamos el método.
+
+<p align="center">
+<img src="../images/arcgis-spatial/01_fig11.jpg" vspace="10" width="900">
+</p>
+
+3.5. **[Spline](https://pro.arcgis.com/en/pro-app/latest/tool-reference/spatial-analyst/spline.htm)**: Cargamos los datos de manera similar a los anteriores métodos. La opción **Regularized** en **Spline type**, tiende a producer interpolaciones más suaves que la opción **Tension**. Los valores de **Weight** típicamente usados en el tipo **Regularized** son 0, 0.001, 0.01, y 0.5. Mientras que los valores típicos para el tipo **Tension** son 0, 1, 5, y 10. El número de puntos en **Number of points** es 12, predeterminadamente. Un mayor número de puntos puede incrementar la complejidad o variabilidad de la interpolación entre estaciones. En este caso usaremos los valores predeterminados. 
+
+<p align="center">
+<img src="../images/arcgis-spatial/01_fig12.jpg" vspace="10" width="900">
+</p>
+
+3.6. **[Spline with Barriers](https://pro.arcgis.com/en/pro-app/latest/tool-reference/spatial-analyst/spline-with-barriers.htm)**: Este método es similar a **Spline**, sin embargo se pueden añadir datos en forma de polígonos o líneas que pueden significar barreras geográficas, físicas, químicas, entre otras. En este caso cargaremos el polígono de República Dominicana como barrera. El resultado es interesante porque incluso extrapola los valores hasta los bordes del territorio representado en el polígono. Note que las pequeñas islas son enmascaradas, ya que allí no hay datos.
+
+<p align="center">
+<img src="../images/arcgis-spatial/01_fig13.jpg" vspace="10" width="900">
+</p>
+
+3.7. **[Topo to Raster](https://pro.arcgis.com/en/pro-app/latest/tool-reference/spatial-analyst/topo-to-raster.htm)**: Este método tiene muchas más variables que los anteriores y esta hecho para interpolar datos hidrólogicos, asumiendo que hay muchas formas geográficas y paisajes que pueden alterar la interpolación. La forma de cargar los datos es diferente también. Cargamos los puntos en el campo **Feature layer**, selccionamos la columna de precipitación en **Field**, y el tipo de datos es **Point elevation**. Las demás variables las dejaremos como predeterminadas. Sin embargo, puede intentar cambiar la opción **Drainage enforcement** de **Enforce** a **Do not enforce** o **Enforce with sink**. Los resultados de interpolación van a variar.
+
+<p align="center">
+<img src="../images/arcgis-spatial/01_fig14.jpg" vspace="10" width="900">
+</p>
 
 ## 4. Exportar ráster
 
