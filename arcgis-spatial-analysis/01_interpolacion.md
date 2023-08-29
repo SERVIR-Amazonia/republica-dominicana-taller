@@ -38,23 +38,45 @@ Los métodos de interpolación disponibles en la herramienta Spatial Analysis de
 
 ## Práctica
 
-Nuestro conjunto de datos son 37 estaciones metereológicas con datos de precipitación (mm) para el mes de Junio de 2023 y elevación (m). Las coordenadas, nombres, y elevacion de cada una de las estaciones metereológicas fueron tomadas del [ONAMET](https://onamet.gob.do/index.php/publicaciones/estaciones-automaticas). Los datos de precipitación no pudieron ser tomados del ONAMET. Sin embargo, fueron tomados de la colección [CHIRPS](https://developers.google.com/earth-engine/datasets/catalog/UCSB-CHG_CHIRPS_DAILY?hl=en) disponible en Google Earth Engine para el mes de Junio de 2023 en República Dominicana.
+Se usará un conjunto de datos de 37 estaciones metereológicas con medidas de precipitación (mm) para el mes de Junio de 2023 y elevación (m). Las coordenadas, nombres, y elevación de cada una de las estaciones metereológicas fueron tomadas del [ONAMET](https://onamet.gob.do/index.php/publicaciones/estaciones-automaticas). Los datos de precipitación no pudieron ser tomados del ONAMET. Sin embargo, fueron tomados de la colección [CHIRPS](https://developers.google.com/earth-engine/datasets/catalog/UCSB-CHG_CHIRPS_DAILY?hl=en) disponible en Google Earth Engine para el mes de Junio de 2023 en República Dominicana.
 
 <p align="center">
-<img src="../images/arcgis-spatial/01_fig3.jpg" vspace="10" width="400">
+<img src="../images/arcgis-spatial/01_fig3.jpg" vspace="10" width="500">
 </p>
 
 Los datos se encuentran en el archivo *precipitacion_jun2023.csv* y cuentan con la siguiente estructura:
 
 <p align="center">
-<img src="../images/arcgis-spatial/01_fig4.jpg" vspace="10" width="400">
+<img src="../images/arcgis-spatial/01_fig4.jpg" vspace="10" width="500">
 </p>
 
 La carpeta con los archivos requeridos para esta prácticas están disponibles aquí....
 
 ## 1. Importar datos
 
+1.1. Crear nuevo proyecto y renombrar adecuadamente para esta práctica. Renombrar mapa como *Precipitacion*. Para renombrar haga click derecho en el elemento **Map** del panel **Contents** y vaya a **Properties**. En esta nueva ventana que aparece, luego en la pestaña **General** proceda a cambiar el nombre del mapa en el campo **Name**.
+
+<p align="center">
+<img src="../images/arcgis-spatial/01_fig5.jpg" vspace="10" width="900">
+</p>
+
+1.2. Ahora importaremos los datos tabulares de precipitación del archivo *precipitacion_jun2023.csv*. En la pestaña **Map** de la barra de herramientas, haga click en **Add Data** y seleccione la opción **XY Point Data**. Esta es la opción para cargar datos tabulares con coordenadas organizadas en columnas de latitud y longitud. Se abrirá el panel **Geoprocessing**, allí seleccionamos el archivo a cargar en el campo **Input Table**, ponemos un nombre a la capa que se cargará en el mapa en **Output Feature Class**, seleccionar la columna de longitud en **X Field**, seleccionar la columna de latitud en **Y Field**, seleccionar la columna con los datos de precipitación en **Z Field**, y por ultimo se puede especificar un sistema de coordenadas en **Coordinate System**. Luego de tener todos los campos llenos hacecmos click en el botón **Run** localizado abajo a la derecha del panel.
+
+<p align="center">
+<img src="../images/arcgis-spatial/01_fig6.jpg" vspace="10" width="300">
+</p>
+
+1.3. Aquí podremos cargar datos o capas adicionales, por ejemplo el polígono de República Dominicana (archivo *DOM_adm0.shp*).
+
 ## 2. Visualizar puntos
+
+2.1. Podremos poner etiquetas de las estaciones en cada punto si deseamos. Para esto seleccionamos el elemento o capa de precipitación en el panel **Contents**, luego en la barra de herramientas hacer click en la pestaña **Labeling**, dentro del grupo **Label Class**, seleccionar la columna *Estacion* en la opción **Field**. Posteriormente, dar click en el botón **Label** para activar las etiquetas.
+
+2.2. También existe la posibilidad de visualizar los puntos con un gradiente de color de acuerdo a los valores de precipitación en cada estación. Seleccionamos la capa de precipitación y hacemos click en la pestaña **Feature Layer** de la barra de herramientas y seleccionamos la opción **Symbology**. En el panel **Symbology** seleccionamos la opción **Graduated Colors** en el desplegable de **Primary symbology**. En el campo **Field** seleccionamos la columna con los datos de precipitación. En el campo **Method** podemos escoger la mejor forma de visualizar o dividir las clases de datos. En este caso dejaremos este y los otros campos con sus valores predeterminados: **Normalization** : *None*, **Method**: *Natural Breaks (Jenks)*, y **Classes**: *5*. En **Color scheme** seleccionamos un gradiente de color. En la ventana inferior podremos visualizar las clases. También podremos invertir el gradiente de color desde la pestaña **Classes**, desplegable **More**, y opción **Reverse values**.
+
+<p align="center">
+<img src="../images/arcgis-spatial/01_fig7.jpg" vspace="10" width="900">
+</p>
 
 ## 3. Interpolación
 
