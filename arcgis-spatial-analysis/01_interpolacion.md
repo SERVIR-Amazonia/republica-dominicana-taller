@@ -100,7 +100,7 @@ La carpeta con los archivos requeridos para esta prácticas están disponibles a
 <img src="../images/arcgis-spatial/01_fig10.jpg" vspace="10" width="900">
 </p>
 
-3.4. **[Natural Neighbor](https://pro.arcgis.com/en/pro-app/latest/tool-reference/spatial-analyst/natural-neighbor.htm)**: Este método no tiene variables adicionales para aplicar. Cargamos los datos con las opciones predeterminadas y ejecutamos el método.
+3.4. **[Natural Neighbor](https://pro.arcgis.com/en/pro-app/latest/tool-reference/spatial-analyst/natural-neighbor.htm)**: Este método no tiene variables adicionales para aplicar. Cargamos los datos con las opciones predeterminadas y ejecutamos el método. La capa resultante mostrará datos válidos entre los vértices o puntos más extremos de los datos.
 
 <p align="center">
 <img src="../images/arcgis-spatial/01_fig11.jpg" vspace="10" width="900">
