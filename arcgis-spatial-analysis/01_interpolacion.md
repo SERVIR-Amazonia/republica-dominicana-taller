@@ -35,3 +35,29 @@ Los métodos de interpolación disponibles en la herramienta Spatial Analysis de
 | Spline with Barriers | Similar al método Spline, pero puede usar tanto los valores de muestreo como barreras entre estos que genera cierta discontinuidad.  |
 | Topo to Raster       | Este método es específico para crear una interpolación que represente una cuenca natural y que preserve mejor los contornos de los datos.  |
 | Trend                | Esta es una interpolación polinómica global que suaviza los datos aplicando una función polinómica a las muestras. Esta interpolación ayuda a capturar patrones en escalas grandes o no tan finas.  |
+
+## Práctica
+
+Nuestro conjunto de datos son 37 estaciones metereológicas con datos de precipitación (mm) para el mes de Junio de 2023 y elevación (m). Las coordenadas, nombres, y elevacion de cada una de las estaciones metereológicas fueron tomadas del [ONAMET](https://onamet.gob.do/index.php/publicaciones/estaciones-automaticas). Los datos de precipitación no pudieron ser tomados del ONAMET. Sin embargo, fueron tomados de la colección [CHIRPS](https://developers.google.com/earth-engine/datasets/catalog/UCSB-CHG_CHIRPS_DAILY?hl=en) disponible en Google Earth Engine para el mes de Junio de 2023 en República Dominicana.
+
+<p align="center">
+<img src="../images/arcgis-spatial/01_fig3.jpg" vspace="10" width="400">
+</p>
+
+Los datos se encuentran en el archivo *precipitacion_jun2023.csv* y cuentan con la siguiente estructura:
+
+<p align="center">
+<img src="../images/arcgis-spatial/01_fig4.jpg" vspace="10" width="400">
+</p>
+
+La carpeta con los archivos requeridos para esta prácticas están disponibles aquí....
+
+## 1. Importar datos
+
+## 2. Visualizar puntos
+
+## 3. Interpolación
+
+## 4. Exportar ráster
+
+## 5. Comparar con datos de referencia
