@@ -20,6 +20,10 @@ Hay una variedad de formas de predecir datos espaciales, cada método es conocid
 * Los métodos determinísticos asignan valores (predecidos) alrededor de los valores medidos y en fórmulas matemáticas específicas que determinan la suavidad de la capa resultante. Entre estos se encuentran los métodos IDW (Inverse Distance Weighting - Distancia Inversa Ponderada), Natural Neighbor, Trend, y Spline.
 * Los métodos geoestadísticos predicen valores basados en modelos estadísticos como la autocorrelación espacial (relación estadística entre puntos medidos). Debido a esto las técnicas geoestadísticas no solo tienen la capacidad de producir una capa o superficie de predicción, sino que también produce algunas medidas de precisión de las predicciones. Entre estos podemos encontrar el método Kriging.
 
+<p align="center">
+<img src="../images/arcgis-spatial/01_fig2.jpg" vspace="10" width="400">
+</p>
+
 Los métodos de interpolación disponibles en la herramienta Spatial Analysis de ArcGIS Pro son:
 
 |   Método             |                       Descripción                                                                  |
