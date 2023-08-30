@@ -40,7 +40,7 @@ Los métodos de interpolación disponibles en la herramienta Spatial Analysis de
 
 ### Interpolaciones con datos de precipitación
 
-Tiempo estimado: 60 min
+Tiempo estimado: 45 min
 
 La carpeta con los archivos requeridos para esta práctica están disponibles aquí....
 
