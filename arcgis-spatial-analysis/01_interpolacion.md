@@ -38,6 +38,12 @@ Los métodos de interpolación disponibles en la herramienta Spatial Analysis de
 
 ## Práctica
 
+### Interpolaciones con datos de precipitación
+
+Tiempo estimado: 60 min
+
+La carpeta con los archivos requeridos para esta práctica están disponibles aquí....
+
 Se usará un conjunto de datos de 37 estaciones metereológicas con medidas de precipitación (mm) para el mes de Junio de 2023 y elevación (m). Las coordenadas, nombres, y elevación de cada una de las estaciones metereológicas fueron tomadas del [ONAMET](https://onamet.gob.do/index.php/publicaciones/estaciones-automaticas). Los datos de precipitación no pudieron ser tomados del ONAMET. Sin embargo, fueron tomados de la colección [CHIRPS](https://developers.google.com/earth-engine/datasets/catalog/UCSB-CHG_CHIRPS_DAILY?hl=en) disponible en Google Earth Engine para el mes de Junio de 2023 en República Dominicana.
 
 <p align="center">
@@ -49,8 +55,6 @@ Los datos se encuentran en el archivo *precipitacion_jun2023.csv* y cuentan con 
 <p align="center">
 <img src="../images/arcgis-spatial/01_fig4.jpg" vspace="10" width="500">
 </p>
-
-La carpeta con los archivos requeridos para esta prácticas están disponibles aquí....
 
 ## 1. Importar datos
 
