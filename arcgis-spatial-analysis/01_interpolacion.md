@@ -50,7 +50,7 @@ Se usará un conjunto de datos de 37 estaciones metereológicas con medidas de p
 <img src="../images/arcgis-spatial/01_fig3.jpg" vspace="10" width="500">
 </p>
 
-Los datos se encuentran en el archivo *precipitacion_jun2023.csv* y cuentan con la siguiente estructura:
+Los datos de precipitación se encuentran en el archivo *precipitacion_jun2023.csv* y cuentan con la siguiente estructura:
 
 <p align="center">
 <img src="../images/arcgis-spatial/01_fig4.jpg" vspace="10" width="500">
