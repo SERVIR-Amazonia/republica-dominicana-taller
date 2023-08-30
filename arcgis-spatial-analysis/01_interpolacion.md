@@ -146,7 +146,9 @@ La carpeta con los archivos requeridos para esta prácticas están disponibles a
 
 4.3. Hacemos este recorte para cada capa ráster y comparamos los resultados.
 
-
+<p align="center">
+<img src="../images/arcgis-spatial/01_fig18.jpg" vspace="10" width="1000">
+</p>
 
 ## 5. Exportar ráster
 
