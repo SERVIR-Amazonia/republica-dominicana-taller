@@ -152,4 +152,14 @@ La carpeta con los archivos requeridos para esta prácticas están disponibles a
 
 ## 5. Exportar ráster
 
+Las capas o elementos ráster producidos en este proyecto de ArcGIS Pro se guardan automáticamente dentro del *Geodatabase* del proyecto, disponible desde el panel **Catalog**, pestaña **Databases**. Estos archivos pueden encontrarse dentro de ese directorio, sin embargo muchos pueden no tener formato o extensiones.
 
+<p align="center">
+<img src="../images/arcgis-spatial/01_fig19.jpg" vspace="10" width="300">
+</p>
+
+Otra opción para exportar o mover estos archivos de un directorio a otro es exportarlo como otro formato, lo cual generará una copia del archivo sin eliminarlo del *Geodatabase*. Para esto hacemos click derecho sobre el archivo deseado a exportar desde el *Geodatabase* del proyecto en el panel **Catalog**, seleccionamos **Export** y luego escogemos **Export to Different Format**. Se abrirá un nuevo panel de **Geoprocessing** de la herramienta **Copy Raster**. En este panel selccionamos el ráster a exportar en **Input Raster** y escogemos el directorio y nombre con el que se guardará este nuevo archivo ráster en **Output Raster Dataset**. El formato puede ser seleccionado en **Format**, el cual puede ser **TIFF**. El tipo de pixel en este caso es *32 bit float*, ya que contamos con valores decimales en el ráster. Los demas campos los podemos dejar en blanco o como predeterminados. Luego presionar el botón **Run** y el archivo será exportado.
+
+<p align="center">
+<img src="../images/arcgis-spatial/01_fig20.jpg" vspace="10" width="300">
+</p>
