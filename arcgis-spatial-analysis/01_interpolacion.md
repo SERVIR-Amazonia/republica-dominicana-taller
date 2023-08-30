@@ -124,12 +124,24 @@ La carpeta con los archivos requeridos para esta prácticas están disponibles a
 <img src="../images/arcgis-spatial/01_fig14.jpg" vspace="10" width="900">
 </p>
 
-3.8. **[Trend](https://pro.arcgis.com/en/pro-app/latest/tool-reference/spatial-analyst/trend.htm)**: Este método de interpolación es líneal y puede implementar funciones polinómicas de diferentes órdenes para producir interpolaciones. En este casos usamos un tipo de regresión **Lineal** y orden polinómico de **7**. Puede intentar diferentes órdenes polinómicos para ver las diferencias.
+3.8. **[Trend](https://pro.arcgis.com/en/pro-app/latest/tool-reference/spatial-analyst/trend.htm)**: Este método de interpolación es líneal y puede implementar funciones polinómicas de diferentes órdenes para producir interpolaciones. En este caso usaremos un tipo de regresión **Lineal** y orden polinómico de **7**. Puede intentar diferentes órdenes polinómicos para ver las diferencias.
 
 <p align="center">
 <img src="../images/arcgis-spatial/01_fig15.jpg" vspace="10" width="900">
 </p>
 
-## 4. Exportar ráster
+## 4. Comparar con datos de referencia
 
-## 5. Comparar con datos de referencia
+4.1. Con el objetivo de tener una aproxímación de cual método de interpolación se acerca a la realidad vamos a importar los datos de precipitación obtenidos de la colección de CHIRPS en GEE. Vamos a importar el archivo raster llamado *Precipitacion_Jun2023_CHIRPS.tif*. Posteriormente, agregamos el gradiente de color correspondiente. 
+
+<p align="center">
+<img src="../images/arcgis-spatial/01_fig16.jpg" vspace="10" width="900">
+</p>
+
+4.2. Ahora, debido a que las capas poseen extensiones diferentes vamos a recortarlas usando el polígono de República Dominicana. Para esto usaremos la herramienta **Clip Raster**, que se puede encontrar en la pestaña **Analysis** de la barra de herramientas, el botón **Tools**, pestaña **Toolboxes** del panel **Geoprocessing**. En la barra de búsqueda de este panel podemos escribir *Clip Raster* y encontraremos la herramienta, la cual pertence a la extension de **Data Management Tools** y puede encontrarse ahí directamente también.
+
+
+
+## 5. Exportar ráster
+
+
