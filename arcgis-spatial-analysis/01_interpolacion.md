@@ -138,7 +138,13 @@ La carpeta con los archivos requeridos para esta prácticas están disponibles a
 <img src="../images/arcgis-spatial/01_fig16.jpg" vspace="10" width="900">
 </p>
 
-4.2. Ahora, debido a que las capas poseen extensiones diferentes vamos a recortarlas usando el polígono de República Dominicana. Para esto usaremos la herramienta **Clip Raster**, que se puede encontrar en la pestaña **Analysis** de la barra de herramientas, el botón **Tools**, pestaña **Toolboxes** del panel **Geoprocessing**. En la barra de búsqueda de este panel podemos escribir *Clip Raster* y encontraremos la herramienta, la cual pertence a la extension de **Data Management Tools** y puede encontrarse ahí directamente también.
+4.2. Ahora, debido a que las capas poseen extensiones diferentes vamos a recortarlas usando el polígono de República Dominicana. Para esto usaremos la herramienta **Clip Raster**, que se puede encontrar en la pestaña **Analysis** de la barra de herramientas, el botón **Tools**, pestaña **Toolboxes** del panel **Geoprocessing**. En la barra de búsqueda de este panel podemos escribir *Clip Raster* y encontraremos la herramienta, la cual pertence a la extension de **Data Management Tools** y puede encontrarse ahí directamente también. Se abrirá un nuevo panel donde podremos seleccionar la capa ráster a recortar en **Input Raster**; la capa vectorial sobre la cual remos a recortar en **Output Extent**, la cual será la capa del polígono de República Dominicana *DOM_adm0*. Nos aseguramos de que la opción **Use Input Features for Clipping Geometry** esté activada. En **Output Raster Dataset** se puede cambiar el nombre de la capa resultante. Las demás opciones podemos dejarlas con sus valores predeterminados. Cuando estemos listos solo debemos dar click en el botón **Run**.
+
+<p align="center">
+<img src="../images/arcgis-spatial/01_fig17.jpg" vspace="10" width="300">
+</p>
+
+4.3. Hacemos este recorte para cada capa ráster y comparamos los resultados.
 
 
 
