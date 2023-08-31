@@ -1,13 +1,16 @@
 ---
 layout: page
-title: Calculadora Ráster
+title: Cálculos Ráster
 parent: ArcGIS Pro Análisis Espaciales
 nav_order: 2
 ---
-
-# Calculadora Ráster
+# Operaciones, Funciones, y Estadísticas
 
 <sup>Este material de enseñanza está basado en ArcGIS Pro 3.1.</sup>
+
+En esta sección exploraremos las diferentes formas de trabajar con los valores numericos de los datos ráster. Estos datos, como cualquier otro tipo de dato, pueden ser procesados para hacer cálculos, aplicar funciones, y obtener estadísticas para hacer análisis espaciales más avanzados.
+
+## Calculadora Ráster
 
 La calculadora ráster es una herramienta que nos ayuda a aplicar expresiones matemáticas a datos ráster. Sin embargo, si todas las entradas son números, el resultado será número. Los operadores que se encuentran en la calculadora ráster son:
 
@@ -28,6 +31,21 @@ La calculadora ráster es una herramienta que nos ayuda a aplicar expresiones ma
 | ^                      | [O exclusión booleano](https://pro.arcgis.com/es/pro-app/latest/arcpy/image-analyst/boolean-xor-operator.htm): Realiza una operación O booleana de exclusión en los valores de dos rásters. | <img src="../images/arcgis-spatial/0_xor-booleano.png" vspace="10" width="300"> |
 | ~                      | [No booleano](https://pro.arcgis.com/es/pro-app/latest/arcpy/image-analyst/boolean-not-operator.htm): Realiza una operación No booleana en los valores de dos rásters. | <img src="../images/arcgis-spatial/0_no-booleano.png" vspace="10" width="300"> |
 
+## Funciones Ráster
+
+Las funciones ráster permite trabajar con datos ráster y sus diferentes bandas. Estas están disponibles al seleccionar una capa ráster, pestaña **Analysis** de la barra de herramientas, dentro del grupo **Raster**, se encuentra **Raster Functions**. Dentro del panel de **Raster Functions**, en la pestaña **System** encontamos una lista de aplicaciones para procesar datos ráster. En esta lista encontramos la opción desplegable **Math**, en la cual encontramos **Band Arithmetic**.
+
+<p align="center">
+<img src="../images/arcgis-spatial/02_fig4.jpg" vspace="10" width="300">
+</p>
+
+En el panel de **Band Arithmetic Properties**, en la pestaña **Parameters**, se puede seleccionar la capa ráster a procesar, en el campo **Method** hay algunas funciones comunes disponibles, y en el campo **Band Indexes** se puede introducir la expresión o las bandas correspondientes para aplicar una función. Algunos de los métodos o formas de introducir funciones con bandas se puede encontrar [aquí](https://pro.arcgis.com/en/pro-app/latest/help/analysis/raster-functions/band-arithmetic-function.htm).
+
+<p align="center">
+<img src="../images/arcgis-spatial/02_fig5.jpg" vspace="10" width="300">
+</p>
+
+## Estadísticas Ráster
 
 ## Práctica
 
@@ -39,19 +57,53 @@ Datos: Elevación, Temperatura, Multiespectral.
 
 ## 1. Importar datos
 
-## 2. Seleccionar pixeles específicos
-Seleccionar pixeles con valores más altos de 1500 m en DEM.
+Importaremos las tres capas ráster: elevación (*DOM_alt*), temperatura (*RepDom_LST_Jul2023.tif*), y mosaico multiespectral (*RepDom_Mosaico_2021_L8*). El mosaico se compone de varias bandas multiespectrales las cuales deben ser combinadas correctamente para visualizar en color real o RGB. La combinación RGB será en este caso R: B4, G: B3, B: B2.
 
-## 3. Aplicar máscara a temperatura
-Aplicar máscara de elelación a datos de temperatura.
+<p align="center">
+<img src="../images/arcgis-spatial/02_fig1.jpg" vspace="10" width="900">
+</p>
+
+## 2. Seleccionar pixeles específicos
+
+Usaremos la calculadora ráster para seleccionar áreas menores a 100 m de altitud de la capa *DOM_alt*. La calculadora ráster se puede encontrar desde la barra de herramientas en la pestaña **Analysis**, grupo **Geoprocessing**, opción **Tools**. Luego desde el panel **Geoprocessing**, pestaña **Toolboxes**, desplegamos la extensión de **Spatial Analyst Tools**, desplegamos **Map Algebra**, y hacemos click en **Raster Calculator**.
+
+En el panel de **Raster Calculator** observaremos un cuadro con las capas ráster disponibles a un lado, y del otro lado un cuadro con los operadorooes disponibles. En el cuadro inferior escribiremos la operación que deseamos aplicar a un ráster específico. Escribiremos `"DOM_alt" <= 100`, lo cual significa que tomaremos todos los valores menores o iguales a 100 del ráster *DOM_alt*. El campo **Output raster** nos permite cambiar el nombre y la ruta de guardado de la nueva capa ráster que se producirá.
+
+<p align="center">
+<img src="../images/arcgis-spatial/02_fig2.jpg" vspace="10" width="900">
+</p>
+
+La nueva capa ráster producida será una máscara con valores igual a 1 en esos píxeles que cumplieron con la condición requerida, y valores de 0 en los pixeles que no la cumplieron. En la imagen de referencia observamos los áreas menores a 100 m en azul, y las áreas mayores a 100 m en blanco.
+
+## 3. Aplicar máscara
+
+La máscara de elevación la podemos usar para visualizar los datos de temperatura en solo las áreas menores a 100 m de altitud. Para esto escribiremos en la **Calculadora Ráster** la siguiente expresión: `"RepDom_LST_Jul2023" * "dom_al_rast"`, en donde multiplicamos la capa que contiene los datos temperatura con la máscara de elevación. Como resultado obtendremos una nueva capa ráster con valores de temperatura válidos en aquellas áreas menores a 100 m.
+
+<p align="center">
+<img src="../images/arcgis-spatial/02_fig3.jpg" vspace="10" width="900">
+</p>
+
+Se podrá observar que los valores de temperatura varían alrededor de 26-40 °C. Las zonas más calientes durante Julio de 2023 en áreas menores a 100 m de altitud se observaron en el lado occidente del país.
+
+## Funciones ráster
 
 ## 4. Calcular NDVI
+
+El índice de diferencia de vegetación normalizada (NDVI) tiene un rango de valores entre -1 a +1. Típicamente, cuando hay valores negativos existe alta probabilidad que se trate de un cuerpo de agua. Por otro lado, si los valores son cercanos a +1 es probable que se trate de vegetación muy densa. Cuando el NDVI es cercano a cero es probable que se trate de un área urbana.
+
+Para calcular el NDVI usamos la siguiente fórmula:
+
+$$\frac{(NIR-Rojo)}{(NIR+Rojo)}$$
+
+La relación entre las bandas NIR (infrarrojo cercano o Near-Infrared) y Rojo van a proporcionar un índice de vegetación.
+
+<p align="center">
+<img src="../images/arcgis-spatial/02_fig4.jpg" vspace="10" width="900">
+</p>
 
 ## 5. Estadisticas
 Estadisticas: promedio, maximo y minimo.
 Relación entre temperaturas y elevaciones.
 
 
-<p align="center">
-<img src="../images/arcgis-spatial/02_fig1.jpg" vspace="10" width="400">
-</p>
+
