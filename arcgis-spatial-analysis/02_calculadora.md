@@ -85,7 +85,7 @@ La máscara de elevación la podemos usar para visualizar los datos de temperatu
 
 Se podrá observar que los valores de temperatura varían alrededor de 26-40 °C. Las zonas más calientes durante Julio de 2023 en áreas menores a 100 m de altitud se observaron en el lado occidente del país.
 
-## Funciones ráster
+### Funciones ráster
 
 ## 4. Calcular NDVI
 
