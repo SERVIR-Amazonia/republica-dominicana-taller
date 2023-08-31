@@ -23,10 +23,10 @@ La calculadora ráster es una herramienta que nos ayuda a aplicar expresiones ma
 | <=                     | [Menor o igual a](https://pro.arcgis.com/es/pro-app/latest/arcpy/image-analyst/relational-less-than-equal-operator.htm): Retorna píxeles con valor a 1 cuando el valor del primer ráster es menor o igual al del segundo. Este es 0 cuando no es menor o igual. | <img src="../images/arcgis-spatial/0_menor-igual-a.png" vspace="10" width="300"> |
 | >=                     | [Mayor o igual a](https://pro.arcgis.com/es/pro-app/latest/arcpy/image-analyst/relational-greater-than-equal-operator.htm): Retorna píxeles con valor a 1 cuando el valor del primer ráster es mayor o igual al del segundo. Este es 0 cuando no es mayor o igual. | <img src="../images/arcgis-spatial/0_mayor-igual-a.png" vspace="10" width="300"> |
 | !=                     | [No es igual a](https://pro.arcgis.com/es/pro-app/latest/arcpy/image-analyst/relational-not-equal-operator.htm): Retorna píxeles con valor a 1 cuando el valor del primer y segundo ráster no son iguales. Este es 0 cuando son iguales. | <img src="../images/arcgis-spatial/0_no-igual-a.png" vspace="10" width="300"> |
-| &                      | Y booleano  |
-| <p>&VerticalLine;</p>  | O booleano  |
-| ^                      | O exclusión booleano  |
-| ~                      | No booleano  |
+| &                      | [Y booleano](https://pro.arcgis.com/es/pro-app/latest/arcpy/image-analyst/boolean-and-operator.htm): Realiza una operación Y booleana en los valores de dos rásters. | <img src="../images/arcgis-spatial/0_y-booleano.png" vspace="10" width="300"> |
+| <p>&VerticalLine;</p>  | [O booleano](https://pro.arcgis.com/es/pro-app/latest/arcpy/image-analyst/boolean-or-operator.htm): Realiza una operación O booleana en los valores de dos rásters. | <img src="../images/arcgis-spatial/0_o-booleano.png" vspace="10" width="300"> |
+| ^                      | [O exclusión booleano](https://pro.arcgis.com/es/pro-app/latest/arcpy/image-analyst/boolean-xor-operator.htm): Realiza una operación O booleana de exclusión en los valores de dos rásters. | <img src="../images/arcgis-spatial/0_xor-booleano.png" vspace="10" width="300"> |
+| ~                      | [No booleano](https://pro.arcgis.com/es/pro-app/latest/arcpy/image-analyst/boolean-not-operator.htm): Realiza una operación No booleana en los valores de dos rásters. | <img src="../images/arcgis-spatial/0_no-booleano.png" vspace="10" width="300"> |
 
 
 
