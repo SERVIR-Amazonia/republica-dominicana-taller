@@ -31,15 +31,26 @@ La calculadora ráster es una herramienta que nos ayuda a aplicar expresiones ma
 
 ## Práctica
 
-Datos de Elevación y Temperatura.
+### Aplicaciones de calculadora ráster
 
+Tiempo estimado: 45 min.
+
+Datos: Elevación, Temperatura, Multiespectral.
+
+## 1. Importar datos
+
+## 2. Seleccionar pixeles específicos
 Seleccionar pixeles con valores más altos de 1500 m en DEM.
 
+## 3. Aplicar máscara a temperatura
 Aplicar máscara de elelación a datos de temperatura.
 
-Estadisticas: promedio, maximo y minimo.
+## 4. Calcular NDVI
 
+## 5. Estadisticas
+Estadisticas: promedio, maximo y minimo.
 Relación entre temperaturas y elevaciones.
+
 
 <p align="center">
 <img src="../images/arcgis-spatial/02_fig1.jpg" vspace="10" width="400">
