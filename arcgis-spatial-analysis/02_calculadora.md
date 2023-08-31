@@ -29,7 +29,17 @@ La calculadora ráster es una herramienta que nos ayuda a aplicar expresiones ma
 | ~                      | [No booleano](https://pro.arcgis.com/es/pro-app/latest/arcpy/image-analyst/boolean-not-operator.htm): Realiza una operación No booleana en los valores de dos rásters. | <img src="../images/arcgis-spatial/0_no-booleano.png" vspace="10" width="300"> |
 
 
+## Práctica
 
+Datos de Elevación y Temperatura.
+
+Seleccionar pixeles con valores más altos de 1500 m en DEM.
+
+Aplicar máscara de elelación a datos de temperatura.
+
+Estadisticas: promedio, maximo y minimo.
+
+Relación entre temperaturas y elevaciones.
 
 <p align="center">
 <img src="../images/arcgis-spatial/02_fig1.jpg" vspace="10" width="400">
