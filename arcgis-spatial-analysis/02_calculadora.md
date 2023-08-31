@@ -98,8 +98,16 @@ $$\frac{(NIR-Rojo)}{(NIR+Rojo)}$$
 La relación entre las bandas NIR (infrarrojo cercano o Near-Infrared) y Rojo van a proporcionar un índice de vegetación.
 
 <p align="center">
-<img src="../images/arcgis-spatial/02_fig4.jpg" vspace="10" width="900">
+<img src="../images/arcgis-spatial/02_fig6.jpg" vspace="10" width="400">
 </p>
+
+Ahora, aplicaremos la función NDVI al ráster *RepDom_Mosaico_2021_L8**. En el panel de **Band Arithmetic Properties** seleccionamos esta capa, en el campo **Method** escogemos **User Defined**, a pesar de que la función NDVI ya está disponible vamos a aplicarla desde cero. Este ráster tiene siete bandas nombradas como B1, B2, B3, etc, las cules corresponden a diferentes longitudes de onda del sensor satelital Landsat-8. Por lo tanto, en el campo **Band Indexes** escribimos la expresión: `(B5 - B4) / (B5 + B4)`, donde B5 es el NIR y B4 es el rojo. Hacemos click en **Create new layer**.
+
+<p align="center">
+<img src="../images/arcgis-spatial/02_fig7.jpg" vspace="10" width="900">
+</p>
+
+En la imagen de referencia observamos los valores más altos de NDVI en verde más oscuro, y los valores más bajos en verde más claro.
 
 ## 5. Estadisticas
 Estadisticas: promedio, maximo y minimo.
