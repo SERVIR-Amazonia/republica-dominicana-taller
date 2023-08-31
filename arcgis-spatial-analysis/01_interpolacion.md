@@ -168,9 +168,9 @@ Otra opción para exportar o mover estos archivos de un directorio a otro es exp
 <img src="../images/arcgis-spatial/01_fig20.jpg" vspace="10" width="300">
 </p>
 
-## Extra:
+## Ejercicio Extra:
 
-El archivo que contiene los datos de precipitación tambien incluye una columna indicando la elevación de la estación respectiva, la cual también puede ser interpolada para producir un modelo de elevación. Adicionalmente, hay un archivo de referencia (*DOM_alt.vrt*) que puede usarse para comparar los modelos interpolados de elevación y ver cual se acerca más a la realidad. El poco número de puntos de elevación puede dificultar la obtención de un modelo satisfactorio. Se recomienda insertar un nuevo mapa para trabajar con los correspondientes datos.
+Este es un ejercicio extra de práctica que se puede desarrollar en su tiempo libre. El archivo que contiene los datos de precipitación también incluye una columna indicando la elevación de la estación respectiva, la cual también puede ser interpolada para producir un modelo de elevación. Adicionalmente, hay un archivo de referencia (*DOM_alt.vrt*) que puede usarse para comparar los modelos interpolados de elevación y ver cual se acerca más a la realidad. El poco número de puntos de elevación puede dificultar la obtención de un modelo satisfactorio. Se recomienda insertar un nuevo mapa para trabajar con los correspondientes datos.
 
 <p align="center">
 <img src="../images/arcgis-spatial/01_fig21.jpg" vspace="10" width="800">
