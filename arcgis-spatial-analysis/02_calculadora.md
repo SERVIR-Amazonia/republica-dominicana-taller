@@ -9,7 +9,7 @@ nav_order: 2
 
 <sup>Este material de enseñanza está basado en ArcGIS Pro 3.1.</sup>
 
-La calculadora ráster es una herramienta que nos ayuda a aplicar expresiones matemáticas a datos ráster. Sin embargo, si todas las entradas son números, el resultado será número. Los operadores qeu se encuentran en la calculadora ráster son:
+La calculadora ráster es una herramienta que nos ayuda a aplicar expresiones matemáticas a datos ráster. Sin embargo, si todas las entradas son números, el resultado será número. Los operadores que se encuentran en la calculadora ráster son:
 
 |   Operador             |                       Descripción                      |   Ilustración     |
 |:----------------------:|:------------------------------------------------------|:-----------------:|
