@@ -47,11 +47,17 @@ En el panel de **Band Arithmetic Properties**, en la pestaña **Parameters**, se
 
 ## Estadísticas Ráster
 
+Estadística descriptiva de datos ráster o vectoriales se puede obtener tanto de manera tabular como espacial. En esta lección vamos a usar herramientas que nos ayudarán a obtener estadísticas exploratorias de datos ráster. Para esto existen herramientas en ArcGIS Pro como **Zonal Statistics** dentro de la extensión **Spatial Analyst Tools**. También se pueden obtener datos de forma gráfica con la herramienta **Create Chart**, dentro de la pestaña **Data** en la barra de herramientas. Se pueden obtener gráficos de área por bandas, ya sean histogramas, scatter plots, perfiles, entre otros.
+
+<p align="center">
+<img src="../images/arcgis-spatial/02_fig8.jpg" vspace="10" width="700">
+</p>
+
 ## Práctica
 
 ### Aplicaciones de calculadora ráster
 
-Tiempo estimado: 45 min.
+Tiempo estimado: 35 min.
 
 Datos: Elevación, Temperatura, Multiespectral.
 
@@ -110,8 +116,43 @@ Ahora, aplicaremos la función NDVI al ráster *RepDom_Mosaico_2021_L8**. En el 
 En la imagen de referencia observamos los valores más altos de NDVI en verde más oscuro, y los valores más bajos en verde más claro.
 
 ## 5. Estadisticas
-Estadisticas: promedio, maximo y minimo.
-Relación entre temperaturas y elevaciones.
 
+Antes de empezar vamos a unir las capas de elevación, temperatura y NDVI en un solo ráster. El nuevo ráster contendra tres bandas diferentes. Para esto, buscamos la herramienta **Composite Bands** en la barra de búsqueda del panel **Toolboxes**. En el panel de **Composite Bands** seleccionamos las tres capas que deseamos en el campo **Input Rasters**. En el campo **Output Raster** seleccionamos la ubicación y nombre del nuevo ráster. Adicionalmente, cargaremos la capa de municipalidades *DOM_adm2*.
 
+<p align="center">
+<img src="../images/arcgis-spatial/02_fig9.jpg" vspace="10" width="900">
+</p>
 
+En el nuevo ráster, las bandas se renombraran predeterminadamente como Band_1, Band_2, y Band_3. Las bandas tendrán el mismo orden en que se seleccionaron las capas, en este caso el orden fue NDVI, Temperatura, y Elevación. También podrá observar que todas las bandas serán ajustadas a la capa con menor extensión, es decir NDVI, la cual se sobrelapa a las otras dos capas y tiene un área geográfica más pequeña.
+
+Ahora, podremos usar la herramienta **Create Chart** para crear diferentes tipos de gráficos, por ejemplo un perfil de elevación dibujando un transecto, histograma de temperatura, o incluso relacionar dos bandas como elevación vs temperatura. Dentro del panel **Chart Properties** hay diferentes pestañas en las cuales se puede dar formato a la gráfica, como cambiar nombre de ejes y otros tipos de variables que dependen del tipo de gráfica.
+
+Histograma de Temperatura:
+
+<p align="center">
+<img src="../images/arcgis-spatial/02_fig10.jpg" vspace="10" width="900">
+</p>
+
+Scatter plot de Elevación, dibujando perfil (área de interés lineal):
+
+<p align="center">
+<img src="../images/arcgis-spatial/02_fig11.jpg" vspace="10" width="900">
+</p>
+
+Scatter plot de Elevación vs Temperatura, dibujando perfil (área de interés lineal):
+
+<p align="center">
+<img src="../images/arcgis-spatial/02_fig12.jpg" vspace="10" width="900">
+</p>
+
+En este ultimo ejemplo seleccionaremos algunas municipalidades que tenga datos de NDVI completos. Usaremos la capa de NDVI, no el ráster compuesto de tres bandas. Luego vamos a la herramienta **Zonal Statistics** dentro de la extensión **Spatial Analyst Tools**. Selecionamos la capa administrativa (notaremos que habrá un mensaje advirtiendo que tenemos algunos objetos selecccionados), el campo **Zone Field** puede ser *NAME_2*, seleccionamos los datos NDVI en **Input Value Raster**, y el tipo de estadistica a usar será el promedio **Mean**. Esto retornará un nuevo ráster con valores promedio de NDVI al interior de las municipalidades seleccionadas. 
+
+<p align="center">
+<img src="../images/arcgis-spatial/02_fig13.jpg" vspace="10" width="900">
+</p>
+
+También existe la posibilidad de extraer estadisticas zonales en forma tabular usando la herramienta **Zonal Statistics as Table**. Se pueden seleccionar todas las estadisticas disponibles. El resultado será una tabla de atributos con los valores de cada estadistica por municipalidad.
+
+<p align="center">
+<img src="../images/arcgis-spatial/02_fig14.jpg" vspace="10" width="900">
+</p>
