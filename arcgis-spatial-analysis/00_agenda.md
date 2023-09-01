@@ -21,7 +21,7 @@ Navegue a través de las diferentes secciones de la lección utilizando el menú
 | 09:00 – 09:30 |   Bienvenida y pruebas  la configuración, <br>Resumen de la sesión anterior, preguntas y respuestas                     |
 | 09:30 – 11:00 |   Interpolaciones espaciales                                                                                            |
 | 11:00 – 11:15 |   Receso                                                                                                                |
-| 11:15 – 12:00 |   Calculadora ráster                                                                                                    |
+| 11:15 – 12:00 |   Estadisticas ráster                                                                                                   |
 | 12:00 – 13:00 |   Almuerzo                                                                                                              |
 | 13:00 – 15:00 |   Clasificación                                                                                                         |
 
