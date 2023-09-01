@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Cálculos Ráster
+title: Operaciones y Estadísticas Ráster
 parent: ArcGIS Pro Análisis Espaciales
 nav_order: 2
 ---
