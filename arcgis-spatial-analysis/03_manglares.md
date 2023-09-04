@@ -81,4 +81,4 @@ Dentro del panel **Toolboxes**, vamos a la extensión de **Image Analyst Tools**
 <img src="../images/arcgis-spatial/03_fig8.jpg" vspace="10" width="1000">
 </p>
 
-La precisión general de la clasificación es de 99% y el estadístico Kappa es de 0.97. Las precisiones de usuario y productor indican las preciones por clase, las cuales son mas altas del 98%.
+La precisión general de la clasificación es de 99% y el estadístico Kappa es de 0.97. Las precisiones de usuario y productor indican las precisiones por clase, las cuales son mas altas del 98%.
