@@ -34,7 +34,7 @@ En un nuevo proyecto importamos los datos requeridos: la imagen de Landsdat-8 y 
 Es importante que los datos de entrenamiento tengan una estructura indexada, es decir una columna indicando un nombre de clase (texto) y valor de clase (numerico).
 
 <p align="center">
-<img src="../images/arcgis-spatial/03_fig2.jpg" vspace="10" width="300">
+<img src="../images/arcgis-spatial/03_fig2.jpg" vspace="10" width="700">
 </p>
 
 Los poligonos de entrenamiento pueden editarse o crearse desde cero usando la herramienta **Training Samples Manager**. Este estás disponible seleccionando un elemento ráster, luego desde la pestaña **Imagery** de la barra de herramientas, seleccionar **Classification Tools** y ahí estará la herramienta **Training Samples Manager**. Allí se puede crear un nuevo esquema donde se pueden añadir el número de clases requeridas y se pueden dibujar los polígonos. Por el momento esto no será necesario.
@@ -61,8 +61,24 @@ La imagen clasificada va a lucir como esta:
 
 ## 4. Validación
 
-Podemos crear un conjunto de puntos para validar o estimar la precisión de la clasiicación. En este caso serán puntos derivados de los polígonos usado para el entrenamiento. Dentro del panel **Toolboxes**, vamos a la extensión de **Image Analyst Tools** (o también **Spatial Analysis Tools**), desplegamos la opción **Classification and Pattern Recognition** y seleccionamos **Create Accuracy Assessment Points**. En el nuevo panel que se abrirá seleccionamos los polígonos de entrenamiento en **Input Raster or Feature Class Data**, la columna de valores por clase en **Dimension Field for Feature Class**, ponemos un nombre al archivo resultante en **Output Accuracy Assessment Points**, escogemos *Classified* en **Target Field**, el numero de puntos puede ser 500, y la estrategia de muestreo puede ser **Stratified random**.
+Podemos crear un conjunto de puntos para validar o estimar la precisión de la clasiicación. En este caso serán puntos derivados de los polígonos usado para el entrenamiento. Dentro del panel **Toolboxes**, vamos a la extensión de **Image Analyst Tools** (o también **Spatial Analysis Tools**), desplegamos la opción **Classification and Pattern Recognition** y seleccionamos **Create Accuracy Assessment Points**. En el nuevo panel que se abrirá seleccionamos los polígonos de entrenamiento en **Input Raster or Feature Class Data**, la columna de valores por clase en **Dimension Field for Feature Class**, ponemos un nombre al archivo resultante en **Output Accuracy Assessment Points**, escogemos Ground truth* en **Target Field**, el número de puntos puede ser 500, y la estrategia de muestreo puede ser **Stratified random**. Esto generaá un archivo de puntos, y la tabla de atributos tendrá dos nuevas columnas: *Classified* y *GrndTruth*. Veremos que la columna *GrndTruth* ha sido correctamente llenada usando como referencia los polígonos de entrenamiento, pero la columna *Classified* solo muestra valores de -1, es decir que aún nos falta completarla con los datos clasificados, que serán comparados para calcular la precisión.
 
 <p align="center">
 <img src="../images/arcgis-spatial/03_fig6.jpg" vspace="10" width="1000">
 </p>
+
+Dentro del panel **Toolboxes**, vamos a la extensión de **Image Analyst Tools** (o también **Spatial Analysis Tools**), desplegamos la opción **Classification and Pattern Recognition** y seleccionamos **Update Accuracy Assessment Points**. En el nuevo panel que se abrirá seleccionamos la imagen clasificada en **Input Raster or Feature Class Data**, los datos creados de validación en **Input Accuracy Assessment Points**, seleccionamos la columna *Classvalue* en **Dimension Field for Test Points**, ponemos un nombre para el archivo nuevo, y por último seleccionamos *Classified* en **Target Field**. Hacer click en **Run**.
+
+<p align="center">
+<img src="../images/arcgis-spatial/03_fig7.jpg" vspace="10" width="1000">
+</p>
+
+La estructura del nuevo archivo mostrará las dos columnas *Classified* y *GrndTruth** completas, de acuerdo a los datos de referencia (o entrenamiento) y los datos clasificados. Por ejemplo, en la imagen de arriba podemos notar que el punto 302 fue clasificado como *No Manglar*, pero de acuerdo a los datos de referencia debería corresponder a *Manglar*. Por lo tanto, el siguiente paso es cuantificar la precisión de la clasificación de acuerdo a estos datos generados.
+
+Dentro del panel **Toolboxes**, vamos a la extensión de **Image Analyst Tools** (o también **Spatial Analysis Tools**), desplegamos la opción **Classification and Pattern Recognition** y seleccionamos **Compute Confusion Matrix**. En el nuevo panel que se abrirá seleccionamos los puntos validados en **Input Accuracy Assessment Points** y ponemos un nombre la tabla que se producirá en **Output Confusion Matrix**. En el panel **Contents** observamos la tabla generada, si la abrimos podremos observar la precisión de la clasificación. Las columnas C_1 y C_2 son las clases Manglar y No Manglar de referencia, mientras que las filas C_1 y C_2 son las clases correspondientes de la imagen clasificada.
+
+<p align="center">
+<img src="../images/arcgis-spatial/03_fig7.jpg" vspace="10" width="1000">
+</p>
+
+La precisión general de la clasificación es de 99% y el estadístico Kappa es de 0.97. Las precisiones de usuario y productor indican las preciones por clase, las cuales son mas altas del 98%.
