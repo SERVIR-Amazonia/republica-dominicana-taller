@@ -1,4 +1,4 @@
-![image](https://github.com/SERVIR-Amazonia/republica-dominicana-taller/assets/49037033/33527e98-2660-48e8-aeb3-b162b994a900)---
+---
 layout: page
 title: Mapeo de Manglares
 parent: ArcGIS Pro Análisis Espaciales
