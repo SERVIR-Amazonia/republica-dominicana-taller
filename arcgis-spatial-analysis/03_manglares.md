@@ -78,7 +78,7 @@ La estructura del nuevo archivo mostrará las dos columnas *Classified* y *GrndT
 Dentro del panel **Toolboxes**, vamos a la extensión de **Image Analyst Tools** (o también **Spatial Analysis Tools**), desplegamos la opción **Classification and Pattern Recognition** y seleccionamos **Compute Confusion Matrix**. En el nuevo panel que se abrirá seleccionamos los puntos validados en **Input Accuracy Assessment Points** y ponemos un nombre la tabla que se producirá en **Output Confusion Matrix**. En el panel **Contents** observamos la tabla generada, si la abrimos podremos observar la precisión de la clasificación. Las columnas C_1 y C_2 son las clases Manglar y No Manglar de referencia, mientras que las filas C_1 y C_2 son las clases correspondientes de la imagen clasificada.
 
 <p align="center">
-<img src="../images/arcgis-spatial/03_fig7.jpg" vspace="10" width="1000">
+<img src="../images/arcgis-spatial/03_fig8.jpg" vspace="10" width="1000">
 </p>
 
 La precisión general de la clasificación es de 99% y el estadístico Kappa es de 0.97. Las precisiones de usuario y productor indican las preciones por clase, las cuales son mas altas del 98%.
