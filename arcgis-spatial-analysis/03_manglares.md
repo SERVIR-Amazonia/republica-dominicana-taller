@@ -20,3 +20,8 @@ El material necesario para esta práctica es:
 2. Entrenamiento
 3. Clasificación
 4. Validación
+
+
+<p align="center">
+<img src="../images/arcgis-manglares/03_fig1.jpg" vspace="10" width="800">
+</p>
