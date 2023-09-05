@@ -14,7 +14,7 @@ Navegue a través de las diferentes secciones de la lección utilizando el menú
 
 **Fecha**: Septiembre 19, 2023
 
-**Instructora:** Andréa Puzzi Nicolau ([apnicolau@sig-gis.com](apnicolau@sig-gis.com))
+**Instructora:** Luis Lizcano-Sandoval (lsandoval@sig-gis.com)
 
 |    Horario    |                                                                                       Temáticas                         |
 |:-------------:|:-----------------------------------------------------------------------------------------------------------------------:|
@@ -23,5 +23,5 @@ Navegue a través de las diferentes secciones de la lección utilizando el menú
 | 11:00 – 11:15 |   Receso                                                                                                                |
 | 11:15 – 12:00 |   Estadisticas ráster                                                                                                   |
 | 12:00 – 13:00 |   Almuerzo                                                                                                              |
-| 13:00 – 15:00 |   Clasificación                                                                                                         |
+| 13:00 – 15:00 |   Clasificación de manglares                                                                                            |
 
