@@ -90,3 +90,5 @@ Seleccionamos la imagen a clasificar, en la pestaña **Imagery** de la barra de 
 * ¿Cómo se podría mejorar la clasificación?
 * ¿Que paso podriamos agregar después de clasificar las imágenes?
 * Podemos cuantificar áreas en la siguiente lección, y además detectar cambios por píxel en alguna clase específica.
+
+## Continuar con la detección de cambios....
