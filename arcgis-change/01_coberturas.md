@@ -7,7 +7,7 @@ nav_order: 1
 
 # Introducción
 
-Este material de enseñanza está basado en ArcGIS Pro 3.1, y usa algunos recursos de la [guía rápida](https://pro.arcgis.com/en/pro-app/latest/get-started/get-started.htm) a ArcGIS Pro de ESRI<sup>TM</sup>.
+<sup>Este material de enseñanza está basado en ArcGIS Pro 3.1.</sup>
 
 ArcGIS Pro es una aplicación profesional de SIG (Sistemas de Información Geográfica) propiedad de ESRI. Con ArcGIS Pro se puede explorar, visualizar, analizar datos, crear mapas 2D y 3D, compartir proyectos con ArcGIS Online
 o su portal de ArcGIS Enterprise. En las siguientes secciones se introducirá el proceso de ingreso, la página de inicio, ArcGIS Pro projects, y la interfaz de usuario.
