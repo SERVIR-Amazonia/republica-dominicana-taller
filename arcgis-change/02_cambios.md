@@ -31,5 +31,12 @@ Para calcular el área de cada clase (en kilometros cuadrados) debemos hacer el 
 
 Realizamos el mismo procedimiento para la otra imagen y comparamos. Los resultados son:
 
-
+|    Clase         |  Área (km2) 2000  |  Área (km2) 2022  |  Diferencia  |
+|:----------------:|:-----------------:|:-----------------:|:------------:|
+| Agua             |  33.7             |  32.1             |  -1.6        |
+| Vegetación densa |  710.7            |  738.4            |  +27.7       |
+| Vegetación baja  |  733.3            |  666.9            |  -66.4       |
+| Agricultura      |  143.4            |  161.7            |  +18.3       |
+| Urbano           |  57.0             |  52.4             |  -4.6        |
+| Deforestado      |  58.2             |  84.7             |  +26.5       |
 
