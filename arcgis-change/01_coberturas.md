@@ -53,5 +53,32 @@ Las clases comunes que podemos identificar son seis:
 * Deforestado
 
 <p align="center">
-<img src="../images/arcgis-change/01_fig4.jpg" vspace="10" width="10600">
+<img src="../images/arcgis-change/01_fig4.jpg" vspace="10" width="1000">
+</p>
+
+## 3. Datos de entrenamiento
+
+Seleccionamos la imagen de interés, por ejemplo podemos empezar con la imagen del año 2000. En la pestaña **Imagery** de la barra de herramientas desplegamos **Classification Tools** y seleccionamos **Training Samples Manager**. En el nuevo panel que se abrirá procederemos a crear un nuevo esquema de clasificación, el caul puede ser llamado *Cobertura*, y adicionamos cada una de las clases individualmente. Con click derecho sobre el esquema creado podemos seleccionar **Add New Class**, luego podemos específicar el nombre de la clase, color, y valor númerico. El valor de cada clase debe ser único. Por ejemplo, podemos organizar las clases con estos valores:
+
+* 1: Agua
+* 2: Vegetación densa
+* 3: Vegetación baja
+* 4: Agricultura
+* 5: Urbano
+* 6: Deforestado
+
+Para cada clase podemos agregar polígonos que dibujamos sobre la imagen de referencia. Cada polígono creado será añadido a la ventana inferior del panel de ***Training Samples Manager**. Cuando hayamos terminado podremos guardar estos plígonos en el botón de guardado disponible en la barra superior de la ventana inferior del panel. Se guardará como un archivo *shapefile*.
+
+<p align="center">
+<img src="../images/arcgis-change/01_fig5.jpg" vspace="10" width="1000">
+</p>
+
+NOTA: El método más apropiado para clasificar ambas imágenes es tomar polígonos o muestras independientes, es decir tendriamos que hacer el proceso de dibujar los polígonos de entrenamiento para cada imágen por separado, y así tener dos conjuntos de datos específicos. Sin embargo, para esta práctica se ha creado un solo conjunto de polígonos que representaran las clases en ambas imágenes. Los polígonos fueron cuidadosamente colocados en lugares comunes de ambas imágenes para reducir el error debido a cambios espectrales en los píxeles.
+
+## 4.Clasificación
+
+Seleccionamos la imagen a clasificar, en la pestaña **Imagery** de la barra de herramientas desplegamos **Classification Tools** y seleccionamos **Classify**. En el nuevo panel que se abrirá seleccionamos el clasificador **Random Trees** en **Classifier**, cargamos los polígonos de muestreo en **Training Samples**. Las demas opciones se pueden dejar predeterminadas. En **Output Classified Dataset** se puede cambiar el nombre de la imagen clasificada, y en el **Output Classifier Definition File** el nombre del archivo con las muestras de entrenamiento. Hcemos click en **Run**. Esto puede tomar algunos segundos en completar. Repetimos el proceso con la siguiente imagen.
+
+<p align="center">
+<img src="../images/arcgis-change/01_fig6.jpg" vspace="10" width="1000">
 </p>
