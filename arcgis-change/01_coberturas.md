@@ -84,8 +84,9 @@ Seleccionamos la imagen a clasificar, en la pestaña **Imagery** de la barra de 
 </p>
 
 ## Conclusión
-* A simple vista se ven algunas diferencias entre las imágenes clasificadas. 
+* A simple vista se ven algunas diferencias entre las imágenes clasificadas.
 * Las clasificaciones no son perfectas, pueden existir errores, y por eso requieren ser ajustadas.
+* Estos procedimientos son ahora más fáciles de lograr en plataformas como GEE.
 * ¿Cómo se podría mejorar la clasificación?
 * ¿Que paso podriamos agregar después de clasificar las imágenes?
 * Podemos cuantificar áreas en la siguiente lección, y además detectar cambios por píxel en alguna clase específica.
