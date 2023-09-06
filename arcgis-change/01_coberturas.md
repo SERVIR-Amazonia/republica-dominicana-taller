@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Introducción
+title: Cobertura Terrestre
 parent: ArcGIS Pro Análisis Temporales
 nav_order: 1
 ---
