@@ -77,8 +77,11 @@ NOTA: El método más apropiado para clasificar ambas imágenes es tomar polígo
 
 ## 4.Clasificación
 
-Seleccionamos la imagen a clasificar, en la pestaña **Imagery** de la barra de herramientas desplegamos **Classification Tools** y seleccionamos **Classify**. En el nuevo panel que se abrirá seleccionamos el clasificador **Random Trees** en **Classifier**, cargamos los polígonos de muestreo en **Training Samples**. Las demas opciones se pueden dejar predeterminadas. En **Output Classified Dataset** se puede cambiar el nombre de la imagen clasificada, y en el **Output Classifier Definition File** el nombre del archivo con las muestras de entrenamiento. Hcemos click en **Run**. Esto puede tomar algunos segundos en completar. Repetimos el proceso con la siguiente imagen.
+Seleccionamos la imagen a clasificar, en la pestaña **Imagery** de la barra de herramientas desplegamos **Classification Tools** y seleccionamos **Classify**. En el nuevo panel que se abrirá seleccionamos el clasificador **Random Trees** en **Classifier**, cargamos los polígonos de muestreo en **Training Samples**. Las demas opciones se pueden dejar predeterminadas. En **Output Classified Dataset** se puede cambiar el nombre de la imagen clasificada, y en el **Output Classifier Definition File** el nombre del archivo con las muestras de entrenamiento. Hacemos click en **Run**. Esto puede tomar algunos segundos en completar. Repetimos el proceso con la siguiente imagen.
 
 <p align="center">
 <img src="../images/arcgis-change/01_fig6.jpg" vspace="10" width="1000">
 </p>
+
+* ¿Que paso podriamos agregar después de clasificar las imágenes?
+* A simple vista se ven algunos cambios. Podemos cuantificar áreas en la siguiente lección, y además detectar cambios por píxel en alguna clase específica.
