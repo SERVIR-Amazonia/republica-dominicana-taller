@@ -83,5 +83,9 @@ Seleccionamos la imagen a clasificar, en la pestaña **Imagery** de la barra de 
 <img src="../images/arcgis-change/01_fig6.jpg" vspace="10" width="1000">
 </p>
 
+## Conclusión
+* A simple vista se ven algunas diferencias entre las imágenes clasificadas. 
+* Las clasificaciones no son perfectas, pueden existir errores, y por eso requieren ser ajustadas.
+* ¿Cómo se podría mejorar la clasificación?
 * ¿Que paso podriamos agregar después de clasificar las imágenes?
-* A simple vista se ven algunos cambios. Podemos cuantificar áreas en la siguiente lección, y además detectar cambios por píxel en alguna clase específica.
+* Podemos cuantificar áreas en la siguiente lección, y además detectar cambios por píxel en alguna clase específica.
