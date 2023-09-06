@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Introducción
-parent: ArcGIS Pro Introducción
+parent: ArcGIS Pro Análisis Temporales
 nav_order: 1
 ---
 
