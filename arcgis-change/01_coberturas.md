@@ -18,7 +18,7 @@ La clasificación de cobertura terrestre se procesa de manera similar a la apren
 Para esta lección usaremos dos imágenes multiespectrales de dos años y sensores diferentes. Una imagen compuesta del año 2000 construida con Landsat-7 y otra del año 2022 construida con Landsat-8. Estos dos sensores tienen resolución espacial de 30 m por píxel y tienen similares bandas espectrales, a excepción de la banda adicional de Landsa-8 en la región azul, también llamada banda ultra azul o aerosol. En estra lección nos enfocaremos en únicamente producir mapas de cobertura terrestre en estas dos imágenes con 20 años de diferencia.
 
 <p align="center">
-<img src="../images/arcgis-change/01_fig2.jpg" vspace="10" width="600">
+<img src="../images/arcgis-change/01_fig2.jpg" vspace="10" width="800">
 </p>
 
 ### Datos requeridos:
@@ -36,7 +36,7 @@ Para esta lección usaremos dos imágenes multiespectrales de dos años y sensor
 Creamos un nuevo proyecto e importamos las dos imágenes de interés. La combinación de bandas RGB para Landsat-7 es B3/B2/B1 y para Landsat-8 es B4/B3/B2.
 
 <p align="center">
-<img src="../images/arcgis-change/01_fig3.jpg" vspace="10" width="600">
+<img src="../images/arcgis-change/01_fig3.jpg" vspace="10" width="1000">
 </p>
 
 ## 2. Categorías de cobertura
@@ -53,5 +53,5 @@ Las clases comunes que podemos identificar son seis:
 * Deforestado
 
 <p align="center">
-<img src="../images/arcgis-change/01_fig4.jpg" vspace="10" width="600">
+<img src="../images/arcgis-change/01_fig4.jpg" vspace="10" width="10600">
 </p>
