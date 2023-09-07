@@ -15,7 +15,7 @@ Esta es la continuación de la lección anterior sobre clasificación de cobertu
 <img src="../images/arcgis-change/01_fig6.jpg" vspace="10" width="800">
 </p>
 
-Para esta lección se cuantificarán las áreas por clase de cada imagen clasificada, y se detectarán los cambios por píxel de una de las clases entre las dos imágenes.
+Para esta lección se cuantificarán las áreas por clase de cada imagen clasificada, y se detectarán los cambios por píxel de una de las clases entre las dos imágenes. **Esta es una práctica superficial y sin el rigor científico requerido como para considerar los datos presentados aquí como válidos.**
 
 ## Análisis de cambios
 
