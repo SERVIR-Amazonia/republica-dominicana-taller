@@ -40,3 +40,20 @@ Realizamos el mismo procedimiento para la otra imagen y comparamos. Los resultad
 | Urbano           |  57.0             |  52.4             |  -4.6        |
 | Deforestado      |  58.2             |  84.7             |  +26.5       |
 
+Después de una análisis general de cambios, podremos hacer un análisis aún más detallado cuantificando las áreas que cambiaron de una clase a otra. Inicialmente, podemos ir al **Toolbox** en el panel de **Compute Change Raster** seleccionamos la imagen inicial la cual es la del año 2000 en el campo **From Raster**, en el siguiente campo **To Raster** seleccionamos la imagen clasificada del año 2022. Podemos establecer un nombre a la imagen que se generará en **Ouput Raster**. En **Compute Change Method** seleccionamos la opción *Categorical difference*. Nos aseguramos que todas las casillas de las clases estén seleccionadas. En **Filter Method** usamos la opción *Changed pixels only* y en **Transition Class Colors** escogemos *Average From and To colors*. Click en **Run**.
+
+<p align="center">
+<img src="../images/arcgis-change/02_fig1.jpg" vspace="10" width="600">
+</p>
+
+Luegeo de tener este nuevo ráster que nos muestra de manera gráfica con colores las áreas de cambio de una clase a otra, podemos estimar el área de cada una aplicando el mismo procedimiento usado anteriormente. Nota: Es posible que el ráster de cambios haya sido generado con las columnas *Count* y *Area* dentro de su tabla de atributos, y es posible que sea necesario verificar estos datos.
+
+|    Clases        |  Agua  |  Vegetación densa  |  Vegetación baja  |  Agricultura  |  Urbano  |  Deforestado  |
+|:----------------:|:------:|:------------------:|:-----------------:|:-------------:|:--------:|:-------------:|
+| Agua             |  -     |  0.3               |  0.9              |  0.9          |  0.1     |  1.3          |
+| Vegetación densa |  0.3   |  -                 |  149.2            |  12.0         |  3.2     |  21.8         |
+| Vegetación baja  |  0.2   |  172.9             |  -                |  70.0         |  21.5    |  18.6         |
+| Agricultura      |  0.1   |  33.1              |  35.4             |  -            |  3.8     |  10.0         |
+| Urbano           |  <0.1  |  1.4               |  21.0             |  8.6          |  -       |  5.4          |
+| Deforestado      |  1.6   |  6.5               |  10.1             |  9.1          |  3.1     |  -            |
+
