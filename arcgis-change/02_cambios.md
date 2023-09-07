@@ -48,12 +48,12 @@ Después de una análisis general de cambios, podremos hacer un análisis aún m
 
 Luegeo de tener este nuevo ráster que nos muestra de manera gráfica con colores las áreas de cambio de una clase a otra, podemos estimar el área de cada una aplicando el mismo procedimiento usado anteriormente. Nota: Es posible que el ráster de cambios haya sido generado con las columnas *Count* y *Area* dentro de su tabla de atributos, y es posible que sea necesario verificar estos datos.
 
-|    Clases        |  Agua  |  Vegetación densa  |  Vegetación baja  |  Agricultura  |  Urbano  |  Deforestado  |
-|:----------------:|:------:|:------------------:|:-----------------:|:-------------:|:--------:|:-------------:|
-| Agua             |  -     |  0.3               |  0.9              |  0.9          |  0.1     |  1.3          |
-| Vegetación densa |  0.3   |  -                 |  149.2            |  12.0         |  3.2     |  21.8         |
-| Vegetación baja  |  0.2   |  172.9             |  -                |  70.0         |  21.5    |  18.6         |
-| Agricultura      |  0.1   |  33.1              |  35.4             |  -            |  3.8     |  10.0         |
-| Urbano           |  <0.1  |  1.4               |  21.0             |  8.6          |  -       |  5.4          |
-| Deforestado      |  1.6   |  6.5               |  10.1             |  9.1          |  3.1     |  -            |
+|    Clases              |  Agua  |  Vegetación densa  |  Vegetación baja  |  Agricultura  |  Urbano  |  Deforestado  |
+|:----------------------:|:------:|:------------------:|:-----------------:|:-------------:|:--------:|:-------------:|
+| Agua - 2000            |  -     |  0.3               |  0.9              |  0.9          |  0.1     |  1.3          |
+| Vegetación densa -2000 |  0.3   |  -                 |  149.2            |  12.0         |  3.2     |  21.8         |
+| Vegetación baja - 2000 |  0.2   |  172.9             |  -                |  70.0         |  21.5    |  18.6         |
+| Agricultura - 2000     |  0.1   |  33.1              |  35.4             |  -            |  3.8     |  10.0         |
+| Urbano - 2000          |  <0.1  |  1.4               |  21.0             |  8.6          |  -       |  5.4          |
+| Deforestado - 2000     |  1.6   |  6.5               |  10.1             |  9.1          |  3.1     |  -            |
 
