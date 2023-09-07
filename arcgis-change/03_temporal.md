@@ -60,3 +60,5 @@ Esto activará una barra de tiempo deslizante que nos permitirá visualizar los 
 <p align="center">
 <img src="../images/arcgis-change/03_fig8.gif" vspace="10" width="800">
 </p>
+
+## Conclusiones
