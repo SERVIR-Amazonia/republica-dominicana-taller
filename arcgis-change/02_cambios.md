@@ -57,3 +57,4 @@ Luegeo de tener este nuevo ráster que nos muestra de manera gráfica con colore
 | Urbano - 2000          |  <0.1  |  1.4               |  21.0             |  8.6          |  -       |  5.4          |
 | Deforestado - 2000     |  1.6   |  6.5               |  10.1             |  9.1          |  3.1     |  -            |
 
+Una forma correcta de interpretar estos datos es por ejemplo: "149.2 km2 de vegetación densa en el 2000 pasó a ser vegetación baja en el 2022".
