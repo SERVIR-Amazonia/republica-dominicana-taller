@@ -86,6 +86,6 @@ Al organizar las capas obtendremos un mapa de cambios espaciales de vegetacipon 
 </p>
 
 ## Conclusiones
-* Para este ejemplo específico, podemos concluir que los mayores cambios de vegetación densa fueron relacionados con la vegetación baja, ya sean ganancias o pérdidas.
+* Para este ejemplo específico, podemos concluir que los mayores cambios de vegetación densa fueron relacionados con la vegetación baja, ya sean ganancias o pérdidas. Las pérdidas de vegetación densa también estuvieron asociadas con deforestación y agricultura.
 * Los cambios espaciales y temporales son muy útiles para detectar patrones y ayuda a tomar inciciativas para actuar.
 * ¿Cuáles otras conclusiones podríamos obtener de estos datos? ¿Qué pasó con la minería y deforestación? ¿Las zonas urbanas crecieron o decrecieron en este periodo?
