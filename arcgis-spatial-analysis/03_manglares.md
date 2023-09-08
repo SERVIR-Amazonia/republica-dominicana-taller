@@ -82,3 +82,9 @@ Dentro del panel **Toolboxes**, vamos a la extensión de **Image Analyst Tools**
 </p>
 
 La precisión general de la clasificación es de 99% y el estadístico Kappa es de 0.97. Las precisiones de usuario y productor indican las precisiones por clase, las cuales son mas altas del 98%.
+
+## Conclusiones
+* La clasificación de manglares puede ser un proceso más complejo de lo aprendido aquí, especialmente debido a los datos de referencia que se deben obtener.
+* Estas clasificaciones por lo general no son perfectas, pueden observarse píxeles clasificados erroneamente, pero técnicas para mejorar el resultado pueden usarse. Por ejemplo usar máscaras de zona o datos complementarios para mejorar la clasificación.
+* Agregar más clases podría mejorar o refinar un poco el resultado. Aunque en algunas ocasiones más clases no es mejor.
+* El estimación de la precisión es solo un valor numérico, el cual puede no reflejarse en la calidad cualitativa del resultado.
