@@ -13,7 +13,7 @@ En esta lección se explorará la forma de visualizar datos temporales y espacia
 
 En esta práctica los datos espaciales serán los polígonos de entidades administrativas, mientras que los datos temporales serán promedios anuales de temperatura a nivel de provincia durante 2000-2022.
 
-Datos requeridos:
+### Datos requeridos:
 * Entidades administrativas a nivel de provincia (*DOM_adm1.shp*).
 * Datos de temperatura anual (*RepDom_TempAnualProvincias.csv*).
 
@@ -82,3 +82,7 @@ Esto activará una barra de tiempo deslizante que nos permitirá visualizar los 
 </p>
 
 ## Conclusiones
+
+* La visualización de datos facilita observar patrones en escalas espaciales, e incluso se pueden observar tendencias a nivel temporal.
+* Este es un proceso relativamente sencillo, pero se debe tener los datos adecuados y estructurados para evitar alguna falla.
+* Este tipo de visualizaciones se ven muy bien en un mapa ilustrativo.
