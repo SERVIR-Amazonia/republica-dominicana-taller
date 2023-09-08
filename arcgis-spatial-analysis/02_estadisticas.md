@@ -156,3 +156,8 @@ También existe la posibilidad de extraer estadisticas zonales en forma tabular 
 <p align="center">
 <img src="../images/arcgis-spatial/02_fig14.jpg" vspace="10" width="900">
 </p>
+
+## Conclusiones
+* Estas son alguna estadísticas que se pueden obtener de datos espaciales. Se pueden realizar algunas estadísticas espaciales un poco más complejas. Sin embargo, hay que tener en cuenta que la aplicación no es estadística, por lo tanto puede estar limitada a algunas funciones específicas.
+* La estadistica descriptiva ayuda a tener una vista diferente de los datos.
+* La aplicación de operaciones o funciones permite ampliar el rango de análisis espaciales usando las bondades de los datos en formato ráster.
