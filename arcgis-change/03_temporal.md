@@ -9,7 +9,21 @@ nav_order: 3
 
 <sup>Este material de enseñanza está basado en ArcGIS Pro 3.1.</sup>
 
+En esta lección se explorará la forma de visualizar datos temporales y espaciales. Las posibilidades son múltiples, dependiendo del tipo y estructura de los datos.
 
+En esta práctica los datos espaciales serán los polígonos de entidades administrativas, mientras que los datos temporales serán promedios anuales de temperatura a nivel de provincia durante 2000-2022.
+
+Datos requeridos:
+* Entidades administrativas a nivel de provincia (*DOM_adm1.shp*).
+* Datos de temperatura anual (*RepDom_TempAnualProvincias.csv*).
+
+## Pasos
+1. Importar datos
+2. Verificar formato de tabla de atributos
+3. Unir tablas de atributos
+4. Visualizar datos
+
+## 1. Importar datos
 
 Crear nuevo proyecto e importar datos administrativos a nivel de provincia (*DOM_adm1*). En la tabla de atributos podremos observar que la columna que tienen el nombre de las provincias es llamada *NAME_1*. Debrían encontrarse 32 polígonos de provincias.
 
@@ -17,17 +31,21 @@ Crear nuevo proyecto e importar datos administrativos a nivel de provincia (*DOM
 <img src="../images/arcgis-change/03_fig1.jpg" vspace="10" width="1000">
 </p>
 
-Procedemos a importar los datos con los promedios mensuales de temperatura por provincia durante 2002-2022, derivados de datos satelitales (*RepDom_TempAnualProvincias.csv*). Estos datos no tienen coordenadas, así que se cargaran como una tabla dentro de ArcGIS Pro. Al explorar sus tabla de atributos podremos observar el tipo de datos y su estructura.
+Procedemos a importar los datos con los promedios anuales de temperatura por provincia durante 2002-2022, derivados de datos satelitales (*RepDom_TempAnualProvincias.csv*). Estos datos no tienen coordenadas, así que se cargaran como una tabla dentro de ArcGIS Pro. Al explorar sus tabla de atributos podremos observar el tipo de datos y su estructura.
 
 <p align="center">
 <img src="../images/arcgis-change/03_fig2.jpg" vspace="10" width="800">
 </p>
+
+## 2. Verificar formato de tabla de atributos
 
 Estos datos tiene una columna que indica el año correspondiente de cada dato, sin embargo es necesario convertir ese año numerico en un año tipo fecha que pueda ser legible más fácilmente por la aplicación. Para editar la tabla es necesario exportarla, ya que la tabla original no se puede sobreescribir. Hacer click derecho sobre la tabla original en el panel **Contents**, seleccionamos **Data**, luego **Export Table**, ponemos un nombre y hacemos click en **OK**. Ahora, vamos a editar la fecha de la nueva tabla. Vamos al panel de **Toolbox** y búscamos la herramienta **Convert Time Field**. En el nuevo panel que se abrirá seleccionamos la tabla respectiva en el campo **Input Table**, seleccionamos la columna con el año en **Input Time Field**, el formato de fecha deseado en **Input Time Format** será *yyyy*, el nombre de la columna nueva donde se alojarán las fechas puede renombrarse si se desea, y nos aseguramos que el formato de la columna sea *Date* en **Output Time Field Type**. La nueva columna mostrará fechas como *1/1/2002*.
 
 <p align="center">
 <img src="../images/arcgis-change/03_fig3.jpg" vspace="10" width="1000">
 </p>
+
+## 3. Unir tablas de atributos
 
 En el siguiente paso, vamos a unir las dos tablas de atributos, es decir la tabla de atributos de las entidades administrativas y la de los datos temporales de temperatura. Estas dos tablas tiene en común una columna con los nombres de las provincias, la cual podremos usar para combinarlas. Es necesario que los nombres de las provincias tengan un mismo formato y coincidan. Para evitar algún daño a los atributos del shapefile original vamos a exportarlo para tener un duplicado, haciemos click derecho sobre la capa, luego seleccionamos **Data**, y luego **Export Features**. Lo guardamos con las opciones predeterminadas. Este archivo se almacenará en el *Geodatabase* del proyecto. 
 
@@ -36,6 +54,8 @@ Ahora, hacemos click derecho en la capa duplicada *DOM_adm1_ExportFeatures*, sel
 <p align="center">
 <img src="../images/arcgis-change/03_fig4.jpg" vspace="10" width="1000">
 </p>
+
+## 4. Visualizar datos
 
 Ahora que hemos unido las tablas podremos examinar las tendencias temporales de los datos de temperatura. Haciendo click derecho sobre la capa administrativa, seleccionamos **Create Chart** y luego **Line Chart**. En el panel que se abrirá escogemos la columna *año_Converted* en el campo **Date or Number**, añadimos un nuevo campo en **Numeric field(s)** y escogemos la columna *LST* con los datos de temperatura. La gráfica mostrará la temperatura de cada provincia entre 2002 y 2022. La gráfica no es de la mejor calidad debido al alto número de provincias.
 
