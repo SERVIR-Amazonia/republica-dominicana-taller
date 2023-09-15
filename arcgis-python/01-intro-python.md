@@ -36,6 +36,16 @@ Para aprovechar esta versatilidad, la comunidad de Python ha creado métodos par
 
 La funcionalidad de conda se integra en ArcGIS Pro a través del Gestor de paquetes ([Package Manager](https://pro.arcgis.com/en/pro-app/latest/arcpy/get-started/what-is-conda.htm)). El gestor de paquetes elimina muchos de los retos a los que se enfrenta la escritura de código Python. Admite la instalación de bibliotecas de código abierto y de terceros asociadas a un proyecto individual, en lugar de a la instalación base de Python. Esto simplifica el proceso de compartir con éxito herramientas Python complejas en varios ordenadores.
 
+## ArcPy
+
+ArcPy es un paquete de Python que proporciona una forma útil y productiva de realizar análisis de datos geográficos, conversión de datos, gestión de datos y automatización de mapas con Python.
+
+En este paquete encontramos todas las funcionalidades encontradas en las herramientas (**Tools**) de geoprocesamiento de ArcGIS Pro.
+
+La ventaja adicional de utilizar ArcPy es que Python es un lenguaje de programación de propósito general. Está interpretado y tipado dinámicamente y es adecuado para el trabajo interactivo y la creación rápida de prototipos de programas puntuales conocidos como scripts, al tiempo que es lo suficientemente potente como para escribir grandes aplicaciones. Las aplicaciones ArcGIS escritas con ArcPy se benefician del desarrollo de módulos adicionales en numerosos nichos de Python por parte de profesionales de SIG y programadores de muchas disciplinas diferentes.
+
+Este paquete ya está instalado juntamente con Python en ArcGIS Pro, estonces está listo para utilización.
+
 ## Como correr Python en ArcGIS Pro
 
 Puedes ejecutar Python de forma interactiva en ArcGIS Pro utilizando el **Python Window** o **ArcGIS Notebooks**. El Python Window proporciona un indicador desde el que se pueden ejecutar breves fragmentos de código Python. Los ArcGIS Notebooks se basan en la arquitectura Jupyter Notebook y ofrecen una experiencia en la que el código, las visualizaciones y el texto narrativo pueden ejecutarse y almacenarse juntos en un documento.
@@ -68,8 +78,59 @@ Puede encontrar otros tutoriales en la galería de tutoriales [https://learn.arc
 <img src="../images/arcgis-python/fig4.png" vspace="10" width="600">
 </p>
 
-4. Otra forma de hacerlo es ejecutando un Geoprocessing Tool. En la cinta de Options, en la pestaña Analysis, en el grupo Geoprocessing, haga clic en Tools. En la barra de búsqueda del panel Geoprocesamiento, escriba "count" y pulse Enter. Haga clic en la herramienta Get Count. En el panel de herramientas Get Count, para el parámetro Input Rows, seleccione ```DOM_admi1```. Haga clic en Ejecutar.
+4. Otra forma de hacerlo es ejecutando un **Geoprocessing Tool**. En la cinta de **Options**, en la pestaña **Analysis**, en el grupo **Geoprocessing**, haga clic en **Tools**. En la barra de búsqueda del panel Geoprocesamiento, escriba "count" y pulse Enter. Haga clic en la herramienta **Get Count**. En el panel de herramientas Get Count, para el parámetro **Input Rows**, seleccione ```DOM_admi1```. Haga clic en **Run**.
 
-5. Haga clic en Ver detalles. Aparece la ventana Get Count (Data Management Tools) con la pestaña Messages abierta. El mensaje dice Row Count = 32, que es el mismo recuento que determinó manualmente abriendo la tabla de atributos. Puede repetir estos pasos para determinar el recuento de todos los shapefiles, pero eso llevaría mucho tiempo si tuviera muchos conjuntos de datos. En su lugar, desarrollará un script de Python para realizar esta tarea.
+<p align="center">
+<img src="../images/arcgis-python/fig5.png" vspace="10" width="400">
+</p>
 
-6.
+
+5. Haga clic en **View Details**. Aparece la ventana **Get Count (Data Management Tools)** con la pestaña **Messages** abierta. El mensaje dice *Row Count = 32*, que es el mismo recuento que determinó manualmente abriendo la tabla de atributos. Puede repetir estos pasos para determinar el recuento de todos los shapefiles, pero eso llevaría mucho tiempo si tuviera muchos conjuntos de datos. En su lugar, desarrollará un script de Python para realizar esta tarea.
+
+<p align="center">
+<img src="../images/arcgis-python/fig7.png" vspace="10" width="600">
+</p>
+
+6. Cierre la ventana **Get Count**.
+A continuación, utilizará Python para ejecutar la misma herramienta. En la pestaña **Analysis**, en el grupo **Geoprocessing**, haga clic en el menú desplegable del botón **Python** y seleccione **Python Window**. 
+
+<p align="center">
+<img src="../images/arcgis-python/fig8.png" vspace="10" width="400">
+</p>
+
+7. Aparece la ventana Python. La sección superior de la ventana Python se llama transcripción, y la sección inferior se llama prompt. La transcripción está inicialmente en blanco. La transcripción proporciona un registro del código introducido previamente y sus resultados. El prompt es donde se escribe el código. Cuando la ventana de Python se abre por primera vez, el mensaje en el prompt dice *Initializing Python interpreter*, lo que significa que la ventana se está preparando para recibir tu código. Después de unos segundos, el mensaje es reemplazado por *Enter Python code here*, lo que significa que puede empezar a escribir su código. Después de abrir la ventana de Python por primera vez, estos mensajes no vuelven a aparecer en la sesión actual.
+
+<p align="center">
+<img src="../images/arcgis-python/fig9.png" vspace="10" width="600">
+</p>
+
+8. En el panel **History**, haz clic con el botón derecho del ratón en **Get Count** y selecciona **Send to Python Window**.
+
+<p align="center">
+<img src="../images/arcgis-python/fig10.png" vspace="10" width="400">
+</p>
+
+<p align="center">
+<img src="../images/arcgis-python/fig11.png" vspace="10" width="400">
+</p>
+
+9. En la ventana Python aparece una línea de código para la herramienta Obtener recuento: 
+```python
+arcpy.management.GetCount(
+    in_rows="DOM_adm1"
+)
+```
+
+**ArcPy** es un paquete de Python que hace que gran parte de la funcionalidad de ArcGIS Pro esté disponible desde Python. ```GetCount()``` es una función de ArcPy que ejecuta la herramienta de geoprocesamiento **Get Count** situada en la caja de herramientas **Data Management Tools**.
+
+Haz clic al final de la línea de código para situar el cursor y pulsa **Enter**. Ejecutar el código en la ventana Python creó una nueva entrada en el panel **History** con el resultado 32.
+
+<p align="center">
+<img src="../images/arcgis-python/fig12.png" vspace="10" width="400">
+</p>
+
+Aparte de la marca de tiempo, estas dos entradas son idénticas, y no hay diferencia entre ejecutar una herramienta utilizando el cuadro de diálogo de herramientas y utilizando Python. Cuando se utiliza Python, sin embargo, se puede utilizar código para controlar cómo se ejecutan las herramientas, incluyendo la ejecución de la misma herramienta muchas veces en diferentes clases de características.
+
+Puedes también correr una línea de código como ```print('GIS es chevere')```, crear una variable ```x = 12``` y mucho más como hicimos en Google Earth Engine. Sin embargo, la lenguaje acá es Python y no JavaScript.
+
+Para más ejercícios de Python utilizando la ventana de Python y Python afuera de ArcGIS Pro (con el IDLE), consulte ese tutorial: [https://learn.arcgis.com/en/projects/get-started-with-python-in-arcgis-pro/](https://learn.arcgis.com/en/projects/get-started-with-python-in-arcgis-pro/).
