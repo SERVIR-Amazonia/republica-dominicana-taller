@@ -26,6 +26,8 @@ Se usará material descargado del portal [Diva-GIS](http://www.diva-gis.org/gdat
 * Airports (Natural Earth)
 * Ports (Natural Earth)
 
+Descargar material [AQUÍ](https://drive.google.com/drive/u/1/folders/1x6qXRMHdH3iVh2Fc1znJyarl101YlDvC).
+
 ## 1. Nuevo Proyecto
 
 1.1. Abra ArcGIS Pro y cree un nuevo proyecto. Si ha estado trabajando en otro proyecto puede ir a la pestaña **Project**, seleccionar **New**, y dar click en **Map**. Para esta práctica es recomendable que el proyecto se guarde en su computador local. Posteriormente aparecerá una ventana donde puede ingresar un nombre a su proyecto y decidir en donde lo va guardar.
