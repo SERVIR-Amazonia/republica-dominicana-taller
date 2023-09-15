@@ -60,7 +60,7 @@ Estadística descriptiva de datos ráster o vectoriales se puede obtener tanto d
 #### Material
 * Datos Ráster de Elevación (*DOM_alt*)
 * Datos Ráster de Temperatura (*RepDom_LST_Jul2023.tif*)
-* Mosaico de 2021 Landsat-8 (*RepDom_Mosaico_2021_L8*)
+* Mosaico de 2021 Landsat-8 (*RepDom_Mosaico_2021_L8.tif*)
 * División Administrativa Nivel 2 - Municipios (*DOM_adm2.shp*)
 
 Tiempo estimado: 35 min.
