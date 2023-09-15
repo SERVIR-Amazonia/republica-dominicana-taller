@@ -51,7 +51,7 @@ Este paquete ya está instalado juntamente con Python en ArcGIS Pro, estonces es
 Puedes ejecutar Python de forma interactiva en ArcGIS Pro utilizando el **Python Window** o **ArcGIS Notebooks**. El Python Window proporciona un indicador desde el que se pueden ejecutar breves fragmentos de código Python. Los ArcGIS Notebooks se basan en la arquitectura Jupyter Notebook y ofrecen una experiencia en la que el código, las visualizaciones y el texto narrativo pueden ejecutarse y almacenarse juntos en un documento.
 
 <p align="center">
-<img src="../images/arcgis-python/fig1.png" vspace="10" width="600">
+<img src="../images/arcgis-python/fig1.png" vspace="10" width="400">
 </p>
 
 Puedes también ejecutar scripts de Python (archivos con extensión .py) fuera de ArcGIS Pro. Pero, para esta sesión, vamos hacer una breve introducción al Python Window y enfocar en los Notebooks. 
@@ -82,6 +82,15 @@ Puede encontrar otros tutoriales en la galería de tutoriales [https://learn.arc
 
 <p align="center">
 <img src="../images/arcgis-python/fig5.png" vspace="10" width="400">
+</p>
+
+<p align="center">
+<img src="../images/arcgis-python/fig6_.png" vspace="10" width="400">
+</p>
+
+
+<p align="center">
+<img src="../images/arcgis-python/fig6.png" vspace="10" width="400">
 </p>
 
 
@@ -121,7 +130,7 @@ arcpy.management.GetCount(
 )
 ```
 
-**ArcPy** es un paquete de Python que hace que gran parte de la funcionalidad de ArcGIS Pro esté disponible desde Python. ```GetCount()``` es una función de ArcPy que ejecuta la herramienta de geoprocesamiento **Get Count** situada en la caja de herramientas **Data Management Tools**.
+Como vimos arriba, **ArcPy** es un paquete de Python que hace que gran parte de la funcionalidad de ArcGIS Pro esté disponible desde Python. ```GetCount()``` es una función de ArcPy que ejecuta la herramienta de geoprocesamiento **Get Count** situada en la caja de herramientas **Data Management Tools**.
 
 Haz clic al final de la línea de código para situar el cursor y pulsa **Enter**. Ejecutar el código en la ventana Python creó una nueva entrada en el panel **History** con el resultado 32.
 
