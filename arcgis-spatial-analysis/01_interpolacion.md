@@ -43,7 +43,7 @@ Los métodos de interpolación disponibles en la herramienta Spatial Analysis de
 #### Material
 * Datos Tabulares de Precipitación Junio 2023 (*precipitacion_jun2023.csv*)
 * Datos Ráster de Precipitación Junio 2023 (*Precipitacion_Jun2023_CHIRPS.tif*)
-* Polígono Republica Dominicana (*DOM_amd0.shp*)
+* Polígono Republica Dominicana (*DOM_adm0.shp*)
 * Datos Ráster de Elevación (*DOM_alt.vrt*)
 
 Tiempo estimado: 45 min
