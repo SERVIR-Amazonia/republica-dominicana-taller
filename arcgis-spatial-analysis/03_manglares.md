@@ -17,6 +17,8 @@ El material necesario para esta práctica es:
 
 Descargar material [AQUÍ](https://drive.google.com/drive/u/1/folders/1x6qXRMHdH3iVh2Fc1znJyarl101YlDvC).
 
+Tiempo estimado: 40 min.
+
 ## Pasos
 1. Crear proyecto e importar datos.
 2. Entrenamiento
