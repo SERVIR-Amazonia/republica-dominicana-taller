@@ -17,6 +17,10 @@ En esta práctica los datos espaciales serán los polígonos de entidades admini
 * Entidades administrativas a nivel de provincia (*DOM_adm1.shp*).
 * Datos de temperatura anual (*RepDom_TempAnualProvincias.csv*).
 
+Descargar material [AQUÍ](https://drive.google.com/drive/u/1/folders/1x6qXRMHdH3iVh2Fc1znJyarl101YlDvC).
+
+Tiempo estimado: 50 min.
+
 ## Pasos
 1. Importar datos
 2. Verificar formato de tabla de atributos
