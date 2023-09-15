@@ -17,6 +17,8 @@ Esta es la continuación de la lección anterior sobre clasificación de cobertu
 
 Para esta lección se cuantificarán las áreas por clase de cada imagen clasificada, y se detectarán los cambios por píxel de una de las clases entre las dos imágenes.
 
+Tiempo estimado: 45 min.
+
 ## Análisis de cambios
 
 Este es un procedimiento que toma en cuenta el número de píxeles por clase y el área de cada píxel. En este caso la imagen clasificada debe tener una resolución de píxel de 30 x 30 m, esto quiere decir que el área de cada píxel es 900 m2.
