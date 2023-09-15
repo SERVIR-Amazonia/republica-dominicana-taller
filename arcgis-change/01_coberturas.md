@@ -27,7 +27,7 @@ Para esta lección usaremos dos imágenes multiespectrales de dos años y sensor
 
 Descargar material [AQUÍ](https://drive.google.com/drive/u/1/folders/1x6qXRMHdH3iVh2Fc1znJyarl101YlDvC).
 
-Tiempo estimado: 40 min.
+Tiempo estimado: 45 min.
 
 ## Pasos
 1. Importar datos
