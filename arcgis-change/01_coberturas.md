@@ -25,6 +25,10 @@ Para esta lección usaremos dos imágenes multiespectrales de dos años y sensor
 * Mosaico compuesto de Landsat-8 año 2022 (*RepDom_MosaicoMineria_2022_L8.tif*)
 * Mosaico compuesto de Landsat-7 año 2000 (*RepDom_MosaicoMineria_2000_L7.tif*)
 
+Descargar material [AQUÍ](https://drive.google.com/drive/u/1/folders/1x6qXRMHdH3iVh2Fc1znJyarl101YlDvC).
+
+Tiempo estimado: 40 min.
+
 ## Pasos
 1. Importar datos
 2. Establecer categorías de cobertura
