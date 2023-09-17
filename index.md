@@ -57,3 +57,7 @@ Se puede acceder a las grabaciones de cada sesión del taller haciendo clic en e
 ## MEL
 
 [Diapositivas](https://docs.google.com/presentation/d/1LGYV0Ffc4Ax5fO-fAYtLuDhVmrpq38OT/edit?usp=sharing&ouid=117588040825190888554&rtpof=true&sd=true) presentadas durante la Reunión en línea de 4 de maio (abierta para edición).
+
+## License
+
+Los materiales adjuntos se proporcionan bajo los términos de la Licencia Pública Eclipse ("acuerdo"). Cualquier uso, reproducción o distribución del programa constituye la aceptación de este acuerdo por parte del destinatario. Para más informaciones acceder a [https://github.com/SERVIR-Amazonia/republica-dominicana-taller/blob/main/LICENSE](https://github.com/SERVIR-Amazonia/republica-dominicana-taller/blob/main/LICENSE)
