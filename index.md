@@ -60,4 +60,4 @@ Se puede acceder a las grabaciones de cada sesión del taller haciendo clic en e
 
 ## License
 
-Los materiales adjuntos se proporcionan bajo los términos de la Licencia Pública Eclipse ("acuerdo"). Cualquier uso, reproducción o distribución del programa constituye la aceptación de este acuerdo por parte del destinatario. Para más informaciones acceder a [https://github.com/SERVIR-Amazonia/republica-dominicana-taller/blob/main/LICENSE](https://github.com/SERVIR-Amazonia/republica-dominicana-taller/blob/main/LICENSE)
+Los materiales adjuntos se proporcionan bajo los términos de la Licencia Pública Eclipse ("acuerdo"). Cualquier uso, reproducción o distribución del programa constituye la aceptación de este acuerdo por parte del destinatario. Para más informaciones acceder a [https://github.com/SERVIR-Amazonia/republica-dominicana-taller/blob/main/LICENSE](https://github.com/SERVIR-Amazonia/republica-dominicana-taller/blob/main/LICENSE).
