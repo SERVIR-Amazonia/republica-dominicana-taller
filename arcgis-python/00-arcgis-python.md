@@ -1,12 +1,12 @@
 ---
 layout: page
-title: "ArcGIS Pro - Python y Automatización"
+title: "ArcGIS Pro - Introducción a Python y ArcPy"
 permalink: /arcgis-python
 has_children: True
 nav_order: 12
 ---
 
-# ArcGIS Pro - Python y Automatización
+# ArcGIS Pro - Introducción a Python y ArcPy
 
 Navegue a través de las diferentes secciones de la lección utilizando el menú del lado izquierdo o la tabla de contenido a continuación.
 
