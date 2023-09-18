@@ -34,11 +34,11 @@ Si tiene alguna duda sobre el material, envíe una pregunta a continuación. Est
 | 5                      | Avanzado en Google Earth Engine (Detección de cambio)                                                                                                                                                                                  | Abril 13      | Impartido a distancia |
 | 6                      | Uso de Collect Earth Online para la evaluación de la precisión y la estimación de área no sesgada de los mapas.                                                                                                                        | Abril 20      | Impartido a distancia |
 | Q&A                    | Reunión en línea                                                                                                                                                                                                                       | Mayo 4        | Virtual               |
-| 7                      | ArcGIS Pro - Creación de mapa, análisis espacial básico (por ejemplo, crear área de influencia (buffer))                                                                                                                               | Septiembre 18 | Presencial            |
-| 8 - 9                  | ArcGIS Pro - Análisis espacial relacionado con los manglares o hidrológico (por ejemplo, clasificación de imágenes)                                                                                                                    | Septiembre 19 | Presencial            |
-| 10                     | ArcGIS Pro - Detección de Cambios y Séries Temporales                                                                                                                                                                                  | Septiembre 20 | Presencial            |
-| 11                     | ArcGIS Pro - Python y Automatización                                                                                                                                                                                                   | Septiembre 21 | Presencial            |
-| 12                     | Sesión de Capstone / MEL                                                                                                                                                                                                               | Septiembre 22 | Presencial            |
+| 7                      | ArcGIS Pro - Introducción                                                                                                                                                                                                              | Septiembre 18 | Presencial            |
+| 8                      | ArcGIS Pro - Análisis espacial                                                                                                                                                                                                         | Septiembre 19 | Presencial            |
+| 9                      | ArcGIS Pro - Análisis temporales                                                                                                                                                                                                       | Septiembre 20 | Presencial            |
+| 10                     | ArcGIS Pro - Introducción a Python y ArcPy                                                                                                                                                                                             | Septiembre 21 | Presencial            |
+| 11                     | Sesión de Capstone / MEL                                                                                                                                                                                                               | Septiembre 22 | Presencial            |
 
 
 ## Retroalimentación / Feedback
@@ -57,3 +57,7 @@ Se puede acceder a las grabaciones de cada sesión del taller haciendo clic en e
 ## MEL
 
 [Diapositivas](https://docs.google.com/presentation/d/1LGYV0Ffc4Ax5fO-fAYtLuDhVmrpq38OT/edit?usp=sharing&ouid=117588040825190888554&rtpof=true&sd=true) presentadas durante la Reunión en línea de 4 de maio (abierta para edición).
+
+## Licencia
+
+Los materiales adjuntos se proporcionan bajo los términos de la Licencia Pública Eclipse v2.0. Cualquier uso, reproducción o distribución del programa constituye la aceptación de este acuerdo por parte del destinatario. Para más informaciones acceder a [https://github.com/SERVIR-Amazonia/republica-dominicana-taller/blob/main/LICENSE](https://github.com/SERVIR-Amazonia/republica-dominicana-taller/blob/main/LICENSE).

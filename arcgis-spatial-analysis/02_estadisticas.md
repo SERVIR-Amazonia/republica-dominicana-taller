@@ -57,9 +57,15 @@ Estadística descriptiva de datos ráster o vectoriales se puede obtener tanto d
 
 ### Aplicaciones de calculadora ráster
 
+#### Material
+* Datos Ráster de Elevación (*DOM_alt*)
+* Datos Ráster de Temperatura (*RepDom_LST_Jul2023.tif*)
+* Mosaico de 2021 Landsat-8 (*RepDom_Mosaico_2021_L8.tif*)
+* División Administrativa Nivel 2 - Municipios (*DOM_adm2.shp*)
+
 Tiempo estimado: 35 min.
 
-Datos: Elevación, Temperatura, Multiespectral.
+Descarga material [AQUÍ](https://drive.google.com/drive/u/1/folders/1x6qXRMHdH3iVh2Fc1znJyarl101YlDvC).
 
 ## 1. Importar datos
 

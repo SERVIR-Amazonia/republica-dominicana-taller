@@ -11,7 +11,7 @@ Este material de enseñanza está basado en ArcGIS Pro 3.1, y usa algunos recurs
 
 En esta práctica se explorarán los componentes principales de la interfaz de ArcGIS Pro: la barra de herramientas, vistas, y paneles.
 
-Se requiere descargar el proyecto **Introducing_ArcGIS_Pro.ppkx** disponible en este [enlace](https://www.arcgis.com/home/item.html?id=c25cf7226e3a48d48f0de9ac5a5a9122) (pestaña *Download*), y guardarlo en una carpeta específica de trabajo en su computador personal. Este proyecto contiene mapas 2D y 3D de Wellington, Nueva Zelanda.
+Se requiere descargar el proyecto **Introducing_ArcGIS_Pro.ppkx** disponible en la página de [ArcGIS](https://www.arcgis.com/home/item.html?id=c25cf7226e3a48d48f0de9ac5a5a9122) (pestaña *Download*), o de la carpeta de [Drive](https://drive.google.com/drive/u/1/folders/1x6qXRMHdH3iVh2Fc1znJyarl101YlDvC), y guardarlo en una carpeta específica de trabajo en su computador personal. Este proyecto contiene mapas 2D y 3D de Wellington, Nueva Zelanda.
 
 Previamente, verifique que tiene ArcGIS Pro debidamente licenciado y listo para trabajar.
 

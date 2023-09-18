@@ -40,9 +40,15 @@ Los métodos de interpolación disponibles en la herramienta Spatial Analysis de
 
 ### Interpolaciones con datos de precipitación
 
+#### Material
+* Datos Tabulares de Precipitación Junio 2023 (*precipitacion_jun2023.csv*)
+* Datos Ráster de Precipitación Junio 2023 (*Precipitacion_Jun2023_CHIRPS.tif*)
+* Polígono Republica Dominicana (*DOM_adm0.shp*)
+* Datos Ráster de Elevación (*DOM_alt.vrt*)
+
 Tiempo estimado: 45 min
 
-La carpeta con los archivos requeridos para esta práctica están disponibles aquí....
+Descarga de archivos [AQUÍ](https://drive.google.com/drive/u/1/folders/1x6qXRMHdH3iVh2Fc1znJyarl101YlDvC).
 
 Se usará un conjunto de datos de 37 estaciones metereológicas con medidas de precipitación (mm) para el mes de Junio de 2023 y elevación (m). Las coordenadas, nombres, y elevación de cada una de las estaciones metereológicas fueron tomadas del [ONAMET](https://onamet.gob.do/index.php/publicaciones/estaciones-automaticas). Los datos de precipitación no pudieron ser tomados del ONAMET. Sin embargo, fueron tomados de la colección [CHIRPS](https://developers.google.com/earth-engine/datasets/catalog/UCSB-CHG_CHIRPS_DAILY?hl=en) disponible en Google Earth Engine para el mes de Junio de 2023 en República Dominicana.
 

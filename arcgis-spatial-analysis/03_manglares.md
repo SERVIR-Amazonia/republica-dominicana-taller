@@ -12,8 +12,12 @@ Este material de mapeo de manglares es una adaptación del [mapeo de manglares e
 
 El material necesario para esta práctica es:
 
-* Imagen sin nubes construida con la colección Landsat-8 (*RepDom_MosaicoManglar_2021_L8.tif*).
+* Mosaico sin nubes de 2021 construido con la colección Landsat-8 (*RepDom_MosaicoManglar_2021_L8.tif*).
 * Datos de entrenamiento (*Datos_Manglar.shp*).
+
+Descargar material [AQUÍ](https://drive.google.com/drive/u/1/folders/1x6qXRMHdH3iVh2Fc1znJyarl101YlDvC).
+
+Tiempo estimado: 40 min.
 
 ## Pasos
 1. Crear proyecto e importar datos.
