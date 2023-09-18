@@ -123,12 +123,16 @@ A continuación, utilizará Python para ejecutar la misma herramienta. En la pes
 <img src="../images/arcgis-python/fig11.png" vspace="10" width="400">
 </p>
 
-9. En la ventana Python aparece una línea de código para la herramienta Obtener recuento: 
+9. En la ventana Python aparece una línea de código para la herramienta **Get Count**: 
 ```python
 arcpy.management.GetCount(
     in_rows="DOM_adm1"
 )
 ```
+
+<p align="center">
+<img src="../images/arcgis-python/fig11_.png" vspace="10" width="400">
+</p>
 
 Como vimos arriba, **ArcPy** es un paquete de Python que hace que gran parte de la funcionalidad de ArcGIS Pro esté disponible desde Python. ```GetCount()``` es una función de ArcPy que ejecuta la herramienta de geoprocesamiento **Get Count** situada en la caja de herramientas **Data Management Tools**.
 
