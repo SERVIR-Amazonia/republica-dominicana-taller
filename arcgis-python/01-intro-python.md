@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Python en ArcGIS Pro
-parent: ArcGIS Pro - Python y Automatización
+parent: ArcGIS Pro - Introducción a Python y ArcPy
 nav_order: 1
 ---
 
