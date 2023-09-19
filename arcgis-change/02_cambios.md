@@ -9,17 +9,21 @@ nav_order: 2
 
 <sup>Este material de enseñanza está basado en ArcGIS Pro 3.1.</sup>
 
-Esta es la continuación de la lección anterior sobre clasificación de coberturas. **Tanto esta como la anterior práctica son superficiales y sin el rigor científico requerido como para considerar los datos presentados como válidos.**
-
 <p align="center">
-<img src="../images/arcgis-change/01_fig6.jpg" vspace="10" width="800">
+<img src="../images/arcgis-change/02_fig6.jpg" vspace="10" width="300">
 </p>
+
+Esta es la continuación de la lección anterior sobre clasificación de coberturas. **Tanto esta como la anterior práctica son superficiales y sin el rigor científico requerido como para considerar los datos presentados como válidos.**
 
 Para esta lección se cuantificarán las áreas por clase de cada imagen clasificada, y se detectarán los cambios por píxel de una de las clases entre las dos imágenes.
 
 Tiempo estimado: 45 min.
 
 ## Análisis de cambios
+
+<p align="center">
+<img src="../images/arcgis-change/01_fig6.jpg" vspace="10" width="800">
+</p>
 
 Este es un procedimiento que toma en cuenta el número de píxeles por clase y el área de cada píxel. En este caso la imagen clasificada debe tener una resolución de píxel de 30 x 30 m, esto quiere decir que el área de cada píxel es 900 m2.
 
