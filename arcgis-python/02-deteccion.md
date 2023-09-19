@@ -161,6 +161,10 @@ arcpy.CompositeBands_management(in_rasters=f"{despues_NIR};{despues_Red};{despue
 
 4. Haga clic en la pestaña **Map** para ver los resultados. 
 
+<p align="center">
+<img src="../images/arcgis-python/fig14.png" vspace="10" width="600">
+</p>
+
 5. En el panel **Contents**, haga clic con el botón derecho del ratón en **composicion_img_despues** y haga clic en **Zoom To Layer**.  
 
 Verá la imagen infrarroja en falso color que representa la zona después de la inundación. Las áreas con vegetación aparecen en rojo y el agua en azul vibrante.
@@ -279,6 +283,14 @@ Ahora que ha añadido los índices rasterizados al mapa, puede inspeccionar las 
 
 4. Haga clic en la pestaña **Map** para ver los resultados.  
 
+<p align="center">
+<img src="../images/arcgis-python/fig15.png" vspace="10" width="600">
+</p>
+
+<p align="center">
+<img src="../images/arcgis-python/fig16.png" vspace="10" width="600">
+</p>
+
 Las áreas con valores de píxel más altos corresponden al agua y están simbolizadas en blanco.  
 
 ¿Puede ver las áreas que corresponden al agua?
@@ -341,6 +353,14 @@ Ahora que ha ejecutado la función crear_umbral_raster en los rásters índice, 
 
 3. Haga clic en la pestaña **Map** para ver los resultados.  
 
+<p align="center">
+<img src="../images/arcgis-python/fig17.png" vspace="10" width="600">
+</p>
+
+<p align="center">
+<img src="../images/arcgis-python/fig18.png" vspace="10" width="600">
+</p>
+
 Las áreas con valores de píxel de 1 se clasifican como agua. Las áreas con valores de 0 no son agua.
 
 ¿Puede ver las áreas clasificadas como agua? ¿En qué se diferencian estas zonas en las dos capas de salida umbralizadas?
@@ -396,6 +416,10 @@ Ahora que la capa de la matriz de confianza se ha añadido al mapa, puede explor
 
 3. Haga clic en la pestaña **Map** para ver los resultados.  
 
+<p align="center">
+<img src="../images/arcgis-python/fig19.png" vspace="10" width="600">
+</p>
+
 Las áreas con valores de píxel de 2 fueron clasificadas como agua por ambos índices.  
 Las áreas con valores de 1 fueron clasificadas como agua sólo por uno de los índices.  
 Las áreas con valores de píxel de 0 fueron clasificadas como agua por ninguno de los índices.  
@@ -431,6 +455,10 @@ mascara_agua_despues_reclas.save(mascara_agua_despues_reclas_raster)
 ```
 
 2. Haga clic en la pestaña **Map** para ver los resultados.  
+
+<p align="center">
+<img src="../images/arcgis-python/fig20.png" vspace="10" width="600">
+</p>
 
 Las zonas en las que ambos índices coincidieron en que había agua (valor del píxel = 2) contrastan con las zonas en las que discreparon, o coincidieron en que no había agua (valores = 0).
 
@@ -536,6 +564,10 @@ mascara_agua_antes_reclas.save(mascara_agua_antes_reclas_raster)
 
 2. Haga clic en la pestaña **Map** para ver los resultados.  
 
+<p align="center">
+<img src="../images/arcgis-python/fig22.png" vspace="10" width="300">
+</p>
+
 La capa mascara_agua_antes_reclass muestra las zonas que estaban cubiertas de agua antes de la inundación.
 
 3. Pulse la tecla _Ctrl_ mientras hace clic en la casilla situada junto a la capa mascara_agua_antes_reclass para desactivar todas las capas.  
@@ -571,6 +603,10 @@ El raster resultante contiene tres valores de píxel:
 
 Los píxeles con un valor de 2 son las zonas recién inundadas y que no contenían agua en las imágenes anteriores a la inundación. Sólo estos valores son de interés, por lo que puede reclasificar este ráster para establecer todos los demás píxeles como "NoData".
 
+<p align="center">
+<img src="../images/arcgis-python/fig23.png" vspace="10" width="600">
+</p>
+
 2. Ejecute la celda siguiente para reclasificar el ráster de modo que sólo muestre las zonas recientemente inundadas.
 
 ```python
@@ -586,8 +622,13 @@ area_inundada_final = Reclassify(in_raster=area_inundada_calc,
 ```
 
 3. Haga clic en la pestaña **Map** para ver los resultados. 
-4. Desmarque la capa flooded_area_calc.  
-5. Compare la capa flooded_area_final con las dos imágenes compuestas.
+
+<p align="center">
+<img src="../images/arcgis-python/fig24.png" vspace="10" width="600">
+</p>
+
+4. Desmarque la capa `area_inundada_calc`.  
+5. Compare la capa `area_inundada_final` con las dos imágenes compuestas.
 
 ### Guardar los resultados del análisis  
 
@@ -597,11 +638,13 @@ Todos los resultados obtenidos hasta ahora se han guardado en un espacio de trab
 
 1. Ejecute la celda siguiente para guardar el ráster area_inundada_final como archivo .tif en la carpeta carpeta_salida_final.
 
+```python
 # Crear ruta para el archivo tif de salida del área inundada
 area_inundada_final_raster = os.path.join(carpeta_salida_final, "Area_Inundada_Final_Raster.tif")
 
 # Guardar el área inundada final en un archivo tif
 area_inundada_final.save(area_inundada_final_raster)
+```
 
 Utilizará la herramienta [Raster to Polygon](https://pro.arcgis.com/en/pro-app/2.8/tool-reference/conversion/raster-to-polygon.htm) para guardar una copia de los resultados como shapefile.  
 2. Ejecute la celda de abajo para convertir el raster a un shapefile de polígono en la carpeta carpeta_salida_final.
@@ -617,11 +660,15 @@ arcpy.RasterToPolygon_conversion(in_raster=area_inundada_final,
                                  raster_field="Value")
 ```
 
+<p align="center">
+<img src="../images/arcgis-python/fig25.png" vspace="10" width="600">
+</p>
+
 Ha completado el análisis. Las zonas inundadas se almacenan en un archivo de imagen y un archivo shapefile en su disco duro, listos para su uso en un informe o un análisis posterior.
 
 # Crea una herramienta de script a partir de tu código  
 
-Ahora que ha terminado el análisis, creará una herramienta de script a partir de su código, para que otros puedan utilizarla. Abre y sigue las instrucciones del archivo **Creacion_Herramienta.ipynb** para crear una herramienta de script.
+Ahora que ha terminado el análisis, creará una herramienta de script a partir de su código, para que otros puedan utilizarla. Abre y sigue las instrucciones del archivo **Herramienta_de_Script.ipynb** para crear una herramienta de script.
 
 # Limpiar capas temporales
 
@@ -644,3 +691,7 @@ for capa in capas:
         print("Removing: ", capa.name )
         m.removeLayer(capa)
 ```
+
+<p align="center">
+<img src="../images/arcgis-python/fig26.png" vspace="10" width="300">
+</p>
