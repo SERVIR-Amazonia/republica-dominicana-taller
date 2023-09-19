@@ -8,6 +8,10 @@ nav_order: 3
 
 <sup>Este material de enseñanza está basado en ArcGIS Pro 3.1.</sup>
 
+<p align="center">
+<img src="../images/arcgis-spatial/03_fig5.jpg" vspace="10" width="500">
+</p>
+
 Este material de mapeo de manglares es una adaptación del [mapeo de manglares en GEE](https://github.com/SERVIR-Amazonia/republica-dominicana-taller/blob/main/gee-mapeo-manglares/gee-mapeo-manglares.md).
 
 El material necesario para esta práctica es:
