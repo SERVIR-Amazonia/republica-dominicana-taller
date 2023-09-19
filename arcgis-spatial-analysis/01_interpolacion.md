@@ -9,6 +9,10 @@ nav_order: 1
 
 <sup>Este material de enseñanza está basado en ArcGIS Pro 3.1.</sup>
 
+<p align="center">
+<img src="../images/arcgis-spatial/01_fig18.jpg" vspace="10" width="600">
+</p>
+
 La interpolación es un método que ayuda a predecir valores de píxel (ráster) entre un número limitado de puntos. Es un método muy útil para predecir valores desconocidos de algún parámetro dentro de una zona geográfica entre puntos de muestreo, por ejemplo datos de elevación, precipitación, concentraciones químicas, niveles de ruido, entre otros.
 
 <p align="center">
