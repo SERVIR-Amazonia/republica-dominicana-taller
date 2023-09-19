@@ -20,11 +20,11 @@ Tiempo estimado: 60-90 min.
 ## Material
 
 Se usará material descargado del portal [Diva-GIS](http://www.diva-gis.org/gdata) y [Natural Earth](https://www.naturalearthdata.com/), correspondiente a República Dominicana en formatos vectoriales:
-* Administrative areas (Diva GIS)
-* Inland water (Diva GIS)
-* Roads (Diva GIS)
-* Airports (Natural Earth)
-* Ports (Natural Earth)
+* Administrative areas (Diva GIS) (*DOM_adm*)
+* Inland water (Diva GIS) (*DOM_wat*)
+* Roads (Diva GIS) (*DOM_rds*)
+* Airports (Natural Earth) (*ne_10m_airports*)
+* Ports (Natural Earth) (*ne_10m_ports*)
 
 Descargar material [AQUÍ](https://drive.google.com/drive/u/1/folders/1x6qXRMHdH3iVh2Fc1znJyarl101YlDvC).
 
