@@ -12,6 +12,8 @@ nav_order: 14
 
 [Borrador de Presentación](https://docs.google.com/presentation/d/19CXDsVFLMFqWe0rCeNdkWAizEBHJmR7e1J7cl-vpOpA/edit?usp=sharing) para utilizar.
 
+Ejemplo de Presentacion de [Trinidad & Tobago](https://docs.google.com/presentation/d/1ln5OTnG8RHMrveJXQ5rtBAY--6fF7xYADjT3D5jLygM/edit#slide=id.g1e1ce7e9609_0_0)
+
 ## Agenda de la lección
 
 **Fecha**: 22 de Septiembre, 2023
