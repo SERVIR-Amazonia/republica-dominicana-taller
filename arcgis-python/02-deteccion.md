@@ -45,7 +45,7 @@ Importarás los siguientes módulos y paquetes utilizados en el proceso.
 
 Este flujo de trabajo utiliza paquetes que se instalan con la distribución de Python 3 de ArcGIS Pro, por lo que no necesitará instalar paquetes adicionales.
 
-1. Ejecute la siguiente celda para importar los módulos y paquetes necesarios.
+1. Abra un nuevo Python Notebook en ArcGIS y ejecute la siguiente celda para importar los módulos y paquetes necesarios.
 
 ```python
 # Importar
