@@ -72,7 +72,6 @@ Si edita las rutas, asegúrese de que las nuevas rutas incluyen los nombres de l
 2. Ejecute la siguiente celda para crear las variables y configurarlas para que contengan las rutas de datos de entrada y salida. 
 
 ```python
-# Set the input and output folder location variables.
 # Establece las variables de ubicación de las carpetas de entrada y salida.
 # Estas deben apuntar a las ubicaciones de las carpetas en la carpeta Sentinel_2_Clipped que extrajiste.
 # Los prefijos "r" en las cadenas de ruta indican que estas son cadenas "raw" en Python, y 

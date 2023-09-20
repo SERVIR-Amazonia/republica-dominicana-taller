@@ -7,6 +7,10 @@ nav_order: 3
 
 # Crear una herramienta de script
 
+Este tutorial fue desarrollado originalmente por el equipo Learn de Esri. 
+Puede encontrar la versión oficial actualizada en esta ubicación [https://learngis.maps.arcgis.com/home/item.html?id=24e13f2f4fe8453b9d1107e1f5b1d3cf](https://learngis.maps.arcgis.com/home/item.html?id=24e13f2f4fe8453b9d1107e1f5b1d3cf).
+Puede encontrar otros tutoriales en la galería de tutoriales [https://learn.arcgis.com/en/gallery/](https://learn.arcgis.com/en/gallery/).
+
 Con su código Python escrito, ahora puede modificarlo ligeramente para crear una [herramienta de script](https://pro.arcgis.com/en/pro-app/latest/arcpy/geoprocessing_and_python/a-quick-tour-of-creating-script-tools.htm). Una herramienta de script permitirá a cualquier persona con ArcGIS Pro y la extensión Spatial Analyst ejecutar el script de Python que ha creado sin ningún conocimiento de Python o Notebooks. Se verá y funcionará como cualquier otra herramienta de geoprocesamiento en ArcGIS.  
 
 Convertir un script en una herramienta de script permite a los no programadores utilizar su flujo de trabajo de análisis.
