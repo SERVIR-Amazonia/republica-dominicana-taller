@@ -10,9 +10,9 @@ nav_order: 14
 
 [Diapositivas](https://docs.google.com/presentation/d/1LGYV0Ffc4Ax5fO-fAYtLuDhVmrpq38OT/edit?usp=sharing&ouid=117588040825190888554&rtpof=true&sd=true) presentadas durante la Reunión en línea de 4 de maio (abierta para edición).
 
-[Borrador de Presentación](https://docs.google.com/presentation/d/19CXDsVFLMFqWe0rCeNdkWAizEBHJmR7e1J7cl-vpOpA/edit?usp=sharing) para utilizar.
+[Borrador de Presentación - En Blanco](https://docs.google.com/presentation/d/19CXDsVFLMFqWe0rCeNdkWAizEBHJmR7e1J7cl-vpOpA/edit?usp=sharing) para utilizar.
 
-[Borrador de Presentacion - Editable](https://docs.google.com/presentation/d/13Cpb5deyWsPSDb2liwpPBmC6EBnBkbbUGTK_wV4yECA/edit#slide=id.g1e7d197fcff_2_45)
+[Presentaciones - Editable](https://docs.google.com/presentation/d/13Cpb5deyWsPSDb2liwpPBmC6EBnBkbbUGTK_wV4yECA/edit#slide=id.g1e7d197fcff_2_45)
 
 Ejemplo de Presentacion de [Trinidad & Tobago](https://docs.google.com/presentation/d/1ln5OTnG8RHMrveJXQ5rtBAY--6fF7xYADjT3D5jLygM/edit#slide=id.g1e1ce7e9609_0_0)
 
