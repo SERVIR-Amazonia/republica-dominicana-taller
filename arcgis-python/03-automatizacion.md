@@ -15,7 +15,7 @@ Con su código Python escrito, ahora puede modificarlo ligeramente para crear un
 
 Convertir un script en una herramienta de script permite a los no programadores utilizar su flujo de trabajo de análisis.
 
-Hay varios pasos para crear una herramienta de guión:  
+Hay varios pasos para crear una herramienta de script:  
 
 1. Modificar el código para recibir entradas de la herramienta de script.
 2. Exportar el contenido del cuaderno a un archivo Python (.py). 
