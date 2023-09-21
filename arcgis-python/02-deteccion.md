@@ -667,7 +667,7 @@ Ha completado el análisis. Las zonas inundadas se almacenan en un archivo de im
 
 # Crea una herramienta de script a partir de tu código  
 
-Ahora que ha terminado el análisis, creará una herramienta de script a partir de su código, para que otros puedan utilizarla. Abre y sigue las instrucciones de la sección **Herramienta_de_Script.ipynb** para crear una herramienta de script.
+Ahora que ha terminado el análisis, creará una herramienta de script a partir de su código, para que otros puedan utilizarla. Abre y sigue las instrucciones de la sección **Crear una herramienta de script** para crear una herramienta de script.
 
 # Limpiar capas temporales
 
