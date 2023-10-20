@@ -14,7 +14,9 @@ Navegue a través de las diferentes secciones de la lección utilizando el menú
 
 **Fecha**: Septiembre 18, 2023
 
-**Instructora:** Luis Lizcano-Sandoval (lsandoval@sig-gis.com)
+**Instructor:** Luis Lizcano-Sandoval 
+
+**Contacto**: [em-trainings@sig-gis.com](em-trainings@sig-gis.com)
 
 |    Horario    |                                  Temáticas                                                                                      |
 |:-------------:|:-------------------------------------------------------------------------------------------------------------------------------:|

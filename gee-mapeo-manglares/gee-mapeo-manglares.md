@@ -14,7 +14,9 @@ Navegue a través de las diferentes secciones de la lección utilizando el menú
 
 **Fecha**: Marzo 23, 2023
 
-**Instructora:** Andréa Puzzi Nicolau ([apnicolau@sig-gis.com](apnicolau@sig-gis.com))
+**Instructora:** Andréa Puzzi Nicolau 
+
+**Contacto**: [em-trainings@sig-gis.com](em-trainings@sig-gis.com)
 
 |    Horario    |                                                            Temáticas                                                            |
 |:-------------:|:-------------------------------------------------------------------------------------------------------------------------------:|
